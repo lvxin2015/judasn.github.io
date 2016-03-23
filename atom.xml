@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://code.youmeek.com/"/>
-  <updated>2016-03-22T16:31:24.105Z</updated>
+  <updated>2016-03-23T12:52:57.945Z</updated>
   <id>http://code.youmeek.com/</id>
   
   <author>
@@ -16,11 +16,287 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>单模块 / 多模块 的 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
+    <title>持续集成：TeamCity 的安装和使用</title>
+    <link href="http://code.youmeek.com/2016/03/23/2016/03/TeamCity/"/>
+    <id>http://code.youmeek.com/2016/03/23/2016/03/TeamCity/</id>
+    <published>2016-03-23T12:48:31.000Z</published>
+    <updated>2016-03-23T12:52:57.945Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity.jpg&quot; alt=&quot;TeamCity&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;本文初衷&quot;&gt;&lt;a href=&quot;#本文初衷&quot; class=&quot;headerlink&quot; title=&quot;本文初衷&quot;&gt;&lt;/a&gt;本文初衷&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;让大家了解持续集成（CI），以及入门了解 JetBrains 家的 TeamCity 的一些简单实用。&lt;/li&gt;
+&lt;li&gt;TeamCity 的一些复杂使用我暂时也不会，一样也是要看文档的，所以不管怎样你都要养成看官网文档的习惯。&lt;/li&gt;
+&lt;li&gt;TeamCity 和 Jenkins、Hudson 其实是非常一样的，基本流程都是差不多的，所以如果你会其他的几个 CI 工具的话，学习起来很快。&lt;/li&gt;
+&lt;li&gt;Docker 已经开始在引入到 CI、CD（持续交付）过程中，可以大大简化整体的过程，也许这是未来的一个方向，有兴趣的可以了解更多。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;它是什么&quot;&gt;&lt;a href=&quot;#它是什么&quot; class=&quot;headerlink&quot; title=&quot;它是什么&quot;&gt;&lt;/a&gt;它是什么&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;官网定义（就一句话）：&lt;code&gt;Powerful Continuous Integration out of the box&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;官网首页：&lt;a href=&quot;https://www.jetbrains.com/teamcity/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.jetbrains.com/teamcity/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;官网特性总结：&lt;a href=&quot;https://www.jetbrains.com/teamcity/features/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.jetbrains.com/teamcity/features/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;百度百科：&lt;a href=&quot;http://baike.baidu.com/view/3703414.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://baike.baidu.com/view/3703414.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;官网文档：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/TeamCity+Documentation&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/TeamCity+Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;支持的平台、环境如下图（看不懂也没关系，只要知道它最友好的是 Java 开发即可）：&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-Supported-Platforms-and-Environments.png&quot; alt=&quot;TeamCity&quot;&gt;&lt;/li&gt;
+&lt;li&gt;对上图的具体讲解可以看（&lt;strong&gt;很重要&lt;/strong&gt;）：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Supported+Platforms+and+Environments&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Supported+Platforms+and+Environments&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;为什么会出现&quot;&gt;&lt;a href=&quot;#为什么会出现&quot; class=&quot;headerlink&quot; title=&quot;为什么会出现&quot;&gt;&lt;/a&gt;为什么会出现&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;TeamCity 的出现需要了解这个概念：持续集成（Continuous Integration）&lt;/li&gt;
+&lt;li&gt;百科定义：&lt;a href=&quot;http://baike.baidu.com/view/5253255.htm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://baike.baidu.com/view/5253255.htm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;网络文章：&lt;a href=&quot;http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;哪些人喜欢它&quot;&gt;&lt;a href=&quot;#哪些人喜欢它&quot; class=&quot;headerlink&quot; title=&quot;哪些人喜欢它&quot;&gt;&lt;/a&gt;哪些人喜欢它&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/leijiantian/article/details/7916483&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;持续集成学习笔记－入门篇（1）持续集成基本概念&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://about.gitlab.com/2015/02/03/7-reasons-why-you-should-be-using-ci/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;7 reasons why you should be using Continuous Integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://blog.rainforestqa.com/2014-07-17-what-is-CI-and-why-use-it/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;What is CI and why use it?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;哪些人不喜欢它&quot;&gt;&lt;a href=&quot;#哪些人不喜欢它&quot; class=&quot;headerlink&quot; title=&quot;哪些人不喜欢它&quot;&gt;&lt;/a&gt;哪些人不喜欢它&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Google 不到结果，应该是没人不喜欢，只是有些人用不惯&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;为什么学习它&quot;&gt;&lt;a href=&quot;#为什么学习它&quot; class=&quot;headerlink&quot; title=&quot;为什么学习它&quot;&gt;&lt;/a&gt;为什么学习它&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;更好地保证项目质量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;同类工具&quot;&gt;&lt;a href=&quot;#同类工具&quot; class=&quot;headerlink&quot; title=&quot;同类工具&quot;&gt;&lt;/a&gt;同类工具&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Jenkins：&lt;a href=&quot;http://jenkins-ci.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://jenkins-ci.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Travis CI：&lt;a href=&quot;http://travis-ci.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://travis-ci.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Bamboo：&lt;a href=&quot;http://www.atlassian.com/software/bamboo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.atlassian.com/software/bamboo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hudson：&lt;a href=&quot;http://hudson-ci.org/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://hudson-ci.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;QuickBuild：&lt;a href=&quot;http://www.pmease.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.pmease.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;其他：&lt;a href=&quot;http://www.oschina.net/project/tag/344/ci?lang=0&amp;amp;os=0&amp;amp;sort=view&amp;amp;p=1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.oschina.net/project/tag/344/ci?lang=0&amp;amp;os=0&amp;amp;sort=view&amp;amp;p=1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;好的网络文章介绍：&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://cristal.iteye.com/blog/482658&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;持续集成工具的选择&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;TeamCity-入门&quot;&gt;&lt;a href=&quot;#TeamCity-入门&quot; class=&quot;headerlink&quot; title=&quot;TeamCity 入门&quot;&gt;&lt;/a&gt;TeamCity 入门&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;先来看一段官网的介绍视频&lt;/li&gt;
+&lt;li&gt;这个视频其实已经很清楚地说明了一个整理流程是怎样的，我今天只是做一个更加清晰的细节讲解而已&lt;/li&gt;
+&lt;li&gt;你需要穿越：&lt;a href=&quot;https://www.youtube.com/watch?v=J-iYMMG6jmc#action=share&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.youtube.com/watch?v=J-iYMMG6jmc#action=share&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;TeamCity-安装部署（Linux-环境）&quot;&gt;&lt;a href=&quot;#TeamCity-安装部署（Linux-环境）&quot; class=&quot;headerlink&quot; title=&quot;TeamCity 安装部署（Linux 环境）&quot;&gt;&lt;/a&gt;TeamCity 安装部署（Linux 环境）&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;在我讲之前，如果你英文还可以，就到官网这里看下：&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Installation+Quick+Start#InstallationQuickStart-onLinuxandOSX&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Installation Quick Start&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;安装环境要求：&lt;ul&gt;
+&lt;li&gt;JDK 1.7 以上，如果你要使用的是 2016 最新的 TeamCity 9.1 的话，JDK 官网推荐的 1.8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;安装包下载：&lt;a href=&quot;https://www.jetbrains.com/teamcity/download/#section=linux-version&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.jetbrains.com/teamcity/download/#section=linux-version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;开始安装（eg：TeamCity-9.1.6.tar.gz）：&lt;ul&gt;
+&lt;li&gt;解压压缩包（解压速度有点慢）：&lt;code&gt;tar zxf TeamCity-9.1.6.tar.gz&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;解压完的目录结构讲解：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/TeamCity+Home+Directory&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/TeamCity+Home+Directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下载的 tar.gz 的本质是已经里面捆绑了一个 Tomcat，所以如果你会 Tomcat 的话，有些东西你可以自己改的。&lt;/li&gt;
+&lt;li&gt;按我个人习惯，把解压缩的目录放在 usr 目录下：&lt;code&gt;mv TeamCity/ /usr/program/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;进入解压目录：&lt;code&gt;cd /usr/program/TeamCity/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;启动程序：&lt;code&gt;/usr/program/TeamCity/bin/runAll.sh start&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;停止程序：&lt;code&gt;/usr/program/TeamCity/bin/runAll.sh stop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;启动需要点时间，最好能给它一两分钟吧&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;首次进入&quot;&gt;&lt;a href=&quot;#首次进入&quot; class=&quot;headerlink&quot; title=&quot;首次进入&quot;&gt;&lt;/a&gt;首次进入&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;假设我们已经启动了 TeamCity&lt;/li&gt;
+&lt;li&gt;访问（TeamCity 默认端口是：8111）：&lt;a href=&quot;http://192.168.1.113:8111/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://192.168.1.113:8111/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果访问不了，请先关闭防火墙：&lt;code&gt;service iptables stop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;你也可以选择把端口加入白名单中：&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo iptables -I INPUT -p tcp -m tcp --dport 8111 -j ACCEPT&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo /etc/rc.d/init.d/iptables save&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo service iptables restart&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如果你要改变端口，找到下面这个 8111 位置：&lt;code&gt;vim /usr/program/TeamCity/conf/server.xml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;lt;Connector port=&lt;span class=&quot;string&quot;&gt;&quot;8111&quot;&lt;/span&gt; ...&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;在假设你已经可以访问的情况，我们开始进入 TeamCity 的设置向导：&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-a-1.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图英文所示，TeamCity 的一些软件安装的配置、服务的配置默认都会放在：&lt;code&gt;/root/.BuildServer&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果你要了解更多 TeamCity Data Directory 目录，你可以看：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/TeamCity+Data+Directory&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/TeamCity+Data+Directory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-a-2.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图英文所示，TeamCity 的一些构建历史、用户信息、构建结果等这类数据是需要放在关系型数据库上的，而默认它给我们内置了一个。&lt;/li&gt;
+&lt;li&gt;如果你要了解更多 TeamCity External Database，你可以看：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Setting+up+an+External+Database&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Setting+up+an+External+Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;首次使用，官网是建议使用默认的：&lt;code&gt;Internal(HSQLDB)&lt;/code&gt;，这样我们无需在一开始使用的就考虑数据库迁移或安装的问题，我们只要好好感受 TeamCity 给我们的，等我们决定要使用了，后续再更换数据也是可以的。但是内置的有一个注意点：’TeamCity with the native MSSQL external database driver is not compatible with Oracle Java 6 Update 29, due to a bug in Java itself. You can use earlier or later versions of Oracle Java.’&lt;/li&gt;
+&lt;li&gt;假设我们就选 &lt;code&gt;Internal(HSQLDB)&lt;/code&gt; ，则在创建初始化数据库的过程稍微需要点时间，我这边是几分钟。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-a-3.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图所示，接受下协议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-b-1.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图所示，我们要创建一个顶级管理员账号，我个人习惯测试的账号是：&lt;code&gt;admin&lt;/code&gt;，&lt;code&gt;123456&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-b-2.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图所示，安装完首次进来地址：&lt;a href=&quot;http://192.168.1.113:8111/profile.html?tab=userGeneralSettings&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://192.168.1.113:8111/profile.html?tab=userGeneralSettings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;我们可以完善一些管理员信息和基础配置信息，这些配置不配置都无所谓了，只是完善了可以更加好用而已&lt;/li&gt;
+&lt;li&gt;如果你有 SMTP 的邮箱，你可以来这里开启邮件通知功能：&lt;a href=&quot;http://192.168.1.113:8111/admin/admin.html?item=email&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://192.168.1.113:8111/admin/admin.html?item=email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果你要开启通知功能那肯定下一步就是考虑通知内容的模板要如何设定：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9//Customizing+Notifications&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9//Customizing+Notifications&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;模板存放路径在：&lt;code&gt;/root/.BuildServer/config/_notifications&lt;/code&gt;，用的是 FreeMarker 的语法&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;项目的构建、管理&quot;&gt;&lt;a href=&quot;#项目的构建、管理&quot; class=&quot;headerlink&quot; title=&quot;项目的构建、管理&quot;&gt;&lt;/a&gt;项目的构建、管理&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;建议可以看下官网：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Configure+and+Run+Your+First+Build&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Configure+and+Run+Your+First+Build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;现在让我们开始创建一个项目进行构建&lt;/li&gt;
+&lt;li&gt;项目管理地址：&lt;a href=&quot;http://192.168.1.113:8111/admin/admin.html?item=projects&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://192.168.1.113:8111/admin/admin.html?item=projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;假设我现在有一个项目的结构是这样的：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;- Youshop-Parent，输出是 pom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    - Youshop-manage，输出是 pom&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        - Youshop-pojo，输出 jar&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;我们现在以 Youshop-pojo 为例，让它自动构建并发布到 Nexus 中，其他项目道理是一样的，这里就不多说。&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-1.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;如上图，由于目前只要是公司的项目都应该是在版本控制的，所以这里我们选择：&lt;strong&gt;Create project from URL&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-2.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;如上图，我们可以看出 TeamCity 也支持 HTTP、SVN、Git 等链接方式。&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-3.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;输入你项目托管商的账号密码，我这里用的是 oschina 的。&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-4.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;账号、密码验证通过，现在可以给这个项目配置一个项目基本信息。&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-5.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;在从版本控制中下载文件和扫描文件&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-6.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;TeamCity 自动扫描到我是用 Maven 构建的项目，所以把 POM 文件找出来了，如果你一个项目有多种构建方式，有对应的配置文件的话，这里都会显示出来的。&lt;/li&gt;
+&lt;li&gt;我们勾选 Maven 前面的复选框，点击：&lt;code&gt;Use Selected&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-7.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;由于我们的目标是构建完自动发布到 Nexus，所以我们的 &lt;strong&gt;Maven Goals&lt;/strong&gt; 应该是：&lt;code&gt;clean install deploy&lt;/code&gt;，这里我们应该点击：&lt;code&gt;Edit&lt;/code&gt;，进行编辑。&lt;/li&gt;
+&lt;li&gt;如果你不懂 &lt;strong&gt;Maven Goals&lt;/strong&gt;，那你需要学习下，这个很重要。&lt;ul&gt;
+&lt;li&gt;官网：&lt;a href=&quot;http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-8.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，这台服务器必须装有 Maven、JDK&lt;/li&gt;
+&lt;li&gt;如上图，&lt;code&gt;Goals&lt;/code&gt; 我们的目标是 &lt;code&gt;clean install deploy&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如上图，&lt;code&gt;Maven Home&lt;/code&gt; 我建议是自己自定义路径，这样肯定不会有问题。所以你服务器上的 Maven 安装路径是什么你就在这里填写上去。Maven 目前支持的最高版本是：3.2.5&lt;ul&gt;
+&lt;li&gt;下载 Maven 3.2.5：&lt;a href=&quot;http://archive.apache.org/dist/maven/maven-3/3.2.5/binaries/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://archive.apache.org/dist/maven/maven-3/3.2.5/binaries/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如上图，&lt;code&gt;Java Parameters&lt;/code&gt; 我建议也是自己自定义路径，别选择其他选项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-9.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，点击 &lt;code&gt;run&lt;/code&gt;，开始手动构建该项目&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-10.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，我们看到简略的构建日志&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-11.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-c-12.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上 2 张图，我们看到详细的构建内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-d-1.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，当我们版本控制中有提交的时候，TeamCity 会识别到记录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-d-2.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，我们可以看到提交的 Commit Message 信息。&lt;/li&gt;
+&lt;li&gt;如上图，右边红圈的三个按钮是用来处理这次提交的，常用的是第一次按钮，点击对此次版本进行构建&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-d-3.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，如果你要看所有的提交记录，可以在 Change Log 看到并且指定版本构建&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-e-1.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，如果在你不想要这个项目的时候可以进行删除&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-e-2.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，因为 Goals 里面有 deploy 命令，所以构建完成会发布到 Nexus 中，这样团队的人就可以用到最新的代码了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-e-3.gif&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上 gif 图演示，项目常去的几个配置地方就是这样些了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;配置自动构建触发行为&quot;&gt;&lt;a href=&quot;#配置自动构建触发行为&quot; class=&quot;headerlink&quot; title=&quot;配置自动构建触发行为&quot;&gt;&lt;/a&gt;配置自动构建触发行为&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;官网提供的触发行为有：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Configuring+Build+Triggers&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Configuring+Build+Triggers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下面我们举例说常见的：&lt;code&gt;VCS Trigger&lt;/code&gt;、&lt;code&gt;Schedule Trigger&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-f-1.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，点击 &lt;code&gt;Add new trigger&lt;/code&gt; 添加触发器&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-f-2.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，常见的触发器就这些了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-f-3.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，配置好 &lt;code&gt;VCS Trigger&lt;/code&gt; 效果是，当我们有代码提交的时候，TeamCity 检查到新版本之后自动构建，这个最常用 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-f-4.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，&lt;code&gt;Schedule Trigger&lt;/code&gt; 的作用就是定时构建，除了常用的几个输入框设置定时外，TeamCity 还可以使用 Cron 语法进行设置&lt;/li&gt;
+&lt;li&gt;TeamCity 采用的 Cron 语法是 Quartz，具体你可以看：&lt;a href=&quot;http://www.quartz-scheduler.org/documentation/quartz-1.x/tutorials/crontrigger#CronTriggersTutorial-Specialcharacters&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Quartz CronTrigger Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;如果你不懂 Cron 语法那就算了，但是我想做 Java 这个应该要会的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;集成-IntelliJ-IDEA&quot;&gt;&lt;a href=&quot;#集成-IntelliJ-IDEA&quot; class=&quot;headerlink&quot; title=&quot;集成 IntelliJ IDEA&quot;&gt;&lt;/a&gt;集成 IntelliJ IDEA&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;安装 IntelliJ IDEA：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/IntelliJ+Platform+Plugin&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/IntelliJ+Platform+Plugin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-g-1.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，我们可以直接连上 TeamCity 服务器，这里的用户名密码是 TeamCity 的账号系统。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-g-2.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，连上去的效果是这里会打钩&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/TeamCity-guide-g-3.jpg&quot; alt=&quot;TeamCity 向导&quot;&gt;&lt;ul&gt;
+&lt;li&gt;如上图，我们可以直接把别人提交的内容做 patch 直接用 IntelliJ IDEA 进行整合&lt;/li&gt;
+&lt;li&gt;还有其他很多结合玩法大家可以自己去尝试下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;其他&quot;&gt;&lt;a href=&quot;#其他&quot; class=&quot;headerlink&quot; title=&quot;其他&quot;&gt;&lt;/a&gt;其他&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;TeamCity 的插件列表：&lt;a href=&quot;https://confluence.jetbrains.com/display/TW/TeamCity+Plugins&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TW/TeamCity+Plugins&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;使用外部数据库：&lt;ul&gt;
+&lt;li&gt;使用外部数据库：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Setting+up+an+External+Database&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Setting+up+an+External+Database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;迁移到外部数据库：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Migrating+to+an+External+Database&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Migrating+to+an+External+Database&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;数据备份：&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/TeamCity+Data+Backup&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/TeamCity+Data+Backup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;代码检查功能：&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Code+Quality+Tools&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Code+Quality+Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://confluence.jetbrains.com/display/TCD9/Code+Quality+Tools#CodeQualityTools-IntelliJIDEA-poweredCodeAnalysisTools&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/display/TCD9/Code+Quality+Tools#CodeQualityTools-IntelliJIDEA-poweredCodeAnalysisTools&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://confluence.jetbrains.com/pages/viewpage.action?pageId=74847276&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://confluence.jetbrains.com/pages/viewpage.action?pageId=74847276&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+    
+    <summary type="html">
+    
+      做 Java 开发绕不过去的一个问题：是否引入持续集成？
+    
+    </summary>
+    
+      <category term="TeamCity" scheme="http://code.youmeek.com/categories/TeamCity/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/categories/TeamCity/Java/"/>
+    
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="TeamCity" scheme="http://code.youmeek.com/tags/TeamCity/"/>
+    
+      <category term="持续集成" scheme="http://code.youmeek.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
     <link href="http://code.youmeek.com/2016/03/22/2016/03/Single-Module-SSM-Share/"/>
     <id>http://code.youmeek.com/2016/03/22/2016/03/Single-Module-SSM-Share/</id>
     <published>2016-03-22T13:58:08.000Z</published>
-    <updated>2016-03-22T16:31:24.105Z</updated>
+    <updated>2016-03-23T12:50:16.784Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.youmeek.com/2016/IntelliJ-IDEA-SSM.jpg&quot; alt=&quot;IntelliJ IDEA&quot;&gt;&lt;/p&gt;
@@ -116,6 +392,8 @@
     
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
+      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
   </entry>
   
   <entry>
@@ -123,7 +401,7 @@
     <link href="http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/"/>
     <id>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</id>
     <published>2016-03-19T00:53:51.000Z</published>
-    <updated>2016-03-19T00:56:00.689Z</updated>
+    <updated>2016-03-19T00:54:26.667Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.youmeek.com/2016/Firefox.jpg&quot; alt=&quot;Firefox&quot;&gt;&lt;/p&gt;
@@ -177,7 +455,7 @@
 &lt;li&gt;&lt;strong&gt;Carbon Light&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/carbon-light/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/carbon-light/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Carbon Dark&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/carbon-dark/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/carbon-dark/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Aurora Australis&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/aurora-australis/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/aurora-australis/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cubiccube&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/cubiccube/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/cubiccube/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;cubiccube&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/cubiccube/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/cubiccube/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
     
     <summary type="html">
