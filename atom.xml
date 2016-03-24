@@ -296,7 +296,7 @@
     <link href="http://code.youmeek.com/2016/03/22/2016/03/Single-Module-SSM-Share/"/>
     <id>http://code.youmeek.com/2016/03/22/2016/03/Single-Module-SSM-Share/</id>
     <published>2016-03-22T13:58:08.000Z</published>
-    <updated>2016-03-23T12:50:16.784Z</updated>
+    <updated>2016-03-22T23:37:02.594Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.youmeek.com/2016/IntelliJ-IDEA-SSM.jpg&quot; alt=&quot;IntelliJ IDEA&quot;&gt;&lt;/p&gt;
@@ -392,8 +392,6 @@
     
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
-      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
-    
   </entry>
   
   <entry>
@@ -476,7 +474,7 @@
     <link href="http://code.youmeek.com/2016/03/15/2016/03/Java-Style/"/>
     <id>http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</id>
     <published>2016-03-15T13:09:27.000Z</published>
-    <updated>2016-03-16T12:06:37.284Z</updated>
+    <updated>2016-03-24T12:46:21.932Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.youmeek.com/2016/java-style.jpg&quot; alt=&quot;IntelliJ IDEA&quot;&gt;&lt;/p&gt;
@@ -497,7 +495,7 @@
 &lt;li&gt;&lt;strong&gt;工具类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 Util，&lt;code&gt;eg：CategoryUtil&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;测试类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 Test，&lt;code&gt;eg：CategoryServiceTest&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;数据库访问层接口类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 Dao，&lt;code&gt;eg：CategoryDao&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;数据库访问层实现类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 Dao，&lt;code&gt;eg：CategoryDaoImpl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数据库访问层实现类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 DaoImpl，&lt;code&gt;eg：CategoryDaoImpl&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;业务层接口类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 Service，&lt;code&gt;eg：CategoryService&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;业务层实现类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 ServiceImpl，&lt;code&gt;eg：CategoryServiceImpl&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;控制层类名&lt;/strong&gt;：在普通类名的基础上对其命名后加上 Controller，&lt;code&gt;eg：CategoryController、CategoryAction、CategoryActivity&lt;/code&gt;&lt;/li&gt;
@@ -1074,7 +1072,7 @@
     <link href="http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/"/>
     <id>http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/</id>
     <published>2016-03-07T12:50:25.000Z</published>
-    <updated>2016-03-18T12:36:49.895Z</updated>
+    <updated>2016-03-24T12:46:21.927Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;本文-Markdown-源文件地址&quot;&gt;&lt;a href=&quot;#本文-Markdown-源文件地址&quot; class=&quot;headerlink&quot; title=&quot;本文 Markdown 源文件地址&quot;&gt;&lt;/a&gt;本文 Markdown 源文件地址&lt;/h2&gt;&lt;ul&gt;
@@ -1176,12 +1174,8 @@
 &lt;li&gt;在极客学院搜索对应的教学视频（我是年 VIP）&lt;/li&gt;
 &lt;li&gt;Google 搜索：&lt;code&gt;Maven 视频 教程 百度云网盘&lt;/code&gt;    &lt;/li&gt;
 &lt;li&gt;Google 搜索：&lt;code&gt;Maven 视频 教程&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;简书-搜索相关内容：&lt;a href=&quot;http://www.jianshu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.jianshu.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;知乎-搜索相关内容：&lt;a href=&quot;http://www.zhihu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.zhihu.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Quora-搜索相关内容：&lt;a href=&quot;https://www.quora.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.quora.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;微博-搜索相关内容：&lt;a href=&quot;http://weibo.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://weibo.com&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;公众号-搜索相关内容：&lt;a href=&quot;http://weixin.sogou.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://weixin.sogou.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;开发者头条-搜索相关内容：&lt;a href=&quot;http://toutiao.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://toutiao.io/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;京东-图书：&lt;a href=&quot;http://book.jd.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://book.jd.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;YouTube-搜索相关内容：&lt;a href=&quot;http://youtube.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://youtube.com/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -1195,9 +1189,21 @@
 &lt;li&gt;项目场景模拟、提高&lt;/li&gt;
 &lt;li&gt;遇到问题&lt;ul&gt;
 &lt;li&gt;找官网 FAQ：&lt;a href=&quot;https://maven.apache.org/general.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://maven.apache.org/general.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Google&lt;/li&gt;
-&lt;li&gt;Stack Overflow：&lt;a href=&quot;http://stackoverflow.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://stackoverflow.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;QQ 群组讨论&lt;/li&gt;
+&lt;li&gt;Google 搜索下面关键字方法：&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Maven site:stackoverflow.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:quora.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:xitu.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:toutiao.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:segmentfault.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:jianshu.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:zhihu.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:blog.csdn.net&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:cnblogs.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:oschina.net&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:iteye.com&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

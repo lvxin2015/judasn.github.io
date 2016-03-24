@@ -4,6 +4,53 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</loc>
+    <lastmod>2016-03-24T12:46:21.932Z</lastmod>
+    <data>
+        <display>
+        <title>Java 开发基础规范（初稿）</title>
+        <pubTime>2016-03-15T13:09:27.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="http://code.youmeek.com/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/</loc>
+    <lastmod>2016-03-24T12:46:21.927Z</lastmod>
+    <data>
+        <display>
+        <title>我的学习、归纳方法（以学习 Maven 为例）</title>
+        <pubTime>2016-03-07T12:50:25.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+        <tag>Maven</tag>
+         
+        <tag>学习方法</tag>
+         
+         
+           
+             
+              <breadCrumb title="学习方法" url="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+          
+             
+              <breadCrumb title="Java" url="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/03/23/2016/03/TeamCity/</loc>
     <lastmod>2016-03-23T12:52:57.945Z</lastmod>
     <data>
@@ -34,7 +81,7 @@
     
   <url>
     <loc>http://code.youmeek.com/2016/03/22/2016/03/Single-Module-SSM-Share/</loc>
-    <lastmod>2016-03-23T12:50:16.784Z</lastmod>
+    <lastmod>2016-03-22T23:37:02.594Z</lastmod>
     <data>
         <display>
         <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
@@ -43,8 +90,6 @@
         <tag>IntelliJ IDEA</tag>
          
         <tag>Java</tag>
-         
-        <tag>Maven</tag>
          
          
            
@@ -73,53 +118,6 @@
            
              
               <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/</loc>
-    <lastmod>2016-03-18T12:36:49.895Z</lastmod>
-    <data>
-        <display>
-        <title>我的学习、归纳方法（以学习 Maven 为例）</title>
-        <pubTime>2016-03-07T12:50:25.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>Maven</tag>
-         
-        <tag>学习方法</tag>
-         
-         
-           
-             
-              <breadCrumb title="学习方法" url="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-          
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</loc>
-    <lastmod>2016-03-16T12:06:37.284Z</lastmod>
-    <data>
-        <display>
-        <title>Java 开发基础规范（初稿）</title>
-        <pubTime>2016-03-15T13:09:27.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/Java/"/>
           
         </display>
     </data>
