@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://code.youmeek.com/"/>
-  <updated>2016-03-23T12:52:57.945Z</updated>
+  <updated>2016-04-30T04:16:06.532Z</updated>
   <id>http://code.youmeek.com/</id>
   
   <author>
@@ -14,6 +14,115 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>抓包工具 Fiddler 相关知识总结</title>
+    <link href="http://code.youmeek.com/2016/04/30/2016/04/Fiddler/"/>
+    <id>http://code.youmeek.com/2016/04/30/2016/04/Fiddler/</id>
+    <published>2016-04-30T02:14:25.000Z</published>
+    <updated>2016-04-30T04:16:06.532Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;本文初衷&quot;&gt;&lt;a href=&quot;#本文初衷&quot; class=&quot;headerlink&quot; title=&quot;本文初衷&quot;&gt;&lt;/a&gt;本文初衷&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;整理对 Fiddler 工具的知识积累&lt;/li&gt;
+&lt;li&gt;分享给更多需要使用抓包工具的人&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;它是什么&quot;&gt;&lt;a href=&quot;#它是什么&quot; class=&quot;headerlink&quot; title=&quot;它是什么&quot;&gt;&lt;/a&gt;它是什么&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;术语定义&lt;ul&gt;
+&lt;li&gt;官网定义：&lt;a href=&quot;http://www.telerik.com/fiddler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.telerik.com/fiddler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;百度百科定义：&lt;a href=&quot;http://baike.baidu.com/item/Fiddler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://baike.baidu.com/item/Fiddler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;维基百科定义：&lt;a href=&quot;https://en.wikipedia.org/wiki/Fiddler_%28software%29&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://en.wikipedia.org/wiki/Fiddler_%28software%29&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;简单地讲就是一个抓包工具，或者是叫做网络嗅探器，把网络传输的数据抓取下来进行分析、Debug&lt;/li&gt;
+&lt;li&gt;它可以对常用的浏览器：IE、Chrome、Firefox、Safari 等进行抓包，支持 HTTP、HTTPS&lt;/li&gt;
+&lt;li&gt;支持代理，可以通过它，在同一个局域网中抓取 APP 的网络请求，然后进行分析&lt;/li&gt;
+&lt;li&gt;一般我们用来做测试&lt;/li&gt;
+&lt;li&gt;支持插件扩展&lt;/li&gt;
+&lt;li&gt;别人这样说：&lt;/li&gt;
+&lt;li&gt;&lt;blockquote&gt;
+&lt;p&gt;Fiddler是位于客户端和服务器端的HTTP代理，也是目前最常用的http抓包工具之一 。它能够记录客户端和服务器之间的所有 HTTP请求，可以针对特定的HTTP请求，分析请求数据、设置断点、调试web应用、修改请求的数据，甚至可以修改服务器返回的数据，功能非常强大，是web调试的利器。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;来源：&lt;a href=&quot;http://blog.csdn.net/ohmygirl/article/details/17846199&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://blog.csdn.net/ohmygirl/article/details/17846199&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;官网资料：&lt;ul&gt;
+&lt;li&gt;Windows 版本需要 .NetFrameWork 环境&lt;/li&gt;
+&lt;li&gt;官网下载（Windows-大小 1M）：&lt;a href=&quot;https://www.telerik.com/download/fiddler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.telerik.com/download/fiddler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;官网下载（Linux-大小 1M）：&lt;a href=&quot;http://fiddler.wikidot.com/mono&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://fiddler.wikidot.com/mono&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;插件官网：&lt;a href=&quot;http://www.telerik.com/fiddler/add-ons&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.telerik.com/fiddler/add-ons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;官网文档：&lt;a href=&quot;http://docs.telerik.com/fiddler/configure-fiddler/tasks/configurefiddler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://docs.telerik.com/fiddler/configure-fiddler/tasks/configurefiddler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;官网博客：&lt;a href=&quot;http://www.telerik.com/blogs/tag/fiddler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.telerik.com/blogs/tag/fiddler&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;它的历史&lt;ul&gt;
+&lt;li&gt;版本发布历史：&lt;a href=&quot;http://www.telerik.com/support/whats-new/fiddler/release-history/fiddler-v2.x&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://www.telerik.com/support/whats-new/fiddler/release-history/fiddler-v2.x&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;同类技术：&lt;ul&gt;
+&lt;li&gt;Wireshark（强大）、httpwatch（浏览器扩展）、firebug（浏览器扩展）、Chrome 开发者模式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;学习前提/依赖&lt;ul&gt;
+&lt;li&gt;略懂 HTTP 相关知识，比如 GET POST PUT 等这类 request method，Content-type 等这种 request header&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;哪些人不喜欢它&quot;&gt;&lt;a href=&quot;#哪些人不喜欢它&quot; class=&quot;headerlink&quot; title=&quot;哪些人不喜欢它&quot;&gt;&lt;/a&gt;哪些人不喜欢它&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;非 Web 端开发人员&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;为什么学习它&quot;&gt;&lt;a href=&quot;#为什么学习它&quot; class=&quot;headerlink&quot; title=&quot;为什么学习它&quot;&gt;&lt;/a&gt;为什么学习它&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;因为开发中需要测试，需要了解整个 Web 应用的具体细节，了解细节后可以尽可量防止漏洞，可以对细节做性能测试&lt;/li&gt;
+&lt;li&gt;不管是 Web 开发的前端还是后端，都需要，或者是说只要开发中含有 HTTP 请求的都需要抓包工具&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;我要怎么做（按优先级从高到低排序）&quot;&gt;&lt;a href=&quot;#我要怎么做（按优先级从高到低排序）&quot; class=&quot;headerlink&quot; title=&quot;我要怎么做（按优先级从高到低排序）&quot;&gt;&lt;/a&gt;我要怎么做（按优先级从高到低排序）&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;看教程&lt;ul&gt;
+&lt;li&gt;极客学院教程：&lt;a href=&quot;http://search.jikexueyuan.com/course/?q=Fiddler&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;http://search.jikexueyuan.com/course/?q=Fiddler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2014 年出版过一本书：&lt;a href=&quot;http://search.jd.com/Search?keyword=Fiddler调试权威指南&amp;amp;enc=utf-8&amp;amp;cu=true&amp;amp;utm_source=ads.union.jd.com&amp;amp;utm_medium=tuiguang&amp;amp;utm_campaign=t_248690136_&amp;amp;utm_term=ffff09ca5c61406da6c33f0593ae97b0-p_276666007&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fiddler调试权威指南&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;我的积累&quot;&gt;&lt;a href=&quot;#我的积累&quot; class=&quot;headerlink&quot; title=&quot;我的积累&quot;&gt;&lt;/a&gt;我的积累&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;正在整理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;结束语&quot;&gt;&lt;a href=&quot;#结束语&quot; class=&quot;headerlink&quot; title=&quot;结束语&quot;&gt;&lt;/a&gt;结束语&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;更多的细节还需要你自己继续去摸索&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;资料：&quot;&gt;&lt;a href=&quot;#资料：&quot; class=&quot;headerlink&quot; title=&quot;资料：&quot;&gt;&lt;/a&gt;资料：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/ohmygirl/article/details/17846199&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【HTTP】Fiddler（一） - Fiddler简介 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/ohmygirl/article/details/17849983&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【HTTP】Fiddler（二） - 使用Fiddler做抓包分析 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://blog.csdn.net/ohmygirl/article/details/17855031&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;【HTTP】Fiddler（三）- Fiddler命令行和HTTP断点调试 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://unclechen.github.io/2015/04/30/使用前端开发利器Fiddl&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用前端开发利器Fiddler调试手机程序&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://wiki.jikexueyuan.com/project/go-web-programming/03.1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Web工作方式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://segmentfault.com/a/1190000000683599&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;神器——Chrome开发者工具(一)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.mehdi-khalili.com/fiddler-in-action/part-1/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fiddler In Action - Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.mehdi-khalili.com/fiddler-in-action/part-2/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fiddler In Action - Part 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.kuqin.com/shuoit/20160113/350023.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fiddler实用教程&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://mp.weixin.qq.com/s?__biz=MzAxNzA0MTE0Nw==&amp;amp;mid=401100349&amp;amp;idx=1&amp;amp;sn=58ba7af67c30da1b00901bef053af536&amp;amp;3rd=MzA3MDU4NTYzMw==&amp;amp;scene=6#rd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Fiddler实战 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/cb33b8132b42&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用Fiddler自定义百度云分享提取码&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    
+    <summary type="html">
+    
+      最近工作又需要用到性能测试，需要抓包，所以干脆总结下在使用抓包工具的一些积累
+    
+    </summary>
+    
+      <category term="开发工具" scheme="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="测试" scheme="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="Fiddler" scheme="http://code.youmeek.com/tags/Fiddler/"/>
+    
+      <category term="开发工具" scheme="http://code.youmeek.com/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="测试" scheme="http://code.youmeek.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>持续集成：TeamCity 的安装和使用</title>
@@ -399,7 +508,7 @@
     <link href="http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/"/>
     <id>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</id>
     <published>2016-03-19T00:53:51.000Z</published>
-    <updated>2016-03-19T00:54:26.667Z</updated>
+    <updated>2016-03-26T03:05:20.345Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.youmeek.com/2016/Firefox.jpg&quot; alt=&quot;Firefox&quot;&gt;&lt;/p&gt;
@@ -408,7 +517,7 @@
 &lt;li&gt;不对下面扩展进行再唠叨，具体点击到扩展主页可以看到对应的说明。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;扩展&quot;&gt;&lt;a href=&quot;#扩展&quot; class=&quot;headerlink&quot; title=&quot;扩展&quot;&gt;&lt;/a&gt;扩展&lt;/h2&gt;&lt;h3 id=&quot;整合&quot;&gt;&lt;a href=&quot;#整合&quot; class=&quot;headerlink&quot; title=&quot;整合&quot;&gt;&lt;/a&gt;整合&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/collections/judasn/youmeek-firefox-%E6%89%A9%E5%B1%95%E6%94%B6%E8%97%8F%E9%9B%86/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YouMeek-Firefox-主题收藏集&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/collections/judasn/youmeek-firefox-%E6%89%A9%E5%B1%95%E6%94%B6%E8%97%8F%E9%9B%86/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;YouMeek-Firefox-扩展收藏集&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&quot;具体&quot;&gt;&lt;a href=&quot;#具体&quot; class=&quot;headerlink&quot; title=&quot;具体&quot;&gt;&lt;/a&gt;具体&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;官网&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/extensions/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/extensions/&lt;/a&gt;&lt;/li&gt;
@@ -1072,7 +1181,7 @@
     <link href="http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/"/>
     <id>http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/</id>
     <published>2016-03-07T12:50:25.000Z</published>
-    <updated>2016-03-24T12:46:21.927Z</updated>
+    <updated>2016-04-30T01:04:44.943Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;本文-Markdown-源文件地址&quot;&gt;&lt;a href=&quot;#本文-Markdown-源文件地址&quot; class=&quot;headerlink&quot; title=&quot;本文 Markdown 源文件地址&quot;&gt;&lt;/a&gt;本文 Markdown 源文件地址&lt;/h2&gt;&lt;ul&gt;
@@ -1108,7 +1217,11 @@
 &lt;/li&gt;
 &lt;li&gt;它的历史&lt;ul&gt;
 &lt;li&gt;Google 搜索：&lt;code&gt;Maven History&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Google 搜索：&lt;code&gt;Maven 区别&lt;/code&gt;、&lt;code&gt;Maven difference&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;Google 搜索：&lt;code&gt;Maven 区别&lt;/code&gt;、&lt;code&gt;Maven difference&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Google 搜索：&lt;code&gt;Maven 使用场景&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Google 搜索：&lt;code&gt;What is Maven&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Google 搜索：&lt;code&gt;To use or not to use Maven&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Google 搜索：&lt;code&gt;Maven use case&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;在 Google 搜索结果页最下面，看它提示的搜索关键字内容，看是否有版本上的区别。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -1167,6 +1280,7 @@
 &lt;li&gt;&lt;code&gt;Documentation&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Docs&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Screencasts&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;best practices&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -1200,8 +1314,10 @@
 &lt;li&gt;&lt;code&gt;Maven site:zhihu.com&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Maven site:blog.csdn.net&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Maven site:cnblogs.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:blog.51cto.com&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Maven site:oschina.net&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Maven site:iteye.com&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Maven site:importnew.com&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
