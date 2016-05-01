@@ -11,7 +11,18 @@
 <meta property="og:url" content="http://code.youmeek.com/2016/04/30/2016/04/Fiddler/index.html">
 <meta property="og:site_name" content="YouMeek Code">
 <meta property="og:description" content="最近工作又需要用到性能测试，需要抓包，所以干脆总结下在使用抓包工具的一些积累">
-<meta property="og:updated_time" content="2016-04-30T04:16:06.532Z">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-a-1.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-b-1.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-b-2.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-b-3.gif">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-c-1.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-c-2.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-c-3.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-f-1.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-f-2.jpg">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-d-1.gif">
+<meta property="og:image" content="http://img.youmeek.com/2016/Fiddler-e-1.gif">
+<meta property="og:updated_time" content="2016-05-01T13:26:46.813Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="抓包工具 Fiddler 相关知识总结">
 <meta name="twitter:description" content="最近工作又需要用到性能测试，需要抓包，所以干脆总结下在使用抓包工具的一些积累">
@@ -276,7 +287,7 @@
 <li>整理对 Fiddler 工具的知识积累</li>
 <li>分享给更多需要使用抓包工具的人</li>
 </ul>
-<h3 id="它是什么"><a href="#它是什么" class="headerlink" title="它是什么"></a>它是什么</h3><ul>
+<h2 id="Fiddler-介绍"><a href="#Fiddler-介绍" class="headerlink" title="Fiddler 介绍"></a>Fiddler 介绍</h2><h3 id="它是什么"><a href="#它是什么" class="headerlink" title="它是什么"></a>它是什么</h3><ul>
 <li>术语定义<ul>
 <li>官网定义：<a href="http://www.telerik.com/fiddler" target="_blank" rel="external">http://www.telerik.com/fiddler</a></li>
 <li>百度百科定义：<a href="http://baike.baidu.com/item/Fiddler" target="_blank" rel="external">http://baike.baidu.com/item/Fiddler</a></li>
@@ -286,12 +297,18 @@
 <li>支持代理，可以通过它，在同一个局域网中抓取 APP 的网络请求，然后进行分析</li>
 <li>一般我们用来做测试</li>
 <li>支持插件扩展</li>
+<li>其本质：</li>
+<li><img src="http://img.youmeek.com/2016/Fiddler-a-1.jpg" alt="Fiddler 抓包原理"><ul>
+<li>图片来源：<a href="http://www.jikexueyuan.com/course/1926_2.html" target="_blank" rel="external">http://www.jikexueyuan.com/course/1926_2.html</a></li>
+</ul>
+</li>
 <li>别人这样说：</li>
 <li><blockquote>
-<p>Fiddler是位于客户端和服务器端的HTTP代理，也是目前最常用的http抓包工具之一 。它能够记录客户端和服务器之间的所有 HTTP请求，可以针对特定的HTTP请求，分析请求数据、设置断点、调试web应用、修改请求的数据，甚至可以修改服务器返回的数据，功能非常强大，是web调试的利器。</p>
-<ul>
-<li>来源：<a href="http://blog.csdn.net/ohmygirl/article/details/17846199" target="_blank" rel="external">http://blog.csdn.net/ohmygirl/article/details/17846199</a></li>
-</ul>
+<p>Fiddler是位于客户端和服务器端的HTTP代理，也是目前最常用的http抓包工具之一 。它能够记录客户端和服务器之间的所有HTTP请求，可以针对特定的HTTP请求，分析请求数据、设置断点、调试web应用、修改请求的数据，甚至可以修改服务器返回的数据，功能非常强大，是web调试的利器。</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>来源：<a href="http://blog.csdn.net/ohmygirl/article/details/17846199" target="_blank" rel="external">http://blog.csdn.net/ohmygirl/article/details/17846199</a></p>
 </blockquote>
 </li>
 </ul>
@@ -317,6 +334,12 @@
 </li>
 <li>学习前提/依赖<ul>
 <li>略懂 HTTP 相关知识，比如 GET POST PUT 等这类 request method，Content-type 等这种 request header</li>
+<li>如果你没有相关知识，可以看下面视频教程：<ul>
+<li><a href="http://www.jikexueyuan.com/course/1418.html" target="_blank" rel="external">了解 web 及网络基础</a></li>
+<li><a href="http://www.jikexueyuan.com/course/1706.html" target="_blank" rel="external">细说 HTTP 的报文格式和工作流程</a></li>
+<li><a href="http://www.jikexueyuan.com/course/1755.html" target="_blank" rel="external">深入学习 URL</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -327,15 +350,76 @@
 <li>因为开发中需要测试，需要了解整个 Web 应用的具体细节，了解细节后可以尽可量防止漏洞，可以对细节做性能测试</li>
 <li>不管是 Web 开发的前端还是后端，都需要，或者是说只要开发中含有 HTTP 请求的都需要抓包工具</li>
 </ul>
-<h3 id="我要怎么做（按优先级从高到低排序）"><a href="#我要怎么做（按优先级从高到低排序）" class="headerlink" title="我要怎么做（按优先级从高到低排序）"></a>我要怎么做（按优先级从高到低排序）</h3><ul>
+<h2 id="积累"><a href="#积累" class="headerlink" title="积累"></a>积累</h2><h3 id="我要怎么做"><a href="#我要怎么做" class="headerlink" title="我要怎么做"></a>我要怎么做</h3><ul>
 <li>看教程<ul>
 <li>极客学院教程：<a href="http://search.jikexueyuan.com/course/?q=Fiddler" target="_blank" rel="external">http://search.jikexueyuan.com/course/?q=Fiddler</a></li>
 <li>2014 年出版过一本书：<a href="http://search.jd.com/Search?keyword=Fiddler调试权威指南&amp;enc=utf-8&amp;cu=true&amp;utm_source=ads.union.jd.com&amp;utm_medium=tuiguang&amp;utm_campaign=t_248690136_&amp;utm_term=ffff09ca5c61406da6c33f0593ae97b0-p_276666007" target="_blank" rel="external">Fiddler调试权威指南</a></li>
 </ul>
 </li>
 </ul>
-<h3 id="我的积累"><a href="#我的积累" class="headerlink" title="我的积累"></a>我的积累</h3><ul>
-<li>正在整理</li>
+<h3 id="细节积累"><a href="#细节积累" class="headerlink" title="细节积累"></a>细节积累</h3><ul>
+<li>Fiddler 的界面介绍，如下图（<a href="http://www.jikexueyuan.com/course/1926_2.html" target="_blank" rel="external">图片来源</a>）<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-b-1.jpg" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+<li>Fiddler 工具栏介绍，如下图<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-b-2.jpg" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+<li>Fiddler 自定义显示列信息，如下图<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-b-3.gif" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+<li>Fiddler 选中会话后的常用右键菜单，如下图<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-c-1.jpg" alt="Fiddler 的界面介绍"></li>
+<li><img src="http://img.youmeek.com/2016/Fiddler-c-2.jpg" alt="Fiddler 的界面介绍"></li>
+<li><img src="http://img.youmeek.com/2016/Fiddler-c-3.jpg" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+<li>按 Ctrl + A 全选所有会话，右边可以查看所有请求的一个总的情况<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-f-1.jpg" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+<li>修改某个请求数据，进行模拟<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-f-2.jpg" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+<li>开启 HTTPS 捕获，默认是没有开启的<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-d-1.gif" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+<li>使用 AutoResponder，这是前端开发必备技能<ul>
+<li>AutoResponder 作用：可用于截拦某一请求，并重定向到本地资源，或者使用 Fiddler 内置响应。</li>
+<li>使用场景：比如线上服务器的某个 JavaScript / Images 有问题，正常修改此 Bug 的流程应该是这样的：本地修改后提交到服务器预览修改后效果，但是作为前端开发者其实很多时候是不具备使用服务器的权限的。这时候 AutoResponder 就起作用了，在页面加载的时候，我们让服务器不加载服务器的那个 JavaScript 请求，而是使用本地的那个 JavaScript 文件。<ul>
+<li>但是使用该场景需要有一个特别注意的：在使用规则之后，重新刷新网页的时候最好是先清除下浏览器缓存，省得有意外，浪费你时间。</li>
+</ul>
+</li>
+<li>下图演示的是我把博客的头像换成一张橘黄色的图片<ul>
+<li><img src="http://img.youmeek.com/2016/Fiddler-e-1.gif" alt="Fiddler 的界面介绍"></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Fiddler 的命令行工具中常用命令：<ul>
+<li>官网对这些命令的整理：<a href="http://docs.telerik.com/fiddler/knowledgebase/quickexec" target="_blank" rel="external">http://docs.telerik.com/fiddler/knowledgebase/quickexec</a></li>
+<li><code>?cc=</code>，用来匹配请求地址中含有 ?cc 的请求</li>
+<li><code>&gt; 5000 或 &lt; 5000</code>，找响应大小大于 5000 字节，或小于 5000 字节的请求</li>
+<li>关于 Debug 命令：<ul>
+<li>开启中断请求命令<ul>
+<li><code>bpafter beautiful</code>，中断 URL 包含 beautiful 字符的全部会话</li>
+<li><code>bpu beautiful</code>，中断 URL 包含 beautiful 字符的全部会话</li>
+<li><code>bps 404</code>，中断 HTTP 响应状态为 404 的全部会话</li>
+<li><code>bpm GET 或者 bpv GET</code>，中断 GET 请求方式的全部会话</li>
+</ul>
+</li>
+<li>取消中断请求命令<ul>
+<li>使用同样的开启命令，但是不带参数即可取消，比如我们使用了 <code>bpu code.youmeek.com</code> 中断，我们要取消这个中断，则使用：<code>bpu</code> 即可</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><ul>
 <li>更多的细节还需要你自己继续去摸索</li>
@@ -352,6 +436,11 @@
 <li><a href="http://www.kuqin.com/shuoit/20160113/350023.html" target="_blank" rel="external">Fiddler实用教程</a></li>
 <li><a href="http://mp.weixin.qq.com/s?__biz=MzAxNzA0MTE0Nw==&amp;mid=401100349&amp;idx=1&amp;sn=58ba7af67c30da1b00901bef053af536&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd" target="_blank" rel="external">Fiddler实战 </a></li>
 <li><a href="http://www.jianshu.com/p/cb33b8132b42" target="_blank" rel="external">使用Fiddler自定义百度云分享提取码</a></li>
+<li><a href="http://www.jianshu.com/p/ab962c00ec32" target="_blank" rel="external">猫哥网络编程系列：HTTP PEM 万能调试法</a></li>
+<li><a href="http://www.jianshu.com/p/1626832d8f5d" target="_blank" rel="external">App测试-&gt;抓取手机网络请求</a></li>
+<li><a href="http://www.jianshu.com/p/5beb461d603d" target="_blank" rel="external">抓包与安全</a></li>
+<li><a href="http://mccxj.github.io/blog/20130531_introduce-to-fiddler.html" target="_blank" rel="external">Web开发利器-Fiddler简介</a></li>
+<li><a href="http://www.jianshu.com/p/a248df383c9d" target="_blank" rel="external">Fiddler 扩展使用</a></li>
 </ul>
       
     </div>
@@ -362,7 +451,7 @@
         <p><span>本文标题:</span><a href="/2016/04/30/2016/04/Fiddler/">抓包工具 Fiddler 相关知识总结</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Judas.n 的个人博客">Judas.n</a></p>
         <p><span>发布时间:</span>2016年04月30日 - 10时14分</p>
-        <p><span>最后更新:</span>2016年04月30日 - 12时16分</p>
+        <p><span>最后更新:</span>2016年05月01日 - 21时26分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/04/30/2016/04/Fiddler/" title="抓包工具 Fiddler 相关知识总结">http://code.youmeek.com/2016/04/30/2016/04/Fiddler/</a>
             <span class="copy-path" data-clipboard-text="原文: http://code.youmeek.com/2016/04/30/2016/04/Fiddler/　　作者: Judas.n" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -391,7 +480,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#本文初衷"><span class="toc-number">1.</span> <span class="toc-text">本文初衷</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#它是什么"><span class="toc-number">1.1.</span> <span class="toc-text">它是什么</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#哪些人不喜欢它"><span class="toc-number">1.2.</span> <span class="toc-text">哪些人不喜欢它</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#为什么学习它"><span class="toc-number">1.3.</span> <span class="toc-text">为什么学习它</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#我要怎么做（按优先级从高到低排序）"><span class="toc-number">1.4.</span> <span class="toc-text">我要怎么做（按优先级从高到低排序）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#我的积累"><span class="toc-number">1.5.</span> <span class="toc-text">我的积累</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结束语"><span class="toc-number">2.</span> <span class="toc-text">结束语</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#资料："><span class="toc-number">3.</span> <span class="toc-text">资料：</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#本文初衷"><span class="toc-number">1.</span> <span class="toc-text">本文初衷</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Fiddler-介绍"><span class="toc-number">2.</span> <span class="toc-text">Fiddler 介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#它是什么"><span class="toc-number">2.1.</span> <span class="toc-text">它是什么</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#哪些人不喜欢它"><span class="toc-number">2.2.</span> <span class="toc-text">哪些人不喜欢它</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#为什么学习它"><span class="toc-number">2.3.</span> <span class="toc-text">为什么学习它</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#积累"><span class="toc-number">3.</span> <span class="toc-text">积累</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#我要怎么做"><span class="toc-number">3.1.</span> <span class="toc-text">我要怎么做</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#细节积累"><span class="toc-number">3.2.</span> <span class="toc-text">细节积累</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结束语"><span class="toc-number">4.</span> <span class="toc-text">结束语</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#资料："><span class="toc-number">5.</span> <span class="toc-text">资料：</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
