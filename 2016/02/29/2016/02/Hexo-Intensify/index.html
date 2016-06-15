@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/index.html">
 <meta property="og:site_name" content="YouMeek Code">
 <meta property="og:description" content="本文将讲解 Hexo 博客的常用插件、站点 SEO 等内容！">
-<meta property="og:updated_time" content="2016-06-15T14:15:59.509Z">
+<meta property="og:updated_time" content="2016-06-15T14:20:50.628Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建 Hexo 博客--增强篇">
 <meta name="twitter:description" content="本文将讲解 Hexo 博客的常用插件、站点 SEO 等内容！">
@@ -308,10 +308,11 @@
 </li>
 </ul>
 </li>
-<li><p>有时候我们需要排除一整个目录，道理跟上面一样，但是更加笨蛋一点，比如你现在访问：<a href="http://code.YouMeek.com/i">http://code.YouMeek.com/i</a>，你发现会跑到我的一个备份导航中，而我是这样配置的：</p>
+<li><p>有时候我们需要排除一整个目录，道理跟上面一样，比如你现在访问：<a href="http://code.YouMeek.com/i">http://code.YouMeek.com/i</a>，你发现会跑到我的一个备份导航中，而我是通过这样配置来实现的：</p>
 <ul>
-<li>这里的笨，体现在它没有递归效果，比如我把每个子目录都写出来，其中星号表示这个目录下的任意文件都忽略渲染。</li>
-<li>对于一些 HTML 和 CSS、JS 这类也要注意，hexo 有一套自己的渲染方式，比如可能会对你的 JS 做一些特殊处理，所以可能会让你的 JS 失效，所以最好按我这种方式来排除掉。<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">  - README.md</span><br><span class="line">  - i/*</span><br><span class="line">  - i/css/*</span><br><span class="line">  - i/images/*</span><br><span class="line">  - i/js/*</span><br><span class="line">  - i/log/*</span><br></pre></td></tr></table></figure>
+<li>这里的 <code>i</code> 是我的目录名称，因为我的真正导航地址是：<a href="http://i.YouMeek.com" target="_blank" rel="external">http://i.YouMeek.com</a>，所以取这样的目录名字方便记忆。</li>
+<li>而 <code>i/**</code> 这里的后缀的两个星号表示这个目录下包括子目录，其所有文件都被忽略渲染。</li>
+<li>对于一些 HTML 和 CSS、JS 这类也要注意，hexo 有一套自己的渲染方式，比如可能会对你的 JS 做一些特殊处理，所以可能会让你的 JS 失效，所以最好按我这种方式来排除掉。<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">  - README.md</span><br><span class="line">  - i/**</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 </li>
@@ -346,7 +347,7 @@
         <p><span>本文标题:</span><a href="/2016/02/29/2016/02/Hexo-Intensify/">搭建 Hexo 博客--增强篇</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Judas.n 的个人博客">Judas.n</a></p>
         <p><span>发布时间:</span>2016年02月29日 - 23时43分</p>
-        <p><span>最后更新:</span>2016年06月15日 - 22时15分</p>
+        <p><span>最后更新:</span>2016年06月15日 - 22时20分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/02/29/2016/02/Hexo-Intensify/" title="搭建 Hexo 博客--增强篇">http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</a>
             <span class="copy-path" data-clipboard-text="原文: http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/　　作者: Judas.n" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
