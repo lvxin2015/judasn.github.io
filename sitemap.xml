@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://code.youmeek.com/about/index.html</loc>
+    
+    <lastmod>2016-06-15T14:40:53.542Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</loc>
     
     <lastmod>2016-06-15T14:20:50.628Z</lastmod>
@@ -89,13 +96,6 @@
     <loc>http://code.youmeek.com/tags/index.html</loc>
     
     <lastmod>2016-02-29T14:41:36.750Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://code.youmeek.com/about/index.html</loc>
-    
-    <lastmod>2016-02-29T14:41:30.936Z</lastmod>
     
   </url>
   
