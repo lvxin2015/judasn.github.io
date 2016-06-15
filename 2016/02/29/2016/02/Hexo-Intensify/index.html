@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/index.html">
 <meta property="og:site_name" content="YouMeek Code">
 <meta property="og:description" content="本文将讲解 Hexo 博客的常用插件、站点 SEO 等内容！">
-<meta property="og:updated_time" content="2016-03-13T15:48:59.014Z">
+<meta property="og:updated_time" content="2016-06-15T14:15:59.509Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建 Hexo 博客--增强篇">
 <meta name="twitter:description" content="本文将讲解 Hexo 博客的常用插件、站点 SEO 等内容！">
@@ -300,6 +300,22 @@
 <ul>
 <li>然后在文章头部的：Front-matter 位置加上一个：<code>top: 1000</code> 的内容。数值越大，越靠前</li>
 </ul>
+<h2 id="添加一些不希望被渲染的文件到-hexo"><a href="#添加一些不希望被渲染的文件到-hexo" class="headerlink" title="添加一些不希望被渲染的文件到 hexo"></a>添加一些不希望被渲染的文件到 hexo</h2><ul>
+<li><p>因为我们使用的是 Github 项目做空间，所以一般项目我们都要放一个 README.md 文件，而我们希望这个文件不被 hexo 渲染成 HTML 文件，我们需要这样做：</p>
+<ul>
+<li>把 README.md 放在这个目录下：<code>hexo\source\README.md</code></li>
+<li>编辑这个配置文件：<code>hexo\_config.yml</code>，找到这个关键字：<code>skip_render</code>，然后这样写：<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">     - README.md</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+<li><p>有时候我们需要排除一整个目录，道理跟上面一样，但是更加笨蛋一点，比如你现在访问：<a href="http://code.YouMeek.com/i">http://code.YouMeek.com/i</a>，你发现会跑到我的一个备份导航中，而我是这样配置的：</p>
+<ul>
+<li>这里的笨，体现在它没有递归效果，比如我把每个子目录都写出来，其中星号表示这个目录下的任意文件都忽略渲染。</li>
+<li>对于一些 HTML 和 CSS、JS 这类也要注意，hexo 有一套自己的渲染方式，比如可能会对你的 JS 做一些特殊处理，所以可能会让你的 JS 失效，所以最好按我这种方式来排除掉。<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">skip_render: </span><br><span class="line">  - README.md</span><br><span class="line">  - i/*</span><br><span class="line">  - i/css/*</span><br><span class="line">  - i/images/*</span><br><span class="line">  - i/js/*</span><br><span class="line">  - i/log/*</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="插件推荐"><a href="#插件推荐" class="headerlink" title="插件推荐"></a>插件推荐</h2><h3 id="插件的基本使用命令"><a href="#插件的基本使用命令" class="headerlink" title="插件的基本使用命令"></a>插件的基本使用命令</h3><ul>
 <li>插件官网：<a href="https://hexo.io/plugins/" target="_blank" rel="external">https://hexo.io/plugins/</a></li>
 <li>安装插件：<code>npm install 插件名 --save</code></li>
@@ -330,7 +346,7 @@
         <p><span>本文标题:</span><a href="/2016/02/29/2016/02/Hexo-Intensify/">搭建 Hexo 博客--增强篇</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Judas.n 的个人博客">Judas.n</a></p>
         <p><span>发布时间:</span>2016年02月29日 - 23时43分</p>
-        <p><span>最后更新:</span>2016年03月13日 - 23时48分</p>
+        <p><span>最后更新:</span>2016年06月15日 - 22时15分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/02/29/2016/02/Hexo-Intensify/" title="搭建 Hexo 博客--增强篇">http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</a>
             <span class="copy-path" data-clipboard-text="原文: http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/　　作者: Judas.n" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -365,7 +381,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#主题优化"><span class="toc-number">1.</span> <span class="toc-text">主题优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#主题配置介绍"><span class="toc-number">1.1.</span> <span class="toc-text">主题配置介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#我的-yelle-主题配置"><span class="toc-number">1.2.</span> <span class="toc-text">我的 yelle 主题配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用页面添加"><span class="toc-number">2.</span> <span class="toc-text">常用页面添加</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#404、关于我、标签页"><span class="toc-number">2.1.</span> <span class="toc-text">404、关于我、标签页</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#置顶文章方法"><span class="toc-number">2.2.</span> <span class="toc-text">置顶文章方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#插件推荐"><span class="toc-number">3.</span> <span class="toc-text">插件推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#插件的基本使用命令"><span class="toc-number">3.1.</span> <span class="toc-text">插件的基本使用命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#必备插件"><span class="toc-number">3.2.</span> <span class="toc-text">必备插件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结束语"><span class="toc-number">4.</span> <span class="toc-text">结束语</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#主题优化"><span class="toc-number">1.</span> <span class="toc-text">主题优化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#主题配置介绍"><span class="toc-number">1.1.</span> <span class="toc-text">主题配置介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#我的-yelle-主题配置"><span class="toc-number">1.2.</span> <span class="toc-text">我的 yelle 主题配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#常用页面添加"><span class="toc-number">2.</span> <span class="toc-text">常用页面添加</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#404、关于我、标签页"><span class="toc-number">2.1.</span> <span class="toc-text">404、关于我、标签页</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#置顶文章方法"><span class="toc-number">2.2.</span> <span class="toc-text">置顶文章方法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#添加一些不希望被渲染的文件到-hexo"><span class="toc-number">3.</span> <span class="toc-text">添加一些不希望被渲染的文件到 hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#插件推荐"><span class="toc-number">4.</span> <span class="toc-text">插件推荐</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#插件的基本使用命令"><span class="toc-number">4.1.</span> <span class="toc-text">插件的基本使用命令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#必备插件"><span class="toc-number">4.2.</span> <span class="toc-text">必备插件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结束语"><span class="toc-number">5.</span> <span class="toc-text">结束语</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
