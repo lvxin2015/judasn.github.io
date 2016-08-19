@@ -3,6 +3,63 @@
 
 
     
+  <url>
+    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
+    <lastmod>2016-08-19T12:11:49.467Z</lastmod>
+    <data>
+        <display>
+        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
+        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
+        
+        <tag>Shadowsocks</tag>
+         
+        <tag>VPS</tag>
+         
+        <tag>Vultr</tag>
+         
+        <tag>开发工具</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
+    <lastmod>2016-08-13T10:24:06.544Z</lastmod>
+    <data>
+        <display>
+        <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
+        <pubTime>2016-02-28T09:58:27.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+        <tag>Github</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>Node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
+          
+             
+              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/Hexo/IntelliJ-IDEA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</loc>
@@ -174,37 +231,6 @@
           
              
               <breadCrumb title="Java" url="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
-    <lastmod>2016-03-11T12:55:19.411Z</lastmod>
-    <data>
-        <display>
-        <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
-        <pubTime>2016-02-28T09:58:27.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>Github</tag>
-         
-        <tag>Hexo</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
-          
-             
-              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/Hexo/IntelliJ-IDEA/"/>
           
         </display>
     </data>

@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
+    
+    <lastmod>2016-08-19T12:11:49.467Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
+    
+    <lastmod>2016-08-13T10:24:06.544Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://code.youmeek.com/about/index.html</loc>
     
     <lastmod>2016-06-15T14:40:53.542Z</lastmod>
@@ -61,13 +75,6 @@
     <loc>http://code.youmeek.com/2016/03/22/2016/03/Single-Module-SSM-Share/</loc>
     
     <lastmod>2016-03-22T23:37:02.594Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
-    
-    <lastmod>2016-03-11T12:55:19.411Z</lastmod>
     
   </url>
   
