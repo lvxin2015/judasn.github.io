@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://code.youmeek.com/"/>
-  <updated>2016-09-22T15:03:13.302Z</updated>
+  <updated>2016-09-22T15:04:09.316Z</updated>
   <id>http://code.youmeek.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/"/>
     <id>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</id>
     <published>2016-09-11T14:14:50.000Z</published>
-    <updated>2016-09-22T15:03:13.302Z</updated>
+    <updated>2016-09-22T15:04:09.316Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.youmeek.com/2016/Chrome.jpg&quot; alt=&quot;Firefox&quot;&gt;&lt;/p&gt;
@@ -976,7 +976,7 @@
     <link href="http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/"/>
     <id>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</id>
     <published>2016-03-19T00:53:51.000Z</published>
-    <updated>2016-05-04T13:08:53.066Z</updated>
+    <updated>2016-10-15T10:12:35.169Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;&lt;img src=&quot;http://img.youmeek.com/2016/Firefox.jpg&quot; alt=&quot;Firefox&quot;&gt;&lt;/p&gt;
@@ -994,6 +994,7 @@
 &lt;li&gt;&lt;strong&gt;Xmarks&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/xmarks-sync&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/xmarks-sync&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Add Bookmark Here ²&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google search link fix&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FoxyProxy Standard&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;FindBar Tweak&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Firebug&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/firebug&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/firebug&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;iMacros for Firefox&lt;/strong&gt;：&lt;a href=&quot;https://addons.mozilla.org/zh-CN/firefox/addon/imacros-for-firefox&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://addons.mozilla.org/zh-CN/firefox/addon/imacros-for-firefox&lt;/a&gt;&lt;/li&gt;
@@ -1862,7 +1863,7 @@
     <link href="http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/"/>
     <id>http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</id>
     <published>2016-02-29T15:43:30.000Z</published>
-    <updated>2016-06-15T14:20:50.628Z</updated>
+    <updated>2016-08-25T12:26:00.120Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;主题优化&quot;&gt;&lt;a href=&quot;#主题优化&quot; class=&quot;headerlink&quot; title=&quot;主题优化&quot;&gt;&lt;/a&gt;主题优化&lt;/h2&gt;&lt;h3 id=&quot;主题配置介绍&quot;&gt;&lt;a href=&quot;#主题配置介绍&quot; class=&quot;headerlink&quot; title=&quot;主题配置介绍&quot;&gt;&lt;/a&gt;主题配置介绍&lt;/h3&gt;&lt;p&gt;我这里只讲自己在使用的 yelle 主题，你可以参考下，可能还有一些改动我后续会自己在慢慢改，但是大体基本也就这样了。&lt;/p&gt;
@@ -1926,7 +1927,7 @@
 &lt;li&gt;HTML 压缩：&lt;code&gt;npm install hexo-html-minifier --save&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;JavaScript 压缩：&lt;code&gt;npm install hexo-uglify --save&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;CSS 压缩插件：&lt;code&gt;npm install hexo-clean-css --save&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;SEO优化：&lt;code&gt;npm install hexo-generator-seo-friendly-sitemap&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;SEO优化：&lt;code&gt;npm install hexo-generator-seo-friendly-sitemap --save&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;结束语&quot;&gt;&lt;a href=&quot;#结束语&quot; class=&quot;headerlink&quot; title=&quot;结束语&quot;&gt;&lt;/a&gt;结束语&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;真心希望这是 Hexo 最后一篇，因为我们只是要安心写东西而已，不需要太多折腾。&lt;/li&gt;
@@ -1950,7 +1951,7 @@
     <link href="http://code.youmeek.com/2016/02/28/2016/02/Hexo/"/>
     <id>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</id>
     <published>2016-02-28T09:58:27.000Z</published>
-    <updated>2016-08-19T12:48:15.250Z</updated>
+    <updated>2016-10-15T07:27:13.874Z</updated>
     
     <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;部署前介绍&quot;&gt;&lt;a href=&quot;#部署前介绍&quot; class=&quot;headerlink&quot; title=&quot;部署前介绍&quot;&gt;&lt;/a&gt;部署前介绍&lt;/h2&gt;&lt;h3 id=&quot;Hexo-是什么&quot;&gt;&lt;a href=&quot;#Hexo-是什么&quot; class=&quot;headerlink&quot; title=&quot;Hexo 是什么&quot;&gt;&lt;/a&gt;Hexo 是什么&lt;/h3&gt;&lt;ul&gt;
@@ -2120,7 +2121,7 @@
 &lt;li&gt;在 Git Bash 中，输入：&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;你的邮箱地址&amp;quot;&lt;/code&gt;，然后回车，回车，再回车，一共 3 次回车，具体含义自己 Google。&lt;/li&gt;
 &lt;li&gt;比如我的：&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;jn3.141592654@gmail.com&amp;quot;&lt;/code&gt;，生成后效果如下图：&lt;/li&gt;
 &lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/hexo-start-c-2.jpg&quot; alt=&quot;生成 ssh 密钥&quot;&gt;&lt;/li&gt;
-&lt;li&gt;此时，生成密钥后，在你电脑目录：C:\Users\你的计算机用户名.ssh 下，会生成两个文件：&lt;ul&gt;
+&lt;li&gt;此时，生成密钥后，在你电脑目录：C:\Users\你的计算机用户名\.ssh 下，会生成两个文件：&lt;ul&gt;
 &lt;li&gt;私钥：&lt;strong&gt;id_rsa&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;公钥：&lt;strong&gt;id_rsa.pub&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;如果生成的不是这样的文件，那删除掉这两个生成的，重新执行上面的命令，让它再一次生成。&lt;/li&gt;
@@ -2158,7 +2159,13 @@
 &lt;li&gt;先清除掉已经生成的旧文件：&lt;code&gt;hexo clean&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;再生成一次静态文件：&lt;code&gt;hexo generate&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;在本地预览下：&lt;code&gt;hexo server&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;本地没问题之后，Ctrl + C 停掉本地预览，使用部署命令部署到 Github 上：&lt;code&gt;hexo deploy&lt;/code&gt;，有弹出下面提示框，请输入：&lt;code&gt;yes&lt;/code&gt;&lt;ul&gt;
+&lt;li&gt;本地没问题之后，Ctrl + C 停掉本地预览。&lt;/li&gt;
+&lt;li&gt;在部署到 Github 之前，需要先确定你是否已经用过 Git，如果你没用过，则此时你需要做如下设置，在 Git Bash 中依次输入下面两个命令：&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git config --global user.email &amp;quot;你的 Github 注册邮箱地址&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git config --global user.name &amp;quot;你的 Github 用户名&amp;quot;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;使用部署命令部署到 Github 上：&lt;code&gt;hexo deploy&lt;/code&gt;，有弹出下面提示框，请输入：&lt;code&gt;yes&lt;/code&gt;&lt;ul&gt;
 &lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/hexo-start-d-1.jpg&quot; alt=&quot;确认提交&quot;&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -2213,6 +2220,7 @@
 &lt;li&gt;主机记录：code&lt;/li&gt;
 &lt;li&gt;记录类型：CNAME&lt;/li&gt;
 &lt;li&gt;记录值：judasn.github.io.（后面的这个点别忘记了）&lt;/li&gt;
+&lt;li&gt;还有，要记得把 CNAME 那个文件再 deploy 到 Github 哦，不然还是访问不了的。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;

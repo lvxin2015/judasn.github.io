@@ -4,8 +4,59 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
+    <lastmod>2016-10-15T10:12:35.169Z</lastmod>
+    <data>
+        <display>
+        <title>我的 Firefox 扩展 和 主题（不间断更新）</title>
+        <pubTime>2016-03-19T00:53:51.000Z</pubTime>
+        
+        <tag>Firefox</tag>
+         
+         
+           
+             
+              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
+    <lastmod>2016-10-15T07:27:13.874Z</lastmod>
+    <data>
+        <display>
+        <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
+        <pubTime>2016-02-28T09:58:27.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+        <tag>Github</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>Node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
+          
+             
+              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/Hexo/IntelliJ-IDEA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
-    <lastmod>2016-09-22T15:03:13.302Z</lastmod>
+    <lastmod>2016-09-22T15:04:09.316Z</lastmod>
     <data>
         <display>
         <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
@@ -17,6 +68,26 @@
            
              
               <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</loc>
+    <lastmod>2016-08-25T12:26:00.120Z</lastmod>
+    <data>
+        <display>
+        <title>搭建 Hexo 博客--增强篇</title>
+        <pubTime>2016-02-29T15:43:30.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
           
         </display>
     </data>
@@ -49,57 +120,6 @@
     </url>
 
     
-  <url>
-    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
-    <lastmod>2016-08-19T12:48:15.250Z</lastmod>
-    <data>
-        <display>
-        <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
-        <pubTime>2016-02-28T09:58:27.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>Github</tag>
-         
-        <tag>Hexo</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
-          
-             
-              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/Hexo/IntelliJ-IDEA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</loc>
-    <lastmod>2016-06-15T14:20:50.628Z</lastmod>
-    <data>
-        <display>
-        <title>搭建 Hexo 博客--增强篇</title>
-        <pubTime>2016-02-29T15:43:30.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     
@@ -107,26 +127,6 @@
     
     
     
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
-    <lastmod>2016-05-04T13:08:53.066Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Firefox 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-03-19T00:53:51.000Z</pubTime>
-        
-        <tag>Firefox</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://code.youmeek.com/2016/04/30/2016/04/Fiddler/</loc>

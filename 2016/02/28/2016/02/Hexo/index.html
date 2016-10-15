@@ -30,7 +30,7 @@
 <meta property="og:image" content="http://img.youmeek.com/2016/hexo-start-f-1.jpg">
 <meta property="og:image" content="http://img.youmeek.com/2016/hexo-start-f-2.gif">
 <meta property="og:image" content="http://img.youmeek.com/2016/hexo-start-f-3.jpg">
-<meta property="og:updated_time" content="2016-08-19T12:48:15.250Z">
+<meta property="og:updated_time" content="2016-10-15T07:27:13.874Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）">
 <meta name="twitter:description" content="本文将讲解基于 IntelliJ IDEA 如何使用 IDE 搭建 Hexo 博客、写博客！">
@@ -458,7 +458,7 @@
 <li>在 Git Bash 中，输入：<code>ssh-keygen -t rsa -C &quot;你的邮箱地址&quot;</code>，然后回车，回车，再回车，一共 3 次回车，具体含义自己 Google。</li>
 <li>比如我的：<code>ssh-keygen -t rsa -C &quot;jn3.141592654@gmail.com&quot;</code>，生成后效果如下图：</li>
 <li><img src="http://img.youmeek.com/2016/hexo-start-c-2.jpg" alt="生成 ssh 密钥"></li>
-<li>此时，生成密钥后，在你电脑目录：C:\Users\你的计算机用户名.ssh 下，会生成两个文件：<ul>
+<li>此时，生成密钥后，在你电脑目录：C:\Users\你的计算机用户名\.ssh 下，会生成两个文件：<ul>
 <li>私钥：<strong>id_rsa</strong></li>
 <li>公钥：<strong>id_rsa.pub</strong></li>
 <li>如果生成的不是这样的文件，那删除掉这两个生成的，重新执行上面的命令，让它再一次生成。</li>
@@ -496,7 +496,13 @@
 <li>先清除掉已经生成的旧文件：<code>hexo clean</code></li>
 <li>再生成一次静态文件：<code>hexo generate</code></li>
 <li>在本地预览下：<code>hexo server</code></li>
-<li>本地没问题之后，Ctrl + C 停掉本地预览，使用部署命令部署到 Github 上：<code>hexo deploy</code>，有弹出下面提示框，请输入：<code>yes</code><ul>
+<li>本地没问题之后，Ctrl + C 停掉本地预览。</li>
+<li>在部署到 Github 之前，需要先确定你是否已经用过 Git，如果你没用过，则此时你需要做如下设置，在 Git Bash 中依次输入下面两个命令：<ul>
+<li><code>git config --global user.email &quot;你的 Github 注册邮箱地址&quot;</code></li>
+<li><code>git config --global user.name &quot;你的 Github 用户名&quot;</code></li>
+</ul>
+</li>
+<li>使用部署命令部署到 Github 上：<code>hexo deploy</code>，有弹出下面提示框，请输入：<code>yes</code><ul>
 <li><img src="http://img.youmeek.com/2016/hexo-start-d-1.jpg" alt="确认提交"></li>
 </ul>
 </li>
@@ -551,6 +557,7 @@
 <li>主机记录：code</li>
 <li>记录类型：CNAME</li>
 <li>记录值：judasn.github.io.（后面的这个点别忘记了）</li>
+<li>还有，要记得把 CNAME 那个文件再 deploy 到 Github 哦，不然还是访问不了的。</li>
 </ul>
 </li>
 </ul>
@@ -597,7 +604,7 @@
         <p><span>本文标题:</span><a href="/2016/02/28/2016/02/Hexo/">使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Judas.n 的个人博客">Judas.n</a></p>
         <p><span>发布时间:</span>2016年02月28日 - 17时58分</p>
-        <p><span>最后更新:</span>2016年08月19日 - 20时48分</p>
+        <p><span>最后更新:</span>2016年10月15日 - 15时27分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/02/28/2016/02/Hexo/" title="使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）">http://code.youmeek.com/2016/02/28/2016/02/Hexo/</a>
             <span class="copy-path" data-clipboard-text="原文: http://code.youmeek.com/2016/02/28/2016/02/Hexo/　　作者: Judas.n" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
