@@ -24,37 +24,6 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
-    <lastmod>2016-10-15T07:27:13.874Z</lastmod>
-    <data>
-        <display>
-        <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
-        <pubTime>2016-02-28T09:58:27.000Z</pubTime>
-        
-        <tag>Git</tag>
-         
-        <tag>Github</tag>
-         
-        <tag>Hexo</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
-          
-             
-              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/Hexo/IntelliJ-IDEA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
     <lastmod>2016-09-22T15:04:09.316Z</lastmod>
     <data>
