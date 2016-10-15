@@ -3,91 +3,9 @@
 
 
     
-  <url>
-    <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
-    <lastmod>2016-10-15T10:12:35.169Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Firefox 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-03-19T00:53:51.000Z</pubTime>
-        
-        <tag>Firefox</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
-    <lastmod>2016-09-22T15:04:09.316Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-09-11T14:14:50.000Z</pubTime>
-        
-        <tag>Chrome</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://code.youmeek.com/2016/02/29/2016/02/Hexo-Intensify/</loc>
-    <lastmod>2016-08-25T12:26:00.120Z</lastmod>
-    <data>
-        <display>
-        <title>搭建 Hexo 博客--增强篇</title>
-        <pubTime>2016-02-29T15:43:30.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
-  <url>
-    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
-    <lastmod>2016-08-24T14:54:29.036Z</lastmod>
-    <data>
-        <display>
-        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
-        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
-        
-        <tag>Shadowsocks</tag>
-         
-        <tag>VPS</tag>
-         
-        <tag>Vultr</tag>
-         
-        <tag>开发工具</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
     
     
@@ -98,185 +16,19 @@
     
     
   <url>
-    <loc>http://code.youmeek.com/2016/04/30/2016/04/Fiddler/</loc>
-    <lastmod>2016-05-01T13:29:11.926Z</lastmod>
+    <loc>http://code.youmeek.com/2016/10/15/README/</loc>
+    <lastmod>2016-02-29T12:18:49.779Z</lastmod>
     <data>
         <display>
-        <title>抓包工具 Fiddler 相关知识总结</title>
-        <pubTime>2016-04-30T02:14:25.000Z</pubTime>
+        <title></title>
+        <pubTime>2016-10-15T10:42:18.122Z</pubTime>
         
-        <tag>Fiddler</tag>
-         
-        <tag>开发工具</tag>
-         
-        <tag>测试</tag>
-         
          
            
-             
-              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-             
-              <breadCrumb title="测试" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/%E6%B5%8B%E8%AF%95/"/>
-          
         </display>
     </data>
     </url>
 
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/</loc>
-    <lastmod>2016-04-30T01:04:44.943Z</lastmod>
-    <data>
-        <display>
-        <title>我的学习、归纳方法（以学习 Maven 为例）</title>
-        <pubTime>2016-03-07T12:50:25.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>Maven</tag>
-         
-        <tag>学习方法</tag>
-         
-         
-           
-             
-              <breadCrumb title="学习方法" url="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-          
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</loc>
-    <lastmod>2016-03-24T12:46:21.932Z</lastmod>
-    <data>
-        <display>
-        <title>Java 开发基础规范（初稿）</title>
-        <pubTime>2016-03-15T13:09:27.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/23/2016/03/TeamCity/</loc>
-    <lastmod>2016-03-23T12:52:57.945Z</lastmod>
-    <data>
-        <display>
-        <title>持续集成：TeamCity 的安装和使用</title>
-        <pubTime>2016-03-23T12:48:31.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-        <tag>Maven</tag>
-         
-        <tag>TeamCity</tag>
-         
-        <tag>持续集成</tag>
-         
-         
-           
-             
-              <breadCrumb title="TeamCity" url="http://code.youmeek.com/categories/TeamCity/"/>
-          
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/TeamCity/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/22/2016/03/Single-Module-SSM-Share/</loc>
-    <lastmod>2016-03-22T23:37:02.594Z</lastmod>
-    <data>
-        <display>
-        <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
-        <pubTime>2016-03-22T13:58:08.000Z</pubTime>
-        
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Java</tag>
-         
-         
-           
-             
-              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/IntelliJ-IDEA/"/>
-          
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/11/2016/03/IntelliJ-IDEA-ER/</loc>
-    <lastmod>2016-03-11T12:24:38.893Z</lastmod>
-    <data>
-        <display>
-        <title>为什么不尝试下 IntelliJ IDEA？我想劝说你</title>
-        <pubTime>2016-03-11T12:23:56.000Z</pubTime>
-        
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Java</tag>
-         
-         
-           
-             
-              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/IntelliJ-IDEA/"/>
-          
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/09/2016/03/Maven/</loc>
-    <lastmod>2016-03-10T11:48:15.646Z</lastmod>
-    <data>
-        <display>
-        <title>构建工具-Maven-相关知识-整理专题</title>
-        <pubTime>2016-03-09T11:56:08.000Z</pubTime>
-        
-        <tag>CI</tag>
-         
-        <tag>Java</tag>
-         
-        <tag>Maven</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
     
     
     
