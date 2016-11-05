@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Java 开发基础规范（初稿） | YouMeek Code</title>
+  <title>一个Java程序员眼中的Mac OS（系列一：总纲领） | YouMeek Code</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-  <meta name="description" content="想和大家一起讨论关于开发过程的一些规范整理">
+  <meta name="description" content="站在开发者角度来谈Mac设备和Mac OS 。认真生活的非果粉用户。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Java 开发基础规范（初稿）">
-<meta property="og:url" content="http://code.youmeek.com/2016/03/15/2016/03/Java-Style/index.html">
+<meta property="og:title" content="一个Java程序员眼中的Mac OS（系列一：总纲领）">
+<meta property="og:url" content="http://code.youmeek.com/2016/11/05/2016/10/Mac-introduction/index.html">
 <meta property="og:site_name" content="YouMeek Code">
-<meta property="og:description" content="想和大家一起讨论关于开发过程的一些规范整理">
-<meta property="og:image" content="http://img.youmeek.com/2016/java-style.jpg">
-<meta property="og:updated_time" content="2016-03-24T12:46:21.932Z">
+<meta property="og:description" content="站在开发者角度来谈Mac设备和Mac OS 。认真生活的非果粉用户。">
+<meta property="og:image" content="http://img.youmeek.com/2016/Mac-introduction.jpg">
+<meta property="og:updated_time" content="2016-11-05T11:50:07.437Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Java 开发基础规范（初稿）">
-<meta name="twitter:description" content="想和大家一起讨论关于开发过程的一些规范整理">
+<meta name="twitter:title" content="一个Java程序员眼中的Mac OS（系列一：总纲领）">
+<meta name="twitter:description" content="站在开发者角度来谈Mac设备和Mac OS 。认真生活的非果粉用户。">
   
     <link rel="alternative" href="/atom.xml" title="YouMeek Code" type="application/atom+xml">
   
@@ -239,11 +239,11 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap"><article id="post-2016/03/Java-Style" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-2016/10/Mac-introduction" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/03/15/2016/03/Java-Style/" class="article-date">
-      <time datetime="2016-03-15T13:09:27.000Z" itemprop="datePublished">2016-03-15</time>
+      <a href="/2016/11/05/2016/10/Mac-introduction/" class="article-date">
+      <time datetime="2016-11-05T09:13:59.000Z" itemprop="datePublished">2016-11-05</time>
 </a>
     </div>
   
@@ -254,16 +254,16 @@
     
       <header class="article-header">
         <h1 class="article-title" itemprop="name">
-      Java 开发基础规范（初稿）
+      一个Java程序员眼中的Mac OS（系列一：总纲领）
     </h1>
       </header>
       
       <div class="article-info article-info-post">
         <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Java/">Java</a>
+    <a class="article-category-link" href="/categories/Mac/">Mac</a>
     </div>
         <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Mac/">Mac</a></li></ul>
     </div>
         <div class="clearfix"></div>
       </div>
@@ -273,142 +273,92 @@
       
           
         <a id="more"></a>
-<p><img src="http://img.youmeek.com/2016/java-style.jpg" alt="IntelliJ IDEA"></p>
-<h2 id="本文初衷"><a href="#本文初衷" class="headerlink" title="本文初衷"></a>本文初衷</h2><ul>
-<li>以本篇为引，获取到有识之士的一些意见或是看法，促进成长！</li>
-</ul>
-<h2 id="命名、规范"><a href="#命名、规范" class="headerlink" title="命名、规范"></a>命名、规范</h2><h3 id="Java-相关命名、规范"><a href="#Java-相关命名、规范" class="headerlink" title="Java 相关命名、规范"></a>Java 相关命名、规范</h3><ul>
-<li>命名：<ul>
-<li>Java 类名命名（用名词性单词组合）<ul>
-<li><strong>普通类名</strong>：首字母大写，需要两个、多个单词表达的，使用大驼峰命名法进行命名，<code>eg：CategoryService</code></li>
-<li><strong>抽象类名</strong>：在普通类名的基础上对其命名后加上 Abstract，<code>eg：CategoryAbstract</code></li>
-<li><strong>自定义异常类名</strong>：在普通类名的基础上对其命名后加上 Exception，<code>eg：CategoryException</code></li>
-<li><strong>队列类名</strong>：在普通类名的基础上对其命名后加上 Queue，<code>eg：CategoryQueue</code></li>
-<li><strong>后台任务类名</strong>：在普通类名的基础上对其命名后加上 Task 或 Job，<code>eg：CategoryTask、CategoryJob</code></li>
-<li><strong>Servlet 类名</strong>：在普通类名的基础上对其命名后加上 Servlet，<code>eg：CategoryServlet</code></li>
-<li><strong>Filter 类名</strong>：在普通类名的基础上对其命名后加上 Filter，<code>eg：CategoryFilter</code></li>
-<li><strong>工厂类名</strong>：在普通类名的基础上对其命名后加上 Factory，<code>eg：CategoryFactory</code></li>
-<li><strong>工具类名</strong>：在普通类名的基础上对其命名后加上 Util，<code>eg：CategoryUtil</code></li>
-<li><strong>测试类名</strong>：在普通类名的基础上对其命名后加上 Test，<code>eg：CategoryServiceTest</code></li>
-<li><strong>数据库访问层接口类名</strong>：在普通类名的基础上对其命名后加上 Dao，<code>eg：CategoryDao</code></li>
-<li><strong>数据库访问层实现类名</strong>：在普通类名的基础上对其命名后加上 DaoImpl，<code>eg：CategoryDaoImpl</code></li>
-<li><strong>业务层接口类名</strong>：在普通类名的基础上对其命名后加上 Service，<code>eg：CategoryService</code></li>
-<li><strong>业务层实现类名</strong>：在普通类名的基础上对其命名后加上 ServiceImpl，<code>eg：CategoryServiceImpl</code></li>
-<li><strong>控制层类名</strong>：在普通类名的基础上对其命名后加上 Controller，<code>eg：CategoryController、CategoryAction、CategoryActivity</code></li>
-<li><strong>对象扩展类名</strong>：在普通类名的基础上对其命名后加上 VO，<code>eg：CategoryVO(Value Object)、CategoryDTO(Data Transfer Object)、CategoryPOJO(plain ordinary java object)</code></li>
-</ul>
-</li>
-<li><strong>常量名</strong>：全部字母大写，有多个单词用下划线分隔，<code>eg：MY_AGE</code></li>
-<li><strong>常规变量名</strong>：首字母小写，需要两个、多个单词表达的，使用小驼峰命名法进行命名，<code>eg：categoryName</code></li>
-<li><strong>复数变量名</strong>：首字母小写，需要两个、多个单词表达的，使用小驼峰命名法进行命名，eg：<ul>
-<li><code>List：categoryList</code></li>
-<li><code>Map：categoryMap</code></li>
-<li><code>Set：categorySet</code></li>
-</ul>
-</li>
-<li><strong>package 名</strong>：所有单词全部小写，即使有多个单词组成，且不能使用下划线连接，或是其他任意字符连接，<code>eg：googlebook</code></li>
-<li><strong>方法参数名</strong>：首字母小写，需要两个、多个单词表达的，使用小驼峰命名法进行命名，<code>eg：categoryName</code></li>
-<li>方法命名（用动词性单词开头）：<ul>
-<li><strong>数据库访问层方法名</strong><ul>
-<li><code>saveCategory()</code></li>
-<li><code>deleteCategoryByObject()</code></li>
-<li><code>deleteCategoryById()</code></li>
-<li><code>updateCategoryByObject()</code></li>
-<li><code>updateCategoryById()</code></li>
-<li><code>findCategoryList()</code></li>
-<li><code>findCategory()</code></li>
-</ul>
-</li>
-<li><strong>业务层方法名</strong><ul>
-<li><code>saveCategory()</code></li>
-<li><code>deleteCategoryByObject()</code></li>
-<li><code>deleteCategoryById()</code></li>
-<li><code>updateCategoryByObject()</code></li>
-<li><code>updateCategoryById()</code></li>
-<li><code>findCategoryList()</code></li>
-<li><code>findCategory()</code></li>
-<li><code>initCategory()</code></li>
-<li><code>openConnection()</code></li>
-<li><code>closeConnection()</code></li>
-<li><code>writeFile()</code></li>
-<li><code>readFile()</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>视图层（JSP、FreeMarker 等）：<ul>
-<li><code>categoryList</code></li>
-<li><code>categoryAdd</code></li>
-<li><code>categoryUpdate</code></li>
-<li><code>categoryEdit</code></li>
-<li><code>categoryDetail</code></li>
-<li><code>categoryTree</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>规范：<ul>
-<li>当一个类有多个构造函数，或是多个同名方法，这些函数 / 方法应该按顺序出现在一起，中间不要放进其它函数 / 方法</li>
-<li>导入包的时候，import 后面不要使用通配符 * 来代替有些包的导入</li>
-<li>大括号与 if, else, for, do, while 语句一起使用，即使只有一条语句(或是空)，也应该把大括号写上</li>
-<li>不要使用组合声明，比如 int a, b;</li>
-<li>需要时才声明，并尽快进行初始化</li>
-<li>注解紧跟在文档块后面，应用于类、方法和构造函数，一个注解独占一行</li>
-</ul>
-</li>
-<li>注释：</li>
-<li>块注释</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line">logger.info(<span class="string">"---------开始---------"</span>);</span><br><span class="line">SubmitOrderInfo submitOrderInfo = getSubmitOrderInfo(orderId);</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
 <ul>
-<li>行注释，只用来注释</li>
+<li><img src="http://img.youmeek.com/2016/Mac-introduction.jpg" alt="一个Java程序员眼中的Mac OS"></li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//ResultInfo resultInfo = orderService.orderStateUpdate(voucherNo);</span><br></pre></td></tr></table></figure>
-<ul>
-<li>行注释，用来解释</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">private int categoryId = <span class="number">1</span>; // <span class="number">1</span> 是顶级分类的 ID</span><br></pre></td></tr></table></figure>
-<h3 id="Mysql-相关命名、规范"><a href="#Mysql-相关命名、规范" class="headerlink" title="Mysql 相关命名、规范"></a>Mysql 相关命名、规范</h3><ul>
-<li><strong>表名</strong>：全部小写，需要两个、多个单词表达的使用下划线隔开，<code>eg：prd_category</code></li>
-<li><strong>字段名</strong>：全部小写，需要两个、多个单词表达的使用下划线隔开，<code>eg：category_name</code></li>
-<li>注释：</li>
-<li><p>行注释</p>
-<ul>
-<li><code># 下面内容需要先执行</code></li>
-<li><code>-- 下面内容需要先执行</code></li>
-</ul>
-</li>
-<li><p>块注释</p>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line">下面内容需要先执行</span><br><span class="line">需要注意的是：分类的 ID 需要先检查</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
-<ul>
-<li>程序 SQL 补丁文件命名，eg：<ul>
-<li><code>20160306-update-更新所有会员密码</code></li>
-<li><code>20160312-delete-删除指定会员密码</code></li>
-<li><code>20160313-insert-新增会员数据</code></li>
-<li><code>20160315-alter-更新会员邮箱字段长度</code></li>
+<h2 id="系列教程总结"><a href="#系列教程总结" class="headerlink" title="系列教程总结"></a>系列教程总结</h2><ul>
+<li>本系列会有 6 大篇，N 多小篇，6 大篇分别对应的是：<ul>
+<li>Mac 系统细节设置</li>
+<li>Mac 常用快捷键说明</li>
+<li>Mac 常用软件推荐</li>
+<li>Mac 包管理和终端的使用</li>
+<li>Java 开发者常见配置</li>
+<li>Mac 外接设备推荐</li>
 </ul>
 </li>
 </ul>
-<h2 id="编码"><a href="#编码" class="headerlink" title="编码"></a>编码</h2><ul>
-<li>数据源连接：<code>jdbc:mysql://localhost:3306/youshop?characterEncoding=utf-8</code></li>
-<li>Java 文件编码：<code>UTF-8</code></li>
-<li>XML 文件编码：<code>UTF-8</code></li>
-<li>Properties 文件编码：<code>UTF-8</code></li>
-<li>Mysql 字符集：<code>UTF-8</code></li>
+<hr>
+<ul>
+<li>我喜欢纲领性的文章，不喜欢一篇里面太长。</li>
+<li>在 6 大篇里面会是类似提纲一样的东西，里面布满标题和链接，跳转到我新开通的简书小号中，简书里面有对应标题讲解的详细内容。</li>
+<li>我个人觉得这样学起东西来更加系统和有规律，也方便别人查询。</li>
+<li>本教程使用环境<ul>
+<li>设备硬件：2015 款 Retina MacBook Pro，i7，16G，256G。</li>
+<li>Mac OS：macOS Sierra，10.12.1</li>
 </ul>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
-<li>Tab 缩进为 4 个空格，使用 IntelliJ IDEA 标准格式化即可</li>
-<li>TODO 标记必须使用个人自定义 TODO，不能使用公共的</li>
-<li>SVN、Git 提交必须有 Commit Message</li>
+</li>
 </ul>
-<h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><ul>
-<li><a href="https://github.com/google/styleguide" target="_blank" rel="external">https://github.com/google/styleguide</a></li>
-<li><a href="http://www.cnblogs.com/lanxuezaipiao/p/3534447.html" target="_blank" rel="external">http://www.cnblogs.com/lanxuezaipiao/p/3534447.html</a></li>
+<hr>
+<ul>
+<li>我不是果粉，也不是软粉，也不是 Linux 粉，我只会站在效率上考虑问题，不计代价的考虑效率，所以对于此系列的相关文章沟通，我希望我们是建议在以一个效率为核心的基础上进行。</li>
+<li>我目前生活中开发，主力机还是台式机的 Windows 系统，我这个屏幕分辨率大，CPU 强悍，内存足够，SSD + 机械容量够装，所以如果在家开发我会选择 Windows 系统，但是不排除以后我适应了 Mac OS 以后，专门装黑苹果使用。</li>
+<li>如果专门写东西，出门，浏览网页等等非开发、非游戏事情我会选择 Retina MacBook Pro，它小巧，屏幕清晰，软件友好，我坐着用不会那么累。</li>
 </ul>
-<h2 id="感谢"><a href="#感谢" class="headerlink" title="感谢"></a>感谢</h2><ul>
-<li>感谢 Lindp 提供意见</li>
+<h2 id="Mac-OS-使用感受总结"><a href="#Mac-OS-使用感受总结" class="headerlink" title="Mac OS 使用感受总结"></a>Mac OS 使用感受总结</h2><ul>
+<li>我现在同时具备了三种类型的系统使用习惯：Windows、Mac、Linux，所以我想我现在多少有话语权来推荐这三个系统了。</li>
+<li>为了更适应大众，更适应效率，对比这三个系统的前提是：不考虑钱和职业的情况下。</li>
+<li>这三个系统里面没有所有方面都最好的，因为都是有侧重点和自己的定位的。</li>
+<li>Linux 是最简单划分的：Linux 最适合服务器部署，不适合桌面，所以只要你经常跟桌面打交道的都不建议。</li>
+<li>Windows 和 Mac 倾向于普通用户，适用于桌面用户，如果要从这两个里面挑一个推荐给大家的话，我会这样分情况。<ul>
+<li>1.如果使用的对象是小孩，是他的第一台电脑的话，我会选择 Mac。里面英文软件多，屏幕好，最重要的是软件生态圈中有很多在维护的好软件和小软件，软件生态圈并不是完全依赖大公司或是苹果本身。<ul>
+<li>在这里也强调下，苹果所维护的收费软件生态圈确实比 Windows 好很多，那些开发者能有收入，他们才会继续进行维护。而对于中国的使用者来讲，好的英文软件多了，会间接促进他学好英文，沟通外面世界。所以我也发现为什么那些很早以前玩 Mac 的，说自己是果粉的英文都还不错，我觉得这个是有一点作用的。</li>
+</ul>
+</li>
+<li>2.如果被推荐的对方是成年人，那我又会细分为下面两种：<ul>
+<li>2.1.如果这个成年人会愿意花时间学习，并且有英文的一些底子，不反对英文，那我会推荐 Mac，因为 Mac 有很多优秀的软件可以增加效率的，而这些很多都是英文软件，我后面都会来一一推荐，并且硬件设备也一直处于世界最前沿的。</li>
+<li>2.2.如果这个成年人不喜欢学习新东西，只是平时回家就是玩玩电脑游戏，看看视频聊聊天刷刷微博看看朋友圈什么的，我会推荐 Windows，Mac 在娱乐这条路上不是 Windows 的对手，微软有 XBOX 做后盾。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Retina-MacBook-Pro-笔记本总结"><a href="#Retina-MacBook-Pro-笔记本总结" class="headerlink" title="Retina MacBook Pro 笔记本总结"></a>Retina MacBook Pro 笔记本总结</h2><ul>
+<li>优点：<ul>
+<li>轻便，性能不差，待机长，适合出门。</li>
+<li>视网膜的显示屏没什么可以挑剔。</li>
+<li>系统字体渲染确实很棒，很清晰</li>
+<li>触摸板好用，非常好用</li>
+<li>系统备份功能强大</li>
+<li>收费软件生态圈比 Windows 好很多，原因前面说了。</li>
+<li>Unix 系统，对于懂 Linux 部署环境的 Java 开发者来讲是很友好。</li>
+<li>如果你是 iPhone 手机用户，同时有开启 iCloud 的话，那有些数据同步上也是很方便的，比如我常用的备忘录、提醒事项，同时手机使用的 WIFI 密码，笔记本也会自己记住等等这类细节。</li>
+<li>很多软件都没有中文版，对日常英文的回顾是有帮助的。</li>
+</ul>
+</li>
+<li>缺点：<ul>
+<li>贵，真心贵</li>
+<li>在 Mac 下，那些国外软件反而都很好，反而是很多国内软件很糟糕，不管是有道词典、QQ、搜狗输入法、为知笔记、百度云盘等等，都做得比 Windows 差，很多设置、功能都去掉了。<ul>
+<li>软件设置少你可以叫做简洁，但是我也可以叫做功能简单，有些人用不到这些设置，但是对于我这类喜欢设置很多习惯的人来讲，我不觉得这样是简洁。我不知道是不是苹果没给权限还是什么的，反正我是非常不满意的。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Mac-机子购买建议"><a href="#Mac-机子购买建议" class="headerlink" title="Mac 机子购买建议"></a>Mac 机子购买建议</h2><ul>
+<li>优先根据职业来划分情况：<ul>
+<li>如果你是开发者、设计师、视频编辑、音乐编辑等 IT 相关职业者，那你的预算必须在 1W，必须选择 Retina MacBook Pro 系列，不然怕是扛不住你的日夜虐待的。</li>
+<li>如果你是非IT职业者，平时也生活所用，不会有太多资源的运作，那你的预算必须在 7K，你可以考虑入手 MacBook Air，这个平时使用的，而且待机又长，很适合出门轻度使用者。</li>
+</ul>
+</li>
+<li>作为开发者，如果你初期经费不够的，预算小于 1W，不建议你买 Mac 的任何产品，那些低于 1W 的 Mac 产品不会让你有多大的效率进步的，当然了，前提是你也确实对 Windows 也足够了解。</li>
+<li>如果你经费在 1W 左右，那可以大胆尝试下 Retina MacBook Pro 不管是 2015 年款的还是最新的 2016 款。Mac OS 上其实也很多破解软件的，而且安装起来也很简单的，所以不会影响你工作效率。当然了，前提还是你要花时间去找资料学习下。</li>
+<li>如果你已经进入一个比较好的后台开发状态，那我建议你手头有一台顶配的 Windows 台式机，一台 Retina MacBook Pro 笔记本。预计这需要花费 2W ~ 3W 左右，你可以分阶段来。</li>
+<li>如果你非常着迷 Mac，那就一台顶配 Intel 台式机用来装黑苹果，一台 Retina MacBook Pro。</li>
+</ul>
+<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><ul>
+<li>买 Mac 设备装双系统我觉得没必要，如果你就一台机，那我就只建议你专心用 Mac OS 或专心用 Windows，如果习惯 Windows，那就专心买 Dell XPS，Surface Book。</li>
+<li>如果你打算认真从事开发行业，那就等手里有钱之后，按我刚刚说的，笔记本用 Retina MacBook Pro，台式机组装用 Windows 或 黑苹果。</li>
+<li>下期预告：一个 Java 程序员眼中的 Mac OS（系列二：Mac OS 系统细节设置）</li>
 </ul>
       
     </div>
@@ -416,13 +366,13 @@
   </div>
   
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/03/15/2016/03/Java-Style/">Java 开发基础规范（初稿）</a></p>
+        <p><span>本文标题:</span><a href="/2016/11/05/2016/10/Mac-introduction/">一个Java程序员眼中的Mac OS（系列一：总纲领）</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Judas.n 的个人博客">Judas.n</a></p>
-        <p><span>发布时间:</span>2016年03月15日 - 21时09分</p>
-        <p><span>最后更新:</span>2016年03月24日 - 20时46分</p>
+        <p><span>发布时间:</span>2016年11月05日 - 17时13分</p>
+        <p><span>最后更新:</span>2016年11月05日 - 19时50分</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/03/15/2016/03/Java-Style/" title="Java 开发基础规范（初稿）">http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://code.youmeek.com/2016/03/15/2016/03/Java-Style/　　作者: Judas.n" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/11/05/2016/10/Mac-introduction/" title="一个Java程序员眼中的Mac OS（系列一：总纲领）">http://code.youmeek.com/2016/11/05/2016/10/Mac-introduction/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://code.youmeek.com/2016/11/05/2016/10/Mac-introduction/　　作者: Judas.n" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script src="/js/clipboard.min.js"></script>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
@@ -435,16 +385,10 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/03/19/2016/03/Firefox-Extensions-Themes/">
-                    我的 Firefox 扩展 和 主题（不间断更新）
-                </a>
-            </div>
-        
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2016/03/11/2016/03/IntelliJ-IDEA-ER/">
-                    为什么不尝试下 IntelliJ IDEA？我想劝说你
+                <a href="/2016/09/11/2016/09/Chrome-Extensions/">
+                    我的 Chrome 扩展 和 主题（不间断更新）
                 </a>
             </div>
         
@@ -454,7 +398,7 @@
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#本文初衷"><span class="toc-number">1.</span> <span class="toc-text">本文初衷</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#命名、规范"><span class="toc-number">2.</span> <span class="toc-text">命名、规范</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Java-相关命名、规范"><span class="toc-number">2.1.</span> <span class="toc-text">Java 相关命名、规范</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mysql-相关命名、规范"><span class="toc-number">2.2.</span> <span class="toc-text">Mysql 相关命名、规范</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#编码"><span class="toc-number">3.</span> <span class="toc-text">编码</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#其他"><span class="toc-number">4.</span> <span class="toc-text">其他</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#资料"><span class="toc-number">5.</span> <span class="toc-text">资料</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#感谢"><span class="toc-number">6.</span> <span class="toc-text">感谢</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#系列教程总结"><span class="toc-number">1.</span> <span class="toc-text">系列教程总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mac-OS-使用感受总结"><span class="toc-number">2.</span> <span class="toc-text">Mac OS 使用感受总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Retina-MacBook-Pro-笔记本总结"><span class="toc-number">3.</span> <span class="toc-text">Retina MacBook Pro 笔记本总结</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Mac-机子购买建议"><span class="toc-number">4.</span> <span class="toc-text">Mac 机子购买建议</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#结束语"><span class="toc-number">5.</span> <span class="toc-text">结束语</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -540,15 +484,13 @@
 
 <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/03/19/2016/03/Firefox-Extensions-Themes/" title="上一篇: 我的 Firefox 扩展 和 主题（不间断更新）">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2016/03/11/2016/03/IntelliJ-IDEA-ER/" title="下一篇: 为什么不尝试下 IntelliJ IDEA？我想劝说你">
+            <a href="/2016/09/11/2016/09/Chrome-Extensions/" title="下一篇: 我的 Chrome 扩展 和 主题（不间断更新）">
                 <i class="fa fa-angle-right"></i>
             </a>
         
