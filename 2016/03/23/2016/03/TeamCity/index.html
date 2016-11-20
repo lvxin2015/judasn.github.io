@@ -47,6 +47,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="持续集成：TeamCity 的安装和使用">
 <meta name="twitter:description" content="做 Java 开发绕不过去的一个问题：是否引入持续集成？">
+<meta name="twitter:image" content="http://img.youmeek.com/2016/TeamCity.jpg">
   
     <link rel="alternative" href="/atom.xml" title="YouMeek Code" type="application/atom+xml">
   
@@ -54,15 +55,15 @@
     <link rel="icon" href="/favicon.ico">
   
   
-      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" type="text/css">
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
   
   
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
   
-    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+    <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
   
   <script>
       var yiliaConfig = {
@@ -388,7 +389,7 @@
 </li>
 <li>如果你要改变端口，找到下面这个 8111 位置：<code>vim /usr/program/TeamCity/conf/server.xml</code></li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;Connector port=<span class="string">"8111"</span> ...</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;Connector port=<span class="string">"8111"</span> ...</div></pre></td></tr></table></figure>
 <ul>
 <li>在假设你已经可以访问的情况，我们开始进入 TeamCity 的设置向导：</li>
 <li><img src="http://img.youmeek.com/2016/TeamCity-guide-a-1.jpg" alt="TeamCity 向导"><ul>
@@ -426,7 +427,7 @@
 <li>项目管理地址：<a href="http://192.168.1.113:8111/admin/admin.html?item=projects" target="_blank" rel="external">http://192.168.1.113:8111/admin/admin.html?item=projects</a></li>
 <li>假设我现在有一个项目的结构是这样的：</li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- Youshop-Parent，输出是 pom</span><br><span class="line">    - Youshop-manage，输出是 pom</span><br><span class="line">        - Youshop-pojo，输出 jar</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- Youshop-Parent，输出是 pom</div><div class="line">    - Youshop-manage，输出是 pom</div><div class="line">        - Youshop-pojo，输出 jar</div></pre></td></tr></table></figure>
 <ul>
 <li>我们现在以 Youshop-pojo 为例，让它自动构建并发布到 Nexus 中，其他项目道理是一样的，这里就不多说。</li>
 <li><img src="http://img.youmeek.com/2016/TeamCity-guide-c-1.jpg" alt="TeamCity 向导"></li>
@@ -607,7 +608,7 @@
 
 <input type="button" id="tocButton" value="隐藏目录" title="点击按钮隐藏或者显示文章目录">
 
-<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
 <script>
     var valueHide = "隐藏目录";
     var valueShow = "显示目录";
@@ -754,8 +755,8 @@
     </div>
 </footer>
     </div>
-    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js" type="text/javascript"></script>
-<script src="/js/main.js" type="text/javascript"></script>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
 <style>
         body {
           background: lightgray;
