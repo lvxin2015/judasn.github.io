@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://code.youmeek.com/"/>
-  <updated>2016-11-05T11:50:07.437Z</updated>
+  <updated>2016-11-20T15:20:40.346Z</updated>
   <id>http://code.youmeek.com/</id>
   
   <author>
@@ -14,6 +14,101 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
+    <link href="http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/"/>
+    <id>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</id>
+    <published>2016-11-20T15:07:02.000Z</published>
+    <updated>2016-11-20T15:20:40.346Z</updated>
+    
+    <content type="html">&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/2016/Mac-System-Settings.jpg&quot; alt=&quot;YouMeek 公众号&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;本文初衷&quot;&gt;&lt;a href=&quot;#本文初衷&quot; class=&quot;headerlink&quot; title=&quot;本文初衷&quot;&gt;&lt;/a&gt;本文初衷&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;整理自己脑袋中、收藏中的那些资料，来一次清空，让自己重新开始。&lt;/li&gt;
+&lt;li&gt;帮助 Mac 后来者，减少他/她入门成本&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;先总结&quot;&gt;&lt;a href=&quot;#先总结&quot; class=&quot;headerlink&quot; title=&quot;先总结&quot;&gt;&lt;/a&gt;先总结&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Mac 系统你值得拥有。&lt;/li&gt;
+&lt;li&gt;本文所有的链接都是指向我写在简书上的文章，这里是做章节目录，方便你查阅。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;教程环境&quot;&gt;&lt;a href=&quot;#教程环境&quot; class=&quot;headerlink&quot; title=&quot;教程环境&quot;&gt;&lt;/a&gt;教程环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;硬件：2015 款 MacBook Pro&lt;/li&gt;
+&lt;li&gt;系统：macOS Sierra 10.12.1&lt;/li&gt;
+&lt;li&gt;语言：简体中文&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Mac-必懂概念&quot;&gt;&lt;a href=&quot;#Mac-必懂概念&quot; class=&quot;headerlink&quot; title=&quot;Mac 必懂概念&quot;&gt;&lt;/a&gt;Mac 必懂概念&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/6315d39dc740&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 没有 &lt;code&gt;我的电脑&lt;/code&gt;，有 &lt;code&gt;Finder&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/6cd268727a74&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 没有 &lt;code&gt;控制面板&lt;/code&gt;，有 &lt;code&gt;系统偏好设置&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/87c5b79ba49d&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 没有 &lt;code&gt;回收站&lt;/code&gt;，有 &lt;code&gt;废纸篓&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/58a8c48015f2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 的常用压缩格式 dmg 文件，类似 Windows 的 ISO 文件格式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/caa98b53cdcd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;认识 Mission Control 的概念&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/d46a60775074&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;认识 Launchpad 的概念&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/7e775c2a0bbc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;认识 Mac 的工具栏位置&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/a17c05568dbb&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;认识 Mac 的 Spotlight 全能搜索工具&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;系统功能点&quot;&gt;&lt;a href=&quot;#系统功能点&quot; class=&quot;headerlink&quot; title=&quot;系统功能点&quot;&gt;&lt;/a&gt;系统功能点&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/cac5084fdebd&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何连接有线网络/WiFi网络&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/149b984e3c43&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;查看本地 IP 地址&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/005bfba5c080&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;改变鼠标/触摸板滚轮滑动方向&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/7a4fb9b084dc&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;触摸板的使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/ae920595c641&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;调整鼠标大小&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/abcb0e5c1f5b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;调整音量&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/f0126e7db78a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;调整屏幕亮度&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/32c8922dd7e4&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;修改无操作多少分钟后自动关闭屏幕&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/bb822b5e3996&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;修改壁纸&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/748075fbab60&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何修改分辨率&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/0b9a6245192a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设置桌面四边角触摸事件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/ab1cf88b1ac5&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设置外置鼠标多键控制&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/cb9b7a2aa4f2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;新建记事本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/93099ea5b9ce&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何删除文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/d0842fb78bd3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何复制/剪切/粘贴文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/488eccedd2b3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;修改安全性，允许任何来源的软件都可以安装&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/945e98a8cf8b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何退出/推出U盘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/091dfefc5143&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何更新系统/官方应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/3e6f685f4d75&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 和 Windows 之间如何共享文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/ee2cfacc4457&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;强制结束应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/3952e09b1e3b&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;活动监视器，查看正在运行的软件情况&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/25e645705927&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;多桌面使用/切换&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/ee41283a74fe&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用自带的定时关机&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/a352e9dce5e8&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;系统备份和还原&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/434cbf72fc23&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设置某个文件默认打开方式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/5386108211b0&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设置某个文件类型默认打开方式&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/dd7e8fbdfd78&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mac 软件下载站推荐&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/e73f5e3b3d33&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;压缩/解压文件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/ed73311f2d8a&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何安装/卸载软件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/d4d9a3d80d94&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;把软件图标放送到Dock栏上&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/3deb33108d36&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;中文输入法的使用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/40c42661cb36&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何高效地进行窗口管理&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/b098c40e5448&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何截图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/569e80be37a9&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;调整 Launchpad 应用图标大小/软件图标合并&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/592ed6b2bb74&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;设置开机自启动运行某些软件&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/fb57a5f8cd70&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;多开 QQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/84ad2d1f111e&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何录制视频&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/4063b825670d&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何安装字体&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/b31e938bbeb7&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;如何关闭自动检查更新&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/5c36f49e45d2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;硬盘维护/格式化硬盘&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.jianshu.com/p/e461b630108c&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;外接显示器设置&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;结束语&quot;&gt;&lt;a href=&quot;#结束语&quot; class=&quot;headerlink&quot; title=&quot;结束语&quot;&gt;&lt;/a&gt;结束语&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;整个系列会在以后不断地完善，请关注这个系列教程，系列入口有：YouMeek 博客，YouMeek 公众号。&lt;/li&gt;
+&lt;li&gt;&lt;img src=&quot;http://img.youmeek.com/YouMeek-WX.jpg&quot; alt=&quot;YouMeek 公众号&quot;&gt;&lt;/li&gt;
+&lt;/ul&gt;</content>
+    
+    <summary type="html">
+    
+      是软件撑起一个系统的易用性，所以用好软件就是用好系统。
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://code.youmeek.com/categories/Mac/"/>
+    
+    
+      <category term="Mac" scheme="http://code.youmeek.com/tags/Mac/"/>
+    
+  </entry>
   
   <entry>
     <title>一个Java程序员眼中的Mac OS（系列一：总纲领）</title>
