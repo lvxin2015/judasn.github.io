@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://code.youmeek.com/"/>
-  <updated>2016-11-27T10:40:33.941Z</updated>
+  <updated>2016-11-28T12:28:16.821Z</updated>
   <id>http://code.youmeek.com/</id>
   
   <author>
@@ -14,6 +14,161 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一个Java程序员眼中的Mac OS（系列五：包管理工具）</title>
+    <link href="http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/"/>
+    <id>http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/</id>
+    <published>2016-11-27T14:23:10.000Z</published>
+    <updated>2016-11-28T12:28:16.821Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<ul>
+<li><img src="http://img.youmeek.com/2016/Homebrew.jpg" alt="YouMeek 公众号"></li>
+</ul>
+<h2 id="本文初衷"><a href="#本文初衷" class="headerlink" title="本文初衷"></a>本文初衷</h2><ul>
+<li>整理自己脑袋中、收藏中的那些资料，来一次清空，让自己重新开始。</li>
+<li>帮助 Mac 后来者，减少他/她入门成本</li>
+</ul>
+<h2 id="先总结"><a href="#先总结" class="headerlink" title="先总结"></a>先总结</h2><ul>
+<li>有 Homebrew 配置，安装/维护一些开发包/组件会方便很多，提供开发者效率，仅此而已。</li>
+<li>如果不是开发者，一般人就不用折腾这个，浪费时间</li>
+</ul>
+<h2 id="Homebrew-知识"><a href="#Homebrew-知识" class="headerlink" title="Homebrew 知识"></a>Homebrew 知识</h2><h3 id="Homebrew-是什么"><a href="#Homebrew-是什么" class="headerlink" title="Homebrew 是什么"></a>Homebrew 是什么</h3><ul>
+<li>术语定义<ul>
+<li>Homebrew 官网：<a href="http://brew.sh/index_zh-cn.html" target="_blank" rel="external">http://brew.sh/index_zh-cn.html</a></li>
+<li>维基百科定义：<a href="https://weiji.ga/zh-hans/Homebrew" target="_blank" rel="external">https://weiji.ga/zh-hans/Homebrew</a></li>
+<li>我的理解：类似 Ubuntu 的 apt-get，CentOS 的 yum。</li>
+</ul>
+</li>
+<li>同类常见技术<ul>
+<li><code>Fink</code></li>
+<li><code>MacPorts</code></li>
+</ul>
+</li>
+<li>同类技术比较：<ul>
+<li><a href="http://www.zhihu.com/question/19862108" target="_blank" rel="external">Homebrew 和 Fink、MacPort 相比有什么优势？</a></li>
+</ul>
+</li>
+<li>学习前提/依赖<ul>
+<li>一点英文</li>
+<li>一点 Unix/Linux 系统的思想</li>
+<li>一点 shell 概念</li>
+</ul>
+</li>
+</ul>
+<h3 id="为什么会出现"><a href="#为什么会出现" class="headerlink" title="为什么会出现"></a>为什么会出现</h3><ul>
+<li>有些操作，命令行或者说脚本的方式效率是远高于 GUI 界面操作的，这个概念需要用过 Unix/Linux 做过开发的人会懂，特别是搞运维的。</li>
+<li>如果你不理解，可以找一些运维的视频教程来看看，会有很多事情的处理都是搞脚本的做的。所以在维护一些开发包/组件的时候，懂一些包管理工具的话会帮你提高工作效率，仅此而已。</li>
+</ul>
+<h3 id="哪些人不喜欢它"><a href="#哪些人不喜欢它" class="headerlink" title="哪些人不喜欢它"></a>哪些人不喜欢它</h3><ul>
+<li>不需要用到终端的用户</li>
+</ul>
+<h3 id="为什么学习它"><a href="#为什么学习它" class="headerlink" title="为什么学习它"></a>为什么学习它</h3><ul>
+<li>方便安装开发包/组件，便于管理这些东西</li>
+</ul>
+<h3 id="我要怎么做"><a href="#我要怎么做" class="headerlink" title="我要怎么做"></a>我要怎么做</h3><ul>
+<li>安装<ul>
+<li>先安装 Xcode command line tools：<ul>
+<li>打开终端，输入：<code>xcode-select --install</code>，如果提示已经安装过了那就不用管了。</li>
+</ul>
+</li>
+<li>打开终端，复制该命令：<code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</code><ul>
+<li>根据提示，按回车键</li>
+<li>根据提示，输入当前用户的密码</li>
+<li>终端中提示正在下载和安装 Homebrew，这个时间根据你网速的快慢来决定时间，反正我是很慢，还出现了下载速度 0kb 的状况，然后重新运行了一次就成功。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>测试<ul>
+<li>打开终端，复制该命令：<code>brew doctor</code><ul>
+<li>如果输出：<code>Your system is ready to brew.</code>，则表示安装成功。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>卸载<ul>
+<li>打开终端，复制该命令：<code>ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)&quot;</code></li>
+<li>删除目录：<code>sudo rm -rf /usr/local/Homebrew</code></li>
+</ul>
+</li>
+<li>Homebrew 基本使用<ul>
+<li>安装指定软件包：<code>brew install 软件包名称</code>，安装过程的讲解可以看这篇文章：<a href="https://www.zybuluo.com/phper/note/87055" target="_blank" rel="external">https://www.zybuluo.com/phper/note/87055</a></li>
+<li>卸载指定软件包：<code>brew uninstall 软件包名称</code></li>
+<li>更新指定软件包：<code>brew upgrade 软件包名称</code></li>
+<li>搜索是否存在对应的软件包：<code>brew search 软件包名称</code></li>
+<li>查看对应软件包的信息：<code>brew info 软件包名称</code></li>
+<li>更新 Homebrew 在服务器端上的包目录：<code>brew update</code></li>
+<li>清理旧版本的包缓存时：<code>brew cleanup</code></li>
+<li>查看你安装过的包列表：<code>brew list</code></li>
+<li>更新 Homebrew 在服务器端上的包目录：<code>brew update</code></li>
+<li>查看那些已安装的程序需要更新：<code>brew outdated</code></li>
+</ul>
+</li>
+<li>使用国内源<ul>
+<li>默认的源实在速度有够慢的</li>
+<li>USTC 的源：<a href="https://lug.ustc.edu.cn/wiki/mirrors/help/brew.git" target="_blank" rel="external">https://lug.ustc.edu.cn/wiki/mirrors/help/brew.git</a><ul>
+<li>方法：</li>
+<li><code>cd &quot;$(brew --repo)&quot;</code></li>
+<li><code>git remote set-url origin git://mirrors.ustc.edu.cn/brew.git</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Proxychains4-为终端做代理"><a href="#Proxychains4-为终端做代理" class="headerlink" title="Proxychains4 为终端做代理"></a>Proxychains4 为终端做代理</h3><ul>
+<li>保证你本地有一个 socks5 到代理工具，不然下面的方法你无法使用。我这里的工具是：Shadowsocks<ul>
+<li>如果你不懂 Shadowsocks 相关，可以看：<a href="http://code.youmeek.com/2016/08/19/2016/08/VPS/">http://code.youmeek.com/2016/08/19/2016/08/VPS/</a></li>
+</ul>
+</li>
+<li>安装 Proxychains4，输入命令：<code>brew install proxychains-ng</code></li>
+<li>修改配置文件：<code>vim /usr/local/etc/proxychains.conf</code><ul>
+<li>在配置文件中找到：<code>[ProxyList]</code>，在其下面一行新增一条：<code>socks5  127.0.0.1 1080 # my vps</code></li>
+</ul>
+</li>
+<li>测试：<code>proxychains4 curl google.com</code>，如果显示的命令行信息中，前缀都带有：<code>[proxychains]</code>，则表示成功了。以后只要在命令前面加个：proxychains4，即可。</li>
+<li>修改终端配置，让命令更加简洁：<ul>
+<li>如果你是 zsh 终端，配置修改：<code>vim ~/.zshrc</code>，添加一行：<code>alias pc=&#39;proxychains4&#39;</code></li>
+<li>如果你是 bash 终端，配置修改：<code>vim ~/.bash_profile</code>，添加一行：<code>alias pc=&#39;proxychains4&#39;</code></li>
+<li>修改之后，以后要用 proxychains4 执行穿墙命令的话，那就可以这样写：<code>pc curl google.com</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="资料整理"><a href="#资料整理" class="headerlink" title="资料整理"></a>资料整理</h2><ul>
+<li>来自 Google 过程中的资料（真心感谢这些作者）：<ul>
+<li><a href="https://aaaaaashu.gitbooks.io/mac-dev-setup/content/Homebrew/index.html" target="_blank" rel="external">https://aaaaaashu.gitbooks.io/mac-dev-setup/content/Homebrew/index.html</a></li>
+<li><a href="http://mac-osx-for-newbie-book.kejyun.com/software/SoftwareManageHomebrew.html" target="_blank" rel="external">http://mac-osx-for-newbie-book.kejyun.com/software/SoftwareManageHomebrew.html</a></li>
+<li><a href="http://www.cnblogs.com/TankXiao/p/3247113.html" target="_blank" rel="external">http://www.cnblogs.com/TankXiao/p/3247113.html</a></li>
+<li><a href="http://brew.sh/index_zh-cn.html" target="_blank" rel="external">http://brew.sh/index_zh-cn.html</a></li>
+<li><a href="https://www.zybuluo.com/phper/note/87055" target="_blank" rel="external">https://www.zybuluo.com/phper/note/87055</a></li>
+<li><a href="http://www.udpwork.com/item/11775.html" target="_blank" rel="external">http://www.udpwork.com/item/11775.html</a></li>
+<li><a href="http://www.zhihu.com/question/22624898" target="_blank" rel="external">http://www.zhihu.com/question/22624898</a></li>
+<li><a href="http://wiki.jikexueyuan.com/project/mac-dev-setup/homebrew.html" target="_blank" rel="external">http://wiki.jikexueyuan.com/project/mac-dev-setup/homebrew.html</a></li>
+<li><a href="http://blog.devtang.com/2014/02/26/the-introduction-of-homebrew-and-brewcask/" target="_blank" rel="external">http://blog.devtang.com/2014/02/26/the-introduction-of-homebrew-and-brewcask/</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><ul>
+<li>如果你需要它就你就好好学习，如果你的职业现在完全用不到，那就把这篇文章加收藏，有需要再打开，不希望你花时间多做一些没有太大意义的事情。</li>
+</ul>]]></content>
+    
+    <summary type="html">
+    
+      Homebrew 是 Mac 系统下，目前最主流的包管理工具
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://code.youmeek.com/categories/Mac/"/>
+    
+    
+      <category term="Mac" scheme="http://code.youmeek.com/tags/Mac/"/>
+    
+      <category term="Homebrew" scheme="http://code.youmeek.com/tags/Homebrew/"/>
+    
+      <category term="终端" scheme="http://code.youmeek.com/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
@@ -1559,9 +1714,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/TeamCity/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="TeamCity" scheme="http://code.youmeek.com/tags/TeamCity/"/>
     
@@ -1666,9 +1821,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
     
   </entry>
   
@@ -1998,9 +2153,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
     
   </entry>
   
@@ -2346,9 +2501,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="CI" scheme="http://code.youmeek.com/tags/CI/"/>
     
@@ -2551,9 +2706,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
