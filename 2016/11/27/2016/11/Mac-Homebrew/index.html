@@ -12,7 +12,7 @@
 <meta property="og:site_name" content="YouMeek Code">
 <meta property="og:description" content="Homebrew 是 Mac 系统下，目前最主流的包管理工具">
 <meta property="og:image" content="http://img.youmeek.com/2016/Homebrew.jpg">
-<meta property="og:updated_time" content="2016-11-28T12:28:16.821Z">
+<meta property="og:updated_time" content="2016-11-28T12:56:46.086Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="一个Java程序员眼中的Mac OS（系列五：包管理工具）">
 <meta name="twitter:description" content="Homebrew 是 Mac 系统下，目前最主流的包管理工具">
@@ -375,14 +375,14 @@
 </li>
 <li>安装 Proxychains4，输入命令：<code>brew install proxychains-ng</code></li>
 <li>修改配置文件：<code>vim /usr/local/etc/proxychains.conf</code><ul>
-<li>在配置文件中找到：<code>[ProxyList]</code>，在其下面一行新增一条：<code>socks5  127.0.0.1 1080 # my vps</code></li>
+<li>在配置文件中找到：<code>[ProxyList]</code>（也就是第 111 行的地方），在其下面一行新增一条：<code>socks5  127.0.0.1 1080 # my vps</code></li>
 </ul>
 </li>
-<li>测试：<code>proxychains4 curl google.com</code>，如果显示的命令行信息中，前缀都带有：<code>[proxychains]</code>，则表示成功了。以后只要在命令前面加个：proxychains4，即可。</li>
+<li>测试：<code>proxychains4 wget www.google.com</code>，如果你能正常下载到 Google 页面，则表示成功了。以后只要在命令前面加个：proxychains4，即可。</li>
 <li>修改终端配置，让命令更加简洁：<ul>
 <li>如果你是 zsh 终端，配置修改：<code>vim ~/.zshrc</code>，添加一行：<code>alias pc=&#39;proxychains4&#39;</code></li>
 <li>如果你是 bash 终端，配置修改：<code>vim ~/.bash_profile</code>，添加一行：<code>alias pc=&#39;proxychains4&#39;</code></li>
-<li>修改之后，以后要用 proxychains4 执行穿墙命令的话，那就可以这样写：<code>pc curl google.com</code></li>
+<li>修改之后，以后要用 proxychains4 执行穿墙命令的话，那就可以这样写：<code>pc wget google.com</code></li>
 </ul>
 </li>
 </ul>
@@ -412,7 +412,7 @@
         <p><span>本文标题:</span><a href="/2016/11/27/2016/11/Mac-Homebrew/">一个Java程序员眼中的Mac OS（系列五：包管理工具）</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Judas.n 的个人博客">Judas.n</a></p>
         <p><span>发布时间:</span>2016年11月27日 - 22时23分</p>
-        <p><span>最后更新:</span>2016年11月28日 - 20时28分</p>
+        <p><span>最后更新:</span>2016年11月28日 - 20时56分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/11/27/2016/11/Mac-Homebrew/" title="一个Java程序员眼中的Mac OS（系列五：包管理工具）">http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/</a>
             <span class="copy-path" data-clipboard-text="原文: http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/　　作者: Judas.n" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>

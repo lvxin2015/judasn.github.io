@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://code.youmeek.com/"/>
-  <updated>2016-11-28T12:28:16.821Z</updated>
+  <updated>2016-11-28T12:56:46.086Z</updated>
   <id>http://code.youmeek.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/"/>
     <id>http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/</id>
     <published>2016-11-27T14:23:10.000Z</published>
-    <updated>2016-11-28T12:28:16.821Z</updated>
+    <updated>2016-11-28T12:56:46.086Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <ul>
@@ -124,14 +124,14 @@
 </li>
 <li>安装 Proxychains4，输入命令：<code>brew install proxychains-ng</code></li>
 <li>修改配置文件：<code>vim /usr/local/etc/proxychains.conf</code><ul>
-<li>在配置文件中找到：<code>[ProxyList]</code>，在其下面一行新增一条：<code>socks5  127.0.0.1 1080 # my vps</code></li>
+<li>在配置文件中找到：<code>[ProxyList]</code>（也就是第 111 行的地方），在其下面一行新增一条：<code>socks5  127.0.0.1 1080 # my vps</code></li>
 </ul>
 </li>
-<li>测试：<code>proxychains4 curl google.com</code>，如果显示的命令行信息中，前缀都带有：<code>[proxychains]</code>，则表示成功了。以后只要在命令前面加个：proxychains4，即可。</li>
+<li>测试：<code>proxychains4 wget www.google.com</code>，如果你能正常下载到 Google 页面，则表示成功了。以后只要在命令前面加个：proxychains4，即可。</li>
 <li>修改终端配置，让命令更加简洁：<ul>
 <li>如果你是 zsh 终端，配置修改：<code>vim ~/.zshrc</code>，添加一行：<code>alias pc=&#39;proxychains4&#39;</code></li>
 <li>如果你是 bash 终端，配置修改：<code>vim ~/.bash_profile</code>，添加一行：<code>alias pc=&#39;proxychains4&#39;</code></li>
-<li>修改之后，以后要用 proxychains4 执行穿墙命令的话，那就可以这样写：<code>pc curl google.com</code></li>
+<li>修改之后，以后要用 proxychains4 执行穿墙命令的话，那就可以这样写：<code>pc wget google.com</code></li>
 </ul>
 </li>
 </ul>
@@ -1714,9 +1714,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/TeamCity/Java/"/>
     
     
-      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
     
       <category term="TeamCity" scheme="http://code.youmeek.com/tags/TeamCity/"/>
     
@@ -1821,9 +1821,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
   </entry>
   
@@ -2153,9 +2153,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
   </entry>
   
@@ -2501,9 +2501,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/Java/"/>
     
     
-      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
     
       <category term="CI" scheme="http://code.youmeek.com/tags/CI/"/>
     
@@ -2706,9 +2706,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
     
     
-      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
     
       <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
