@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/11/29/2016/11/Mac-iTerm2/</loc>
+    <lastmod>2016-11-30T14:13:56.198Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列六：终端方案iTerm2 + Zsh）</title>
+        <pubTime>2016-11-29T14:23:10.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+        <tag>终端</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/</loc>
     <lastmod>2016-11-28T12:56:46.086Z</lastmod>
     <data>
@@ -13,9 +35,9 @@
         
         <tag>Mac</tag>
          
-        <tag>Homebrew</tag>
-         
         <tag>终端</tag>
+         
+        <tag>Homebrew</tag>
          
          
            
@@ -337,9 +359,9 @@
         <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
         <pubTime>2016-03-22T13:58:08.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            
@@ -362,9 +384,9 @@
         <title>为什么不尝试下 IntelliJ IDEA？我想劝说你</title>
         <pubTime>2016-03-11T12:23:56.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            
