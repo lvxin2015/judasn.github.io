@@ -23,7 +23,7 @@
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/Java/</loc>
+        <loc>http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
         <lastmod>2016-04-30T01:04:44.943Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -31,13 +31,6 @@
 
     <url>
         <loc>http://code.youmeek.com/tags/Maven/</loc>
-        <lastmod>2016-04-30T01:04:44.943Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
         <lastmod>2016-04-30T01:04:44.943Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -100,14 +93,14 @@
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/IntelliJ-IDEA/</loc>
+        <loc>http://code.youmeek.com/tags/Hexo/</loc>
         <lastmod>2016-10-15T10:51:31.409Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/Hexo/</loc>
+        <loc>http://code.youmeek.com/tags/IntelliJ-IDEA/</loc>
         <lastmod>2016-10-15T10:51:31.409Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -142,15 +135,22 @@
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/Mac/</loc>
+        <loc>http://code.youmeek.com/tags/%E7%BB%88%E7%AB%AF/</loc>
         <lastmod>2016-11-30T14:13:56.198Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/%E7%BB%88%E7%AB%AF/</loc>
-        <lastmod>2016-11-30T14:13:56.198Z</lastmod>
+        <loc>http://code.youmeek.com/tags/Java/</loc>
+        <lastmod>2016-12-01T13:51:50.556Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://code.youmeek.com/tags/Mac/</loc>
+        <lastmod>2016-12-01T13:51:50.556Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
