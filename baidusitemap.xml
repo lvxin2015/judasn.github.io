@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/12/01/2016/11/Mac-peripheral/</loc>
+    <lastmod>2016-12-02T15:10:29.701Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列八：外设/配件介绍）</title>
+        <pubTime>2016-12-01T14:23:10.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/</loc>
     <lastmod>2016-12-01T13:51:50.556Z</lastmod>
     <data>
@@ -305,11 +325,11 @@
         <title>我的学习、归纳方法（以学习 Maven 为例）</title>
         <pubTime>2016-03-07T12:50:25.000Z</pubTime>
         
+        <tag>Java</tag>
+         
         <tag>学习方法</tag>
          
         <tag>Maven</tag>
-         
-        <tag>Java</tag>
          
          
            
@@ -352,9 +372,9 @@
         <title>持续集成：TeamCity 的安装和使用</title>
         <pubTime>2016-03-23T12:48:31.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>TeamCity</tag>
          
@@ -431,9 +451,9 @@
         <title>构建工具-Maven-相关知识-整理专题</title>
         <pubTime>2016-03-09T11:56:08.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>CI</tag>
          
