@@ -4,8 +4,28 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</loc>
+    <lastmod>2016-12-03T04:53:32.179Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列一：总纲领）</title>
+        <pubTime>2016-11-05T09:13:59.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/12/01/2016/11/Mac-peripheral/</loc>
-    <lastmod>2016-12-02T15:10:29.701Z</lastmod>
+    <lastmod>2016-12-03T04:45:39.402Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列八：外设/配件介绍）</title>
@@ -92,32 +112,12 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/26/2016/11/Mac-software/</loc>
-    <lastmod>2016-11-27T10:40:33.941Z</lastmod>
+    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
+    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
-        <pubTime>2016-11-26T14:56:53.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
-    <lastmod>2016-11-21T14:57:12.622Z</lastmod>
-    <data>
-        <display>
-        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
-        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
+        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -133,11 +133,31 @@
     
   <url>
     <loc>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</loc>
-    <lastmod>2016-11-20T15:20:40.346Z</lastmod>
+    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
         <pubTime>2016-11-20T15:07:02.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
+    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
+        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -325,11 +345,11 @@
         <title>我的学习、归纳方法（以学习 Maven 为例）</title>
         <pubTime>2016-03-07T12:50:25.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>学习方法</tag>
          
         <tag>Maven</tag>
+         
+        <tag>Java</tag>
          
          
            
@@ -372,9 +392,9 @@
         <title>持续集成：TeamCity 的安装和使用</title>
         <pubTime>2016-03-23T12:48:31.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>Maven</tag>
+         
+        <tag>Java</tag>
          
         <tag>TeamCity</tag>
          
@@ -401,9 +421,9 @@
         <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
         <pubTime>2016-03-22T13:58:08.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            
@@ -426,9 +446,9 @@
         <title>为什么不尝试下 IntelliJ IDEA？我想劝说你</title>
         <pubTime>2016-03-11T12:23:56.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            
@@ -451,9 +471,9 @@
         <title>构建工具-Maven-相关知识-整理专题</title>
         <pubTime>2016-03-09T11:56:08.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>Maven</tag>
+         
+        <tag>Java</tag>
          
         <tag>CI</tag>
          
