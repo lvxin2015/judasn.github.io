@@ -4,12 +4,12 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</loc>
-    <lastmod>2016-12-03T04:53:32.179Z</lastmod>
+    <loc>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</loc>
+    <lastmod>2016-12-03T06:18:02.376Z</lastmod>
     <data>
         <display>
-        <title>一个Java程序员眼中的Mac OS（系列一：总纲领）</title>
-        <pubTime>2016-11-05T09:13:59.000Z</pubTime>
+        <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
+        <pubTime>2016-11-20T15:07:02.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -25,7 +25,7 @@
     
   <url>
     <loc>http://code.youmeek.com/2016/12/01/2016/11/Mac-peripheral/</loc>
-    <lastmod>2016-12-03T04:45:39.402Z</lastmod>
+    <lastmod>2016-12-03T06:18:02.366Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列八：外设/配件介绍）</title>
@@ -45,7 +45,7 @@
     
   <url>
     <loc>http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/</loc>
-    <lastmod>2016-12-01T13:51:50.556Z</lastmod>
+    <lastmod>2016-12-03T06:18:02.351Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列七：Java 开发环境）</title>
@@ -67,7 +67,7 @@
     
   <url>
     <loc>http://code.youmeek.com/2016/11/29/2016/11/Mac-iTerm2/</loc>
-    <lastmod>2016-11-30T14:13:56.198Z</lastmod>
+    <lastmod>2016-12-03T06:18:02.341Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列六：终端方案iTerm2 + Zsh）</title>
@@ -88,8 +88,28 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</loc>
+    <lastmod>2016-12-03T06:18:02.330Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列一：总纲领）</title>
+        <pubTime>2016-11-05T09:13:59.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/</loc>
-    <lastmod>2016-11-28T12:56:46.086Z</lastmod>
+    <lastmod>2016-12-03T06:18:02.322Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列五：包管理工具）</title>
@@ -112,52 +132,32 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
-    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
-    <data>
-        <display>
-        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
-        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</loc>
-    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
-    <data>
-        <display>
-        <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
-        <pubTime>2016-11-20T15:07:02.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
         <pubTime>2016-11-21T14:56:53.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
+    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
+        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -421,9 +421,9 @@
         <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
         <pubTime>2016-03-22T13:58:08.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>Java</tag>
          
          
            
@@ -446,9 +446,9 @@
         <title>为什么不尝试下 IntelliJ IDEA？我想劝说你</title>
         <pubTime>2016-03-11T12:23:56.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>Java</tag>
          
          
            
