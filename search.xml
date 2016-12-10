@@ -1136,6 +1136,7 @@
 <li><a href="http://www.jianshu.com/p/b31e938bbeb7" target="_blank" rel="external">如何关闭自动检查更新</a></li>
 <li><a href="http://www.jianshu.com/p/5c36f49e45d2" target="_blank" rel="external">硬盘维护/格式化硬盘</a></li>
 <li><a href="http://www.jianshu.com/p/e461b630108c" target="_blank" rel="external">外接显示器设置</a></li>
+<li><a href="http://www.jianshu.com/p/eac6d1d38755" target="_blank" rel="external">启用/禁用root-修改root密码</a></li>
 </ul>
 <h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><ul>
 <li>整个系列会在以后不断地完善，请关注这个系列教程，系列入口有：YouMeek 博客，YouMeek 公众号。</li>
@@ -1197,8 +1198,8 @@
 </ul>
 <h2 id="Retina-MacBook-Pro-笔记本总结"><a href="#Retina-MacBook-Pro-笔记本总结" class="headerlink" title="Retina MacBook Pro 笔记本总结"></a>Retina MacBook Pro 笔记本总结</h2><ul>
 <li><strong>优点：</strong><ul>
-<li>轻便，性能不差，待机长，适合出门。</li>
-<li>量测喇叭清澈，音乐人适合。</li>
+<li>轻便，性能不差，待机长，适合出门，也因为你轻便所以在家经常抱到床上或是坐在椅子上直接就放在大腿上了。</li>
+<li>两测喇叭清澈，音乐人适合。</li>
 <li>视网膜的显示屏没什么可以挑剔。</li>
 <li>系统字体渲染确实很棒，很清晰</li>
 <li>触摸板好用，非常好用</li>
@@ -3040,6 +3041,7 @@
 <li>JavaScript 压缩：<code>npm install hexo-uglify --save</code></li>
 <li>CSS 压缩插件：<code>npm install hexo-clean-css --save</code></li>
 <li>SEO优化：<code>npm install hexo-generator-seo-friendly-sitemap --save</code></li>
+<li>搜索支持，需要主题有对应的设置：<code>npm install hexo-generator-search --save</code></li>
 </ul>
 <h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><ul>
 <li>真心希望这是 Hexo 最后一篇，因为我们只是要安心写东西而已，不需要太多折腾。</li>
