@@ -153,12 +153,12 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
+    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
-        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
-        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
+        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
+        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -173,12 +173,12 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
+    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
-        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
-        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
+        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
+        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -394,9 +394,9 @@
         
         <tag>Java</tag>
          
-        <tag>TeamCity</tag>
-         
         <tag>Maven</tag>
+         
+        <tag>TeamCity</tag>
          
         <tag>持续集成</tag>
          
