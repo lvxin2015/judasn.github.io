@@ -2339,9 +2339,9 @@
     
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
-      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
-    
       <category term="TeamCity" scheme="http://code.youmeek.com/tags/TeamCity/"/>
+    
+      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
     
       <category term="持续集成" scheme="http://code.youmeek.com/tags/%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/"/>
     
@@ -3331,9 +3331,9 @@
     
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
-      <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   

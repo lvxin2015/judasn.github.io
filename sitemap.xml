@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://code.youmeek.com/about/index.html</loc>
+    
+    <lastmod>2016-12-11T03:21:58.281Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</loc>
     
     <lastmod>2016-12-10T15:14:40.726Z</lastmod>
@@ -51,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
+    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
     
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
+    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
     
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     
@@ -96,13 +103,6 @@
     <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
     
     <lastmod>2016-08-24T14:54:29.036Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://code.youmeek.com/about/index.html</loc>
-    
-    <lastmod>2016-06-15T14:40:53.542Z</lastmod>
     
   </url>
   
