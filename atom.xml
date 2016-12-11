@@ -2337,9 +2337,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/TeamCity/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="TeamCity" scheme="http://code.youmeek.com/tags/TeamCity/"/>
     
@@ -2444,9 +2444,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
     
   </entry>
   
@@ -2776,9 +2776,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
     
   </entry>
   
@@ -3124,9 +3124,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="CI" scheme="http://code.youmeek.com/tags/CI/"/>
     
@@ -3329,11 +3329,11 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+      <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
     
-      <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
   </entry>
   
