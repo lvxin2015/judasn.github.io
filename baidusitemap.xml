@@ -3,6 +3,26 @@
 
 
     
+  <url>
+    <loc>http://code.youmeek.com/2016/12/11/2016/12/donate/</loc>
+    <lastmod>2016-12-11T10:26:17.595Z</lastmod>
+    <data>
+        <display>
+        <title>YouMeek开展捐赠陪聊服务（希望对 IntelliJ IDEA 新人有所帮助）</title>
+        <pubTime>2016-12-11T10:26:04.000Z</pubTime>
+        
+        <tag>IntelliJ IDEA</tag>
+         
+         
+           
+             
+              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/IntelliJ-IDEA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</loc>
@@ -153,12 +173,12 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
+    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
-        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
-        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
+        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
+        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -173,12 +193,12 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
+    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
-        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
-        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
+        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
+        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -345,11 +365,11 @@
         <title>我的学习、归纳方法（以学习 Maven 为例）</title>
         <pubTime>2016-03-07T12:50:25.000Z</pubTime>
         
+        <tag>Java</tag>
+         
         <tag>学习方法</tag>
          
         <tag>Maven</tag>
-         
-        <tag>Java</tag>
          
          
            
@@ -392,9 +412,9 @@
         <title>持续集成：TeamCity 的安装和使用</title>
         <pubTime>2016-03-23T12:48:31.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>TeamCity</tag>
          
@@ -421,9 +441,9 @@
         <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
         <pubTime>2016-03-22T13:58:08.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>Java</tag>
          
          
            
@@ -446,9 +466,9 @@
         <title>为什么不尝试下 IntelliJ IDEA？我想劝说你</title>
         <pubTime>2016-03-11T12:23:56.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>Java</tag>
          
          
            
@@ -471,9 +491,9 @@
         <title>构建工具-Maven-相关知识-整理专题</title>
         <pubTime>2016-03-09T11:56:08.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>CI</tag>
          
