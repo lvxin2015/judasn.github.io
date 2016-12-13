@@ -4,8 +4,48 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
+    <lastmod>2016-12-13T14:55:16.306Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
+        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</loc>
+    <lastmod>2016-12-13T14:53:26.203Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
+        <pubTime>2016-11-20T15:07:02.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/12/11/2016/12/donate/</loc>
-    <lastmod>2016-12-11T10:27:15.102Z</lastmod>
+    <lastmod>2016-12-11T10:26:17.595Z</lastmod>
     <data>
         <display>
         <title>YouMeek开展捐赠陪聊服务（希望对 IntelliJ IDEA 新人有所帮助）</title>
@@ -23,6 +63,32 @@
     </url>
 
     
+  <url>
+    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
+    <lastmod>2016-12-11T07:12:00.671Z</lastmod>
+    <data>
+        <display>
+        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
+        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
+        
+        <tag>开发工具</tag>
+         
+        <tag>VPS</tag>
+         
+        <tag>Shadowsocks</tag>
+         
+        <tag>Vultr</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</loc>
@@ -31,26 +97,6 @@
         <display>
         <title>一个Java程序员眼中的Mac OS（系列一：总纲领）</title>
         <pubTime>2016-11-05T09:13:59.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</loc>
-    <lastmod>2016-12-10T13:12:52.229Z</lastmod>
-    <data>
-        <display>
-        <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
-        <pubTime>2016-11-20T15:07:02.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -173,52 +219,12 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/</loc>
-    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
-    <data>
-        <display>
-        <title>一个Java程序员眼中的Mac OS（系列三：常用快捷键）</title>
-        <pubTime>2016-11-21T14:56:53.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
     <lastmod>2016-11-27T10:30:34.623Z</lastmod>
     <data>
         <display>
         <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
         <pubTime>2016-11-24T14:56:53.000Z</pubTime>
-        
-        <tag>Mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/11/05/2016/10/Mac-introduction/</loc>
-    <lastmod>2016-11-05T11:50:07.437Z</lastmod>
-    <data>
-        <display>
-        <title>一个Java程序员眼中的Mac OS（系列一：总纲领）</title>
-        <pubTime>2016-11-05T09:13:59.000Z</pubTime>
         
         <tag>Mac</tag>
          
@@ -240,9 +246,9 @@
         <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
         <pubTime>2016-02-28T09:58:27.000Z</pubTime>
         
-        <tag>Hexo</tag>
-         
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>Hexo</tag>
          
         <tag>Git</tag>
          
@@ -303,32 +309,6 @@
     </url>
 
     
-  <url>
-    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
-    <lastmod>2016-08-24T14:54:29.036Z</lastmod>
-    <data>
-        <display>
-        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
-        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
-        
-        <tag>开发工具</tag>
-         
-        <tag>VPS</tag>
-         
-        <tag>Shadowsocks</tag>
-         
-        <tag>Vultr</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://code.youmeek.com/2016/04/30/2016/04/Fiddler/</loc>
@@ -365,11 +345,11 @@
         <title>我的学习、归纳方法（以学习 Maven 为例）</title>
         <pubTime>2016-03-07T12:50:25.000Z</pubTime>
         
-        <tag>学习方法</tag>
+        <tag>Java</tag>
          
         <tag>Maven</tag>
          
-        <tag>Java</tag>
+        <tag>学习方法</tag>
          
          
            
@@ -412,9 +392,9 @@
         <title>持续集成：TeamCity 的安装和使用</title>
         <pubTime>2016-03-23T12:48:31.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>TeamCity</tag>
          
@@ -491,9 +471,9 @@
         <title>构建工具-Maven-相关知识-整理专题</title>
         <pubTime>2016-03-09T11:56:08.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>CI</tag>
          
