@@ -23,14 +23,14 @@
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/Maven/</loc>
+        <loc>http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
         <lastmod>2016-04-30T01:04:44.943Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/</loc>
+        <loc>http://code.youmeek.com/tags/Maven/</loc>
         <lastmod>2016-04-30T01:04:44.943Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -100,13 +100,6 @@
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/tags/Java/</loc>
-        <lastmod>2016-12-03T06:18:02.351Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://code.youmeek.com/tags/Hexo/</loc>
         <lastmod>2016-12-10T11:35:47.830Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -149,8 +142,15 @@
     </url>
 
     <url>
+        <loc>http://code.youmeek.com/tags/Java/</loc>
+        <lastmod>2016-12-15T15:08:02.615Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://code.youmeek.com/tags/Mac/</loc>
-        <lastmod>2016-12-13T14:55:16.306Z</lastmod>
+        <lastmod>2016-12-18T09:04:13.346Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

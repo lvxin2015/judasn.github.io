@@ -192,7 +192,7 @@
     <link href="http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/"/>
     <id>http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/</id>
     <published>2016-11-30T15:21:40.000Z</published>
-    <updated>2016-12-03T06:18:02.351Z</updated>
+    <updated>2016-12-15T15:08:02.615Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p><img src="http://img.youmeek.com/2016/Mac-Java.gif" alt="Java 开发环境"></p>
@@ -229,6 +229,23 @@
 <li>最优秀的 IDE，没有之一，我所有的生产力硬件设备都是为了支持它而购买的，所以内存一定要够大。</li>
 <li>下面的 Maven、Tomcat 都是依赖于 IntelliJ IDEA 运行的，所以本质上我只要搞定 IntelliJ IDEA，其他的 Java 开发环境 IntelliJ IDEA 都会帮我们解决。</li>
 <li>关于 IntelliJ IDEA Mac 下安装/配置等相关，请看我写的这个系列，里面有详细说明：<a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial" target="_blank" rel="external">IntelliJ IDEA 简体中文专题教程</a></li>
+<li>在 IntelliJ IDEA 有几个特别的地方我单独拿出来讲讲吧：<ul>
+<li>如果启动 Tomcat 的时候报：<code>Permission denied</code>，你则可以：打开终端，进入 Tomcat\bin 目录，然后执行：<code>chmod 777 *.sh</code></li>
+<li>如果启动 Tomcat 之后，控制台乱码了，并且你确认你在 IntelliJ IDEA 的 Preferences 中设置的控制台字体是支持中文的，那你可以尝试下在 Tomcat VM 参数上加上：<code>-Dfile.encoding=UTF-8</code></li>
+<li>Git 的路径配置：<code>Preferences -- Version Control -- Git -- Path to Git executable</code> 的值是：<code>/usr/local/git/bin/git</code></li>
+<li>如果你已经看过前面的：<a href="http://code.youmeek.com/2016/11/29/2016/11/Mac-iTerm2/">一个Java程序员眼中的Mac OS（系列六：终端方案iTerm2 + Zsh）</a>，假设你也已经安装了 zsh<ul>
+<li>那你的 IntelliJ IDEA 终端路径可以改成 zsh 的，配置方法在 <code>Preferences -- Tools -- Terminal -- Shell path</code> 的值改为是：<code>/bin/zsh</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>IntelliJ IDEA 在 Mac 下的配置文件保存路径<ul>
+<li>下面内容中：<code>XXXXXX</code>，表示 IntelliJ IDEA 的版本号，IntelliJ IDEA 的配置目录是跟版本号有关系的。</li>
+<li><code>/Users/你的用户名/Library/Application Support/IntelliJIdeaXXXXXX</code>，用于保存安装的插件</li>
+<li><code>/Users/你的用户名/Library/Caches/IntelliJIdeaXXXXXX</code>，用于保存缓存、日志、以及本地的版本控制信息（local history 这个功能）</li>
+<li><code>/Users/你的用户名/Library/Preferences/IntelliJIdeaXXXXXX</code>，用于保存你的个人配置、授权文件，等价于 Windows 下的 <code>config</code> 目录</li>
+</ul>
+</li>
 </ul>
 <h2 id="Maven"><a href="#Maven" class="headerlink" title="Maven"></a>Maven</h2><ul>
 <li>官网下载：<a href="http://maven.apache.org/download.cgi" target="_blank" rel="external">http://maven.apache.org/download.cgi</a></li>
@@ -1271,7 +1288,7 @@
     <link href="http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/"/>
     <id>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</id>
     <published>2016-11-20T15:07:02.000Z</published>
-    <updated>2016-12-13T14:53:26.203Z</updated>
+    <updated>2016-12-18T09:04:13.346Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <ul>
@@ -1305,6 +1322,7 @@
 <li><a href="http://www.jianshu.com/p/149b984e3c43" target="_blank" rel="external">查看本地 IP 地址</a></li>
 <li><a href="http://www.jianshu.com/p/005bfba5c080" target="_blank" rel="external">改变鼠标/触摸板滚轮滑动方向</a></li>
 <li><a href="http://www.jianshu.com/p/7a4fb9b084dc" target="_blank" rel="external">触摸板的使用</a></li>
+<li><a href="http://www.jianshu.com/p/ceb873c3759d" target="_blank" rel="external">修改F区键盘键为常规F1~F12键效果</a></li>
 <li><a href="http://www.jianshu.com/p/ae920595c641" target="_blank" rel="external">调整鼠标大小</a></li>
 <li><a href="http://www.jianshu.com/p/abcb0e5c1f5b" target="_blank" rel="external">调整音量</a></li>
 <li><a href="http://www.jianshu.com/p/f0126e7db78a" target="_blank" rel="external">调整屏幕亮度</a></li>
@@ -1320,6 +1338,7 @@
 <li><a href="http://www.jianshu.com/p/d0842fb78bd3" target="_blank" rel="external">如何复制/剪切/粘贴文件</a></li>
 <li><a href="http://www.jianshu.com/p/488eccedd2b3" target="_blank" rel="external">修改安全性，允许任何来源的软件都可以安装</a></li>
 <li><a href="http://www.jianshu.com/p/945e98a8cf8b" target="_blank" rel="external">如何退出/推出U盘</a></li>
+<li><a href="http://www.jianshu.com/p/6babf13b3903" target="_blank" rel="external">如何锁屏</a></li>
 <li><a href="http://www.jianshu.com/p/091dfefc5143" target="_blank" rel="external">如何更新系统/官方应用</a></li>
 <li><a href="http://www.jianshu.com/p/3e6f685f4d75" target="_blank" rel="external">Mac 和 Windows 之间如何共享文件</a></li>
 <li><a href="http://www.jianshu.com/p/ee2cfacc4457" target="_blank" rel="external">强制结束应用</a></li>
@@ -2317,9 +2336,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/TeamCity/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="TeamCity" scheme="http://code.youmeek.com/tags/TeamCity/"/>
     
@@ -3104,9 +3123,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
-    
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
+    
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="CI" scheme="http://code.youmeek.com/tags/CI/"/>
     
@@ -3309,11 +3328,11 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
     
     
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+      <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
     
       <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
     
-      <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
+      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
   </entry>
   
