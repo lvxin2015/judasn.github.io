@@ -4,13 +4,112 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</loc>
-    <lastmod>2016-12-18T09:04:13.346Z</lastmod>
+    <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
+    <lastmod>2016-12-24T08:13:08.467Z</lastmod>
     <data>
         <display>
-        <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
-        <pubTime>2016-11-20T15:07:02.000Z</pubTime>
+        <title>我的 Firefox 扩展 和 主题（不间断更新）</title>
+        <pubTime>2016-03-19T00:53:51.000Z</pubTime>
         
+        <tag>Firefox</tag>
+         
+         
+           
+             
+              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
+    <lastmod>2016-12-24T05:25:48.568Z</lastmod>
+    <data>
+        <display>
+        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
+        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
+        
+        <tag>开发工具</tag>
+         
+        <tag>VPS</tag>
+         
+        <tag>Shadowsocks</tag>
+         
+        <tag>Vultr</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
+    <lastmod>2016-12-24T04:19:16.653Z</lastmod>
+    <data>
+        <display>
+        <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
+        <pubTime>2016-09-11T14:14:50.000Z</pubTime>
+        
+        <tag>Chrome</tag>
+         
+         
+           
+             
+              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
+    <lastmod>2016-12-24T04:06:50.672Z</lastmod>
+    <data>
+        <display>
+        <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
+        <pubTime>2016-02-28T09:58:27.000Z</pubTime>
+        
+        <tag>IntelliJ IDEA</tag>
+         
+        <tag>Hexo</tag>
+         
+        <tag>Git</tag>
+         
+        <tag>Github</tag>
+         
+        <tag>Node.js</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
+          
+             
+              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/Hexo/IntelliJ-IDEA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/</loc>
+    <lastmod>2016-12-18T15:26:47.268Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列七：Java 开发环境）</title>
+        <pubTime>2016-11-30T15:21:40.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
         <tag>Mac</tag>
          
          
@@ -24,15 +123,13 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/</loc>
-    <lastmod>2016-12-15T15:08:02.615Z</lastmod>
+    <loc>http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/</loc>
+    <lastmod>2016-12-18T09:04:13.346Z</lastmod>
     <data>
         <display>
-        <title>一个Java程序员眼中的Mac OS（系列七：Java 开发环境）</title>
-        <pubTime>2016-11-30T15:21:40.000Z</pubTime>
+        <title>一个Java程序员眼中的Mac OS（系列二：系统使用）</title>
+        <pubTime>2016-11-20T15:07:02.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>Mac</tag>
          
          
@@ -79,32 +176,6 @@
            
              
               <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/IntelliJ-IDEA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
-    <lastmod>2016-12-11T07:12:00.671Z</lastmod>
-    <data>
-        <display>
-        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
-        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
-        
-        <tag>开发工具</tag>
-         
-        <tag>VPS</tag>
-         
-        <tag>Shadowsocks</tag>
-         
-        <tag>Vultr</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
           
         </display>
     </data>
@@ -238,77 +309,6 @@
     </url>
 
     
-  <url>
-    <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
-    <lastmod>2016-10-15T10:51:31.409Z</lastmod>
-    <data>
-        <display>
-        <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
-        <pubTime>2016-02-28T09:58:27.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>IntelliJ IDEA</tag>
-         
-        <tag>Git</tag>
-         
-        <tag>Github</tag>
-         
-        <tag>Node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://code.youmeek.com/categories/Hexo/"/>
-          
-             
-              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/Hexo/IntelliJ-IDEA/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
-    <lastmod>2016-10-15T10:12:35.169Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Firefox 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-03-19T00:53:51.000Z</pubTime>
-        
-        <tag>Firefox</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
-    <lastmod>2016-09-22T15:04:09.316Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-09-11T14:14:50.000Z</pubTime>
-        
-        <tag>Chrome</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://code.youmeek.com/2016/04/30/2016/04/Fiddler/</loc>
@@ -345,11 +345,11 @@
         <title>我的学习、归纳方法（以学习 Maven 为例）</title>
         <pubTime>2016-03-07T12:50:25.000Z</pubTime>
         
-        <tag>学习方法</tag>
+        <tag>Java</tag>
          
         <tag>Maven</tag>
          
-        <tag>Java</tag>
+        <tag>学习方法</tag>
          
          
            
@@ -392,9 +392,9 @@
         <title>持续集成：TeamCity 的安装和使用</title>
         <pubTime>2016-03-23T12:48:31.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>TeamCity</tag>
          
@@ -471,9 +471,9 @@
         <title>构建工具-Maven-相关知识-整理专题</title>
         <pubTime>2016-03-09T11:56:08.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>CI</tag>
          

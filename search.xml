@@ -221,6 +221,23 @@
 <li>官网下载 MySQL 5.6：<a href="http://dev.mysql.com/downloads/mysql/5.6.html#downloads" target="_blank" rel="external">http://dev.mysql.com/downloads/mysql/5.6.html#downloads</a></li>
 <li>官网下载 MySQL 5.7：<a href="http://dev.mysql.com/downloads/mysql/" target="_blank" rel="external">http://dev.mysql.com/downloads/mysql/</a></li>
 <li>MySQL 官网提供的 Mac 系统的安装包，是下一步下一步安装类型的，没啥难度，大家自己试一下。</li>
+<li>有几个点需要注意的是：<ul>
+<li>如何重置 root 密码：<ul>
+<li>打开：<code>系统偏好设置 -- 底部的 MySQL -- 点击：Stop MySQL Server</code>，根据提示输入你的 Mac 用户密码。</li>
+<li>打开终端，输入命令：<code>sudo /usr/local/mysql/bin/mysqld_safe --skip-grant-tables</code>，根据提示输入你的 Mac 用户密码，然后这个终端就这样放着，别动</li>
+<li>再打开一个新的终端，输入命令：<code>sudo /usr/local/mysql/bin/mysql -u root</code>，根据提示输入你的 Mac 用户密码，密码如果无误的话，此时就进入：<code>mysql &gt;</code> 这种状态下。</li>
+<li>在：<code>mysql &gt;</code> 这种状态下输入命令：<code>UPDATE user SET authentication_string=PASSWORD(&#39;123456&#39;) WHERE User=&#39;root&#39;;FLUSH PRIVILEGES;</code>，我把密码重置为：<code>123456</code> 了。</li>
+</ul>
+</li>
+<li>MySQL 配置文件设置<ul>
+<li>Mac 下的 MySQL 默认是没有 my.ini 或是 my.cnf 文件的，需要我们自己复制一个出来。</li>
+<li>通过终端进入这个目录：<code>cd /usr/local/mysql/support-files/</code>，从该目录下随便找一个 <code>.cnf</code> 的文件，复制命名为：<code>my.cnf</code>，然后按照 MySQL 的配置规则配置这个文件。</li>
+<li>然后把这个 <code>my.cnf</code> 的文件复制到 <code>/etc</code> 目录下</li>
+<li>重启 MySQL 服务即可</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h2 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h2><ul>
 <li>官网下载：<a href="http://git-scm.com/download/mac" target="_blank" rel="external">http://git-scm.com/download/mac</a></li>
@@ -1345,6 +1362,8 @@
 <li><strong>Proxy SwitchyOmega</strong>：<a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif" target="_blank" rel="external">https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif</a></li>
 <li><strong>Adblock Plus</strong>：<a href="https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb" target="_blank" rel="external">https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb</a></li>
 <li><strong>Ghostery</strong>：<a href="https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij" target="_blank" rel="external">https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij</a></li>
+<li><strong>为什么你们就是不能加个空格呢</strong>：<a href="https://chrome.google.com/webstore/detail/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%80%91%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E5%80%8B%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd" target="_blank" rel="external">https://chrome.google.com/webstore/detail/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%80%91%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E5%80%8B%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd</a></li>
+<li><strong>SimpleUndoClose</strong>：<a href="https://chrome.google.com/webstore/detail/simpleundoclose/emhohdghchmjepmigjojkehidlielknj" target="_blank" rel="external">https://chrome.google.com/webstore/detail/simpleundoclose/emhohdghchmjepmigjojkehidlielknj</a></li>
 <li><strong>Context</strong>：<a href="https://chrome.google.com/webstore/detail/context/aalnjolghjkkogicompabhhbbkljnlka" target="_blank" rel="external">https://chrome.google.com/webstore/detail/context/aalnjolghjkkogicompabhhbbkljnlka</a></li>
 <li><strong>OneTab</strong>：<a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="external">https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall</a></li>
 <li><strong>Linkclump</strong>：<a href="https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj" target="_blank" rel="external">https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj</a></li>
@@ -1360,10 +1379,12 @@
 <li><strong>二维码生成器</strong>：<a href="https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/ajaomcmkalmeeahjfdklkcjbljhbokjl" target="_blank" rel="external">https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/ajaomcmkalmeeahjfdklkcjbljhbokjl</a></li>
 <li><strong>阅读模式</strong>：<a href="https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl" target="_blank" rel="external">https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl</a></li>
 <li><strong>惠惠购物助手</strong>：<a href="https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb" target="_blank" rel="external">https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb</a></li>
+<li><strong>Enable Copy</strong>：<a href="https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio" target="_blank" rel="external">https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/%E8%B4%AD%E7%89%A9%E5%85%9A%E5%85%A8%E7%BD%91%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7%EF%BC%9A%E6%B7%98%E5%AE%9D%E4%BA%AC%E4%B8%9C%E7%BE%8E%E4%BA%9A%E6%97%A5%E4%BA%9A%E6%AF%94%E4%BB%B7%E3%80%8118/jgphnjokjhjlcnnajmfjlacjnjkhleah" target="_blank" rel="external">购物党全网自动比价工具</a></li>
 </ul>
 </li>
 <li>开发相关：<ul>
+<li><strong>Wappalyzer 查看该网站使用什么技术</strong>：<a href="https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg" target="_blank" rel="external">https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg</a></li>
 <li><strong>JSONView</strong>：<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc</a></li>
 <li><strong>Octotree</strong>：<a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc</a></li>
 <li><strong>Postman</strong>：<a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop" target="_blank" rel="external">https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop</a></li>
@@ -1618,6 +1639,15 @@
 </li>
 <li>Linux 客户端：<a href="https://github.com/shadowsocks/shadowsocks-gui" target="_blank" rel="external">https://github.com/shadowsocks/shadowsocks-gui</a></li>
 <li>OS X 客户端：<a href="https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help" target="_blank" rel="external">https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help</a></li>
+<li>iOS 客户端（在 App Store 中搜索下面名字）：<ul>
+<li>这类软件都很友好，配置都是很简单的，跟 PC 客户端类型，填上 SS 的相应信息即可。</li>
+<li>Shadowrocket，收费，我正在用的</li>
+<li>Surge，收费</li>
+<li>Wingy，免费</li>
+<li>Potatso，收费</li>
+<li>A.BIG.T，收费</li>
+</ul>
+</li>
 <li>Android 客户端：<a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank" rel="external">https://github.com/shadowsocks/shadowsocks-android/releases</a></li>
 <li>别人整理的客户端列表：<a href="https://shadowsocks.com/client.html" target="_blank" rel="external">https://shadowsocks.com/client.html</a></li>
 <li>以 Windows 的 Shadowsocks 客户端为例进行说明：<ul>
@@ -1670,6 +1700,11 @@
 </li>
 </ul>
 </li>
+</ul>
+<h2 id="Shadowsocks-的同类"><a href="#Shadowsocks-的同类" class="headerlink" title="Shadowsocks 的同类"></a>Shadowsocks 的同类</h2><ul>
+<li>SpechtLite：<a href="https://github.com/zhuhaow/SpechtLite/releases" target="_blank" rel="external">https://github.com/zhuhaow/SpechtLite/releases</a></li>
+<li>ShadowsocksX：<a href="https://github.com/RobertYan/ShadowsocksX/releases" target="_blank" rel="external">https://github.com/RobertYan/ShadowsocksX/releases</a></li>
+<li>ShadowsocksX-R：<a href="https://github.com/yichengchen/ShadowsocksX-R/releases" target="_blank" rel="external">https://github.com/yichengchen/ShadowsocksX-R/releases</a></li>
 </ul>
 <h2 id="资料整理"><a href="#资料整理" class="headerlink" title="资料整理"></a>资料整理</h2><ul>
 <li>来自 Google 过程中的资料（真心感谢这些作者）：<ul>
@@ -2198,13 +2233,14 @@
 <li><strong>Adblock Plus</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/adblock-plus</a></li>
 <li><strong>LastPass</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/lastpass-password-manager" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/lastpass-password-manager</a></li>
 <li><strong>Xmarks</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/xmarks-sync" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/xmarks-sync</a></li>
+<li><strong>Flashblock</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/flashblock/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/flashblock/</a></li>
 <li><strong>Add Bookmark Here ²</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2</a></li>
 <li><strong>Google search link fix</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/</a></li>
 <li><strong>FoxyProxy Standard</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/</a></li>
 <li><strong>FindBar Tweak</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak</a></li>
+<li><strong>Tab Mix Plus</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus</a></li>
 <li><strong>Firebug</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/firebug" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/firebug</a></li>
 <li><strong>iMacros for Firefox</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/imacros-for-firefox" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/imacros-for-firefox</a></li>
-<li><strong>Tab Mix Plus</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus</a></li>
 <li><strong>Tile Tabs</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tile-tabs" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/tile-tabs</a></li>
 <li><strong>Add to Search Bar</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/add-to-search-bar" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/add-to-search-bar</a></li>
 <li><strong>Text Link</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/text-link" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/text-link</a></li>
@@ -3143,13 +3179,14 @@
 <li>现在验证下是否可以使用淘宝的 cnpm 命令：<code>cnpm info express</code><ul>
 <li>如果能输出一大堆介绍，则说明成功了，以后每次要使用淘宝的源都需要这样来。现在除了默认的 <strong>npm</strong>，还多了一个 <strong>cnpm</strong> 可以使用，我们下面有关安装的讲解内容也都是基于此临时命令。</li>
 <li>如果输出：bash: cnpm: command not found，则表示没成功，需要你在排查下</li>
+<li>需要强调的是：<strong>cnpm</strong> 不是永久性命令，只是此时这个界面窗口下的临时命令，关掉窗口就没效果了。</li>
 </ul>
 </li>
 </ul>
 <h3 id="安装-Hexo-框架"><a href="#安装-Hexo-框架" class="headerlink" title="安装 Hexo 框架"></a>安装 Hexo 框架</h3><ul>
 <li>安装 Hexo（注意，现在是 cnpm 开头了，不是 npm 了）：<code>cnpm install -g hexo-cli</code><ul>
 <li>安装时间不一定很快，有可能需要等 3 ~ 5 分钟。</li>
-<li>安装完有 WARN 警告也没关系的。</li>
+<li>安装过程中有 WARN 警告也没关系的，不用在意这些 WARN，继续等它安装完成。因为国内的网络问题，有时候安装异常慢花了大半个小时都没效果，那就 Ctrl + C 停掉这次命令，重新再执行一次。</li>
 </ul>
 </li>
 </ul>
