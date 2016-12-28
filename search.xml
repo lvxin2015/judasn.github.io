@@ -4,6 +4,69 @@
   
     
     <entry>
+      <title><![CDATA[IntelliJ IDEA 插件开发详细视频教程]]></title>
+      <url>http://code.youmeek.com/2016/12/28/2016/12/IntelliJ-IDEA-plugins-develop/</url>
+      <content type="html"><![CDATA[<a id="more"></a>
+<p><img src="http://img.youmeek.com/2016/idea-plugins-develop.jpg" alt="IntelliJ IDEA 插件开发详细视频教程"></p>
+<hr>
+<h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
+<li>IntelliJ IDEA 的插件理论上是同时也适用于 JetBrains 公司下的其他大多数 IDE 的，因为这些 IDE 都是基于 IntelliJ IDEA 的基础平台进行开发的，请牢记这一点。</li>
+</ul>
+<h2 id="教程视频下载和介绍"><a href="#教程视频下载和介绍" class="headerlink" title="教程视频下载和介绍"></a>教程视频下载和介绍</h2><ul>
+<li>视频章节结构：<ul>
+<li><code>01_AS插件是什么_和IntellijIDEA关系</code></li>
+<li><code>02_常见的AS开发插件</code></li>
+<li><code>03_创建第一个Plugin插件</code></li>
+<li><code>04_翻译插件需求</code></li>
+<li><code>05_翻译开发过程整理</code></li>
+<li><code>06_获取用户选中的文本</code></li>
+<li><code>07_翻译插件显示气泡</code></li>
+<li><code>08_把插件上传到公共仓库</code></li>
+</ul>
+</li>
+<li>视频教程下载地址<ul>
+<li>原下载地址：<a href="http://pan.baidu.com/s/1nv79ptZ" target="_blank" rel="external">http://pan.baidu.com/s/1nv79ptZ</a></li>
+<li>备用下载地址：<a href="http://pan.baidu.com/s/1eSoQHoA" target="_blank" rel="external">http://pan.baidu.com/s/1eSoQHoA</a>，密码：gqo2，如果哪天下载地址失效，请在本 Github 项目发 Issues。</li>
+</ul>
+</li>
+<li>这套教程视频不是本人录制的，所以需要特别强调下，本套视频来自：<a href="http://open.itcast.cn/java/14-539.html" target="_blank" rel="external">传智播客公开课：Android Studio插件开发</a>，在此特别感谢别人的付出（鞠躬）。</li>
+</ul>
+<h2 id="其他图文资料介绍"><a href="#其他图文资料介绍" class="headerlink" title="其他图文资料介绍"></a>其他图文资料介绍</h2><ul>
+<li><a href="http://blog.csdn.net/dc_726/article/details/14139155" target="_blank" rel="external">http://blog.csdn.net/dc_726/article/details/14139155</a></li>
+<li><a href="http://www.mobile-open.com/2016/973070.html" target="_blank" rel="external">http://www.mobile-open.com/2016/973070.html</a></li>
+</ul>
+<h2 id="插件开发说明"><a href="#插件开发说明" class="headerlink" title="插件开发说明"></a>插件开发说明</h2><ul>
+<li>如果你 Java 基础还算过关，看完这套教程简单的插件基本不会有任何问题的。</li>
+<li>IntelliJ IDEA 本身平台就自带了很多依赖包，如果能尽量用 IntelliJ IDEA 平台的依赖包就尽量别自己添加 jar，减少插件的容量。</li>
+</ul>
+<h2 id="IntelliJ-IDEA-官网插件开发相关资料"><a href="#IntelliJ-IDEA-官网插件开发相关资料" class="headerlink" title="IntelliJ IDEA 官网插件开发相关资料"></a>IntelliJ IDEA 官网插件开发相关资料</h2><ul>
+<li><a href="https://plugins.jetbrains.com/?idea" target="_blank" rel="external">插件提交地址</a></li>
+<li><a href="http://www.jetbrains.org/intellij/sdk/docs/" target="_blank" rel="external">官网插件开发指导文档</a></li>
+<li><a href="https://github.com/JetBrains/intellij-community" target="_blank" rel="external">IntelliJ IDEA Community 源码</a></li>
+</ul>
+<h2 id="一些开源的-IntelliJ-IDEA-插件介绍"><a href="#一些开源的-IntelliJ-IDEA-插件介绍" class="headerlink" title="一些开源的 IntelliJ IDEA 插件介绍"></a>一些开源的 IntelliJ IDEA 插件介绍</h2><ul>
+<li>阅读别人插件有助于你的开发，希望你有一天能开发一个好用的插件。</li>
+<li>IntelliJ IDEA 的大量插件都是开源的，如果你有遇到你喜欢的插件，可以到 JetBrains 官网上找到这个插件的主页，很有可能在介绍中就有 Github 地址。感谢 Github 的存在。</li>
+<li><a href="https://github.com/Skykai521/ECTranslation" target="_blank" rel="external">https://github.com/Skykai521/ECTranslation</a></li>
+<li><a href="https://github.com/avast/android-butterknife-zelezny" target="_blank" rel="external">https://github.com/avast/android-butterknife-zelezny</a></li>
+<li><a href="https://github.com/zzz40500/GsonFormat" target="_blank" rel="external">https://github.com/zzz40500/GsonFormat</a></li>
+<li><a href="https://github.com/kstenschke/shifter-plugin" target="_blank" rel="external">https://github.com/kstenschke/shifter-plugin</a></li>
+<li><a href="https://github.com/jansorg/SmarterEditor" target="_blank" rel="external">https://github.com/jansorg/SmarterEditor</a></li>
+<li><a href="https://github.com/jansorg/BashSupport" target="_blank" rel="external">https://github.com/jansorg/BashSupport</a></li>
+<li><a href="https://github.com/hsz/idea-gitignore" target="_blank" rel="external">https://github.com/hsz/idea-gitignore</a></li>
+<li><a href="https://github.com/JetBrains/ideavim" target="_blank" rel="external">https://github.com/JetBrains/ideavim</a></li>
+<li><a href="https://github.com/krasa/EclipseCodeFormatter" target="_blank" rel="external">https://github.com/krasa/EclipseCodeFormatter</a></li>
+<li><a href="https://github.com/krasa/StringManipulation" target="_blank" rel="external">https://github.com/krasa/StringManipulation</a></li>
+<li><a href="https://github.com/krasa/GrepConsole" target="_blank" rel="external">https://github.com/krasa/GrepConsole</a></li>
+</ul>
+<hr>
+<ul>
+<li><strong>我的公众号：</strong></li>
+<li><img src="http://img.youmeek.com/2016/MyWeiXin2.jpg" alt="YouMeek开展捐赠陪聊服务（希望对 IntelliJ IDEA 新人有所帮助）"></li>
+</ul>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[YouMeek开展捐赠陪聊服务（希望对 IntelliJ IDEA 新人有所帮助）]]></title>
       <url>http://code.youmeek.com/2016/12/11/2016/12/donate/</url>
       <content type="html"><![CDATA[<a id="more"></a>

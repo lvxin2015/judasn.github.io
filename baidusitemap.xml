@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/12/28/2016/12/IntelliJ-IDEA-plugins-develop/</loc>
+    <lastmod>2016-12-28T14:36:27.506Z</lastmod>
+    <data>
+        <display>
+        <title>IntelliJ IDEA 插件开发详细视频教程</title>
+        <pubTime>2016-12-28T14:28:59.000Z</pubTime>
+        
+        <tag>IntelliJ IDEA</tag>
+         
+         
+           
+             
+              <breadCrumb title="IntelliJ IDEA" url="http://code.youmeek.com/categories/IntelliJ-IDEA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
     <lastmod>2016-12-24T08:13:08.467Z</lastmod>
     <data>
@@ -77,9 +97,9 @@
         <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
         <pubTime>2016-02-28T09:58:27.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Hexo</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
         <tag>Git</tag>
          
@@ -345,11 +365,11 @@
         <title>我的学习、归纳方法（以学习 Maven 为例）</title>
         <pubTime>2016-03-07T12:50:25.000Z</pubTime>
         
-        <tag>Java</tag>
+        <tag>学习方法</tag>
          
         <tag>Maven</tag>
          
-        <tag>学习方法</tag>
+        <tag>Java</tag>
          
          
            
@@ -392,9 +412,9 @@
         <title>持续集成：TeamCity 的安装和使用</title>
         <pubTime>2016-03-23T12:48:31.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>Maven</tag>
+         
+        <tag>Java</tag>
          
         <tag>TeamCity</tag>
          
@@ -471,9 +491,9 @@
         <title>构建工具-Maven-相关知识-整理专题</title>
         <pubTime>2016-03-09T11:56:08.000Z</pubTime>
         
-        <tag>Java</tag>
-         
         <tag>Maven</tag>
+         
+        <tag>Java</tag>
          
         <tag>CI</tag>
          

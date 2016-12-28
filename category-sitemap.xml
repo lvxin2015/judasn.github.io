@@ -56,13 +56,6 @@
     </url>
 
     <url>
-        <loc>http://code.youmeek.com/categories/IntelliJ-IDEA/</loc>
-        <lastmod>2016-12-11T10:26:17.595Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://code.youmeek.com/categories/Mac/</loc>
         <lastmod>2016-12-18T15:26:47.268Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -93,6 +86,13 @@
     <url>
         <loc>http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/</loc>
         <lastmod>2016-12-24T08:13:08.467Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://code.youmeek.com/categories/IntelliJ-IDEA/</loc>
+        <lastmod>2016-12-28T14:36:27.506Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
