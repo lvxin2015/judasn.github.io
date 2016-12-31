@@ -47,6 +47,7 @@
 <h2 id="一些开源的-IntelliJ-IDEA-插件介绍"><a href="#一些开源的-IntelliJ-IDEA-插件介绍" class="headerlink" title="一些开源的 IntelliJ IDEA 插件介绍"></a>一些开源的 IntelliJ IDEA 插件介绍</h2><ul>
 <li>阅读别人插件有助于你的开发，希望你有一天能开发一个好用的插件。</li>
 <li>IntelliJ IDEA 的大量插件都是开源的，如果你有遇到你喜欢的插件，可以到 JetBrains 官网上找到这个插件的主页，很有可能在介绍中就有 Github 地址。感谢 Github 的存在。</li>
+<li><a href="https://github.com/judasn/ChineseTypography-IDEA-Plugin" target="_blank" rel="external">我写的插件：ChineseTypography，也是一个最简单的插件</a></li>
 <li><a href="https://github.com/Skykai521/ECTranslation" target="_blank" rel="external">https://github.com/Skykai521/ECTranslation</a></li>
 <li><a href="https://github.com/avast/android-butterknife-zelezny" target="_blank" rel="external">https://github.com/avast/android-butterknife-zelezny</a></li>
 <li><a href="https://github.com/zzz40500/GsonFormat" target="_blank" rel="external">https://github.com/zzz40500/GsonFormat</a></li>
@@ -1316,21 +1317,21 @@
     </entry>
     
     <entry>
-      <title><![CDATA[一个Java程序员眼中的Mac OS（系列一：总纲领）]]></title>
+      <title><![CDATA[一个 Java 程序员眼中的 Mac OS（系列一：总纲领）]]></title>
       <url>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</url>
       <content type="html"><![CDATA[<a id="more"></a>
 <ul>
 <li><img src="http://img.youmeek.com/2016/Mac-introduction.jpg" alt="一个Java程序员眼中的Mac OS"></li>
 </ul>
 <h2 id="系列教程总结"><a href="#系列教程总结" class="headerlink" title="系列教程总结"></a>系列教程总结</h2><ul>
-<li>本系列有 <strong>7 大篇，N 多小篇</strong>，7 大篇目前已经都整理完成，分别是：<ul>
-<li><strong><a href="http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/">一个Java程序员眼中的Mac OS（系列二：系统使用）</a></strong></li>
-<li><strong><a href="http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/">一个Java程序员眼中的Mac OS（系列三：常用快捷键）</a></strong></li>
-<li><strong><a href="http://code.youmeek.com/2016/11/24/2016/11/Mac-software/">一个Java程序员眼中的Mac OS（系列四：常用软件）</a></strong></li>
-<li><strong><a href="http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/">一个Java程序员眼中的Mac OS（系列五：包管理工具）</a></strong></li>
-<li><strong><a href="http://code.youmeek.com/2016/11/29/2016/11/Mac-iTerm2/">一个Java程序员眼中的Mac OS（系列六：终端方案iTerm2 + Zsh）</a></strong></li>
-<li><strong><a href="http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/">一个Java程序员眼中的Mac OS（系列七：Java 开发环境）</a></strong></li>
-<li><strong><a href="http://code.youmeek.com/2016/12/01/2016/11/Mac-peripheral/">一个Java程序员眼中的Mac OS（系列八：外设/配件介绍）</a></strong></li>
+<li>本系列有 <strong>7 大篇，N 多小篇 </strong>，7 大篇目前已经都整理完成，分别是：<ul>
+<li><strong><a href="http://code.youmeek.com/2016/11/20/2016/11/Mac-settings/">一个 Java 程序员眼中的 Mac OS（系列二：系统使用）</a></strong></li>
+<li><strong><a href="http://code.youmeek.com/2016/11/21/2016/11/Mac-keymap/">一个 Java 程序员眼中的 Mac OS（系列三：常用快捷键）</a></strong></li>
+<li><strong><a href="http://code.youmeek.com/2016/11/24/2016/11/Mac-software/">一个 Java 程序员眼中的 Mac OS（系列四：常用软件）</a></strong></li>
+<li><strong><a href="http://code.youmeek.com/2016/11/27/2016/11/Mac-Homebrew/">一个 Java 程序员眼中的 Mac OS（系列五：包管理工具）</a></strong></li>
+<li><strong><a href="http://code.youmeek.com/2016/11/29/2016/11/Mac-iTerm2/">一个 Java 程序员眼中的 Mac OS（系列六：终端方案 iTerm2 + Zsh）</a></strong></li>
+<li><strong><a href="http://code.youmeek.com/2016/11/30/2016/11/Mac-Java/">一个 Java 程序员眼中的 Mac OS（系列七：Java 开发环境）</a></strong></li>
+<li><strong><a href="http://code.youmeek.com/2016/12/01/2016/11/Mac-peripheral/">一个 Java 程序员眼中的 Mac OS（系列八：外设 / 配件介绍）</a></strong></li>
 </ul>
 </li>
 </ul>
@@ -2299,6 +2300,7 @@
 <li><strong>Flashblock</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/flashblock/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/flashblock/</a></li>
 <li><strong>Add Bookmark Here ²</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2</a></li>
 <li><strong>Google search link fix</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/</a></li>
+<li><strong>QrCodeR</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/qrcoder/?src=search" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/qrcoder/?src=search</a></li>
 <li><strong>FoxyProxy Standard</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/</a></li>
 <li><strong>FindBar Tweak</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak</a></li>
 <li><strong>Tab Mix Plus</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus</a></li>
@@ -2328,7 +2330,6 @@
 <li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/%E8%B4%AD%E7%89%A9%E5%85%9A%E5%85%A8%E7%BD%91%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7/" target="_blank" rel="external">购物党全网自动比价工具</a></li>
 <li><strong>Multifox</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/multifox/?src=cb-dl-featured" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/multifox/?src=cb-dl-featured</a></li>
 <li><strong>FireQuery</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/firequery/?src=api" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/firequery/?src=api</a></li>
-<li><strong>QrCodeR</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/qrcoder/?src=search" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/qrcoder/?src=search</a></li>
 <li><strong>RESTer</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/rester/?src=search" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/rester/?src=search</a></li>
 <li><strong>Copy Urls Expert</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/copy-urls-expert/?src=api" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/copy-urls-expert/?src=api</a></li>
 </ul>
