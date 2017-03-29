@@ -4,6 +4,106 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
+    <lastmod>2017-03-29T09:38:58.336Z</lastmod>
+    <data>
+        <display>
+        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
+        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
+        
+        <tag>Mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2017/03/29/2017/03/GitNavi-Everything/</loc>
+    <lastmod>2017-03-29T09:38:57.045Z</lastmod>
+    <data>
+        <display>
+        <title>GitNavi - 程序员优先的网址导航（可注册）</title>
+        <pubTime>2017-03-29T08:52:47.000Z</pubTime>
+        
+        <tag>GitNavi</tag>
+         
+         
+           
+             
+              <breadCrumb title="GitNavi" url="http://code.youmeek.com/categories/GitNavi/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
+    <lastmod>2017-03-29T08:51:50.461Z</lastmod>
+    <data>
+        <display>
+        <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
+        <pubTime>2016-09-11T14:14:50.000Z</pubTime>
+        
+        <tag>Chrome</tag>
+         
+         
+           
+             
+              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
+    <lastmod>2017-03-29T08:50:18.041Z</lastmod>
+    <data>
+        <display>
+        <title>我的 Firefox 扩展 和 主题（不间断更新）</title>
+        <pubTime>2016-03-19T00:53:51.000Z</pubTime>
+        
+        <tag>Firefox</tag>
+         
+         
+           
+             
+              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</loc>
+    <lastmod>2017-01-15T10:02:59.572Z</lastmod>
+    <data>
+        <display>
+        <title>Java 开发基础规范（初稿）</title>
+        <pubTime>2016-03-15T13:09:27.000Z</pubTime>
+        
+        <tag>Java</tag>
+         
+         
+           
+             
+              <breadCrumb title="Java" url="http://code.youmeek.com/categories/Java/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2016/11/05/2016/11/Mac-introduction/</loc>
     <lastmod>2016-12-31T15:19:10.809Z</lastmod>
     <data>
@@ -64,26 +164,6 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</loc>
-    <lastmod>2016-12-30T12:07:25.609Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Firefox 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-03-19T00:53:51.000Z</pubTime>
-        
-        <tag>Firefox</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
     <lastmod>2016-12-24T05:25:48.568Z</lastmod>
     <data>
@@ -103,26 +183,6 @@
            
              
               <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
-    <lastmod>2016-12-24T04:19:16.653Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-09-11T14:14:50.000Z</pubTime>
-        
-        <tag>Chrome</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
           
         </display>
     </data>
@@ -295,29 +355,9 @@
         
         <tag>Mac</tag>
          
-        <tag>Homebrew</tag>
-         
         <tag>终端</tag>
          
-         
-           
-             
-              <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</loc>
-    <lastmod>2016-11-27T10:30:34.623Z</lastmod>
-    <data>
-        <display>
-        <title>一个Java程序员眼中的Mac OS（系列四：常用软件）</title>
-        <pubTime>2016-11-24T14:56:53.000Z</pubTime>
-        
-        <tag>Mac</tag>
+        <tag>Homebrew</tag>
          
          
            
@@ -385,26 +425,6 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</loc>
-    <lastmod>2016-03-24T12:46:21.932Z</lastmod>
-    <data>
-        <display>
-        <title>Java 开发基础规范（初稿）</title>
-        <pubTime>2016-03-15T13:09:27.000Z</pubTime>
-        
-        <tag>Java</tag>
-         
-         
-           
-             
-              <breadCrumb title="Java" url="http://code.youmeek.com/categories/Java/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://code.youmeek.com/2016/03/23/2016/03/TeamCity/</loc>
     <lastmod>2016-03-23T12:52:57.945Z</lastmod>
     <data>
@@ -441,9 +461,9 @@
         <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
         <pubTime>2016-03-22T13:58:08.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            
@@ -466,9 +486,9 @@
         <title>为什么不尝试下 IntelliJ IDEA？我想劝说你</title>
         <pubTime>2016-03-11T12:23:56.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            

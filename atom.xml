@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://code.youmeek.com/"/>
-  <updated>2016-12-31T15:17:32.988Z</updated>
+  <updated>2017-03-29T09:38:57.045Z</updated>
   <id>http://code.youmeek.com/</id>
   
   <author>
@@ -14,6 +14,75 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitNavi - 程序员优先的网址导航（可注册）</title>
+    <link href="http://code.youmeek.com/2017/03/29/2017/03/GitNavi-Everything/"/>
+    <id>http://code.youmeek.com/2017/03/29/2017/03/GitNavi-Everything/</id>
+    <published>2017-03-29T08:52:47.000Z</published>
+    <updated>2017-03-29T09:38:57.045Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<ul>
+<li><img src="http://img.youmeek.com/2017/gitnavi-front-1.jpg" alt="封面图"></li>
+</ul>
+<h2 id="GitNavi-总结"><a href="#GitNavi-总结" class="headerlink" title="GitNavi 总结"></a>GitNavi 总结</h2><ul>
+<li>网址：<a href="http://www.GitNavi.com" target="_blank" rel="external">http://GitNavi.com</a></li>
+<li><strong>最重要的事：</strong> 可以注册，并且可以 Fork 首页或是其他用户的所有数据，把别人的数据据为自有。</li>
+<li>GitNavi 整理了程序员常用的一些在线工具、开发资料/文档指向，收集了常用系统：Windows、Mac、Ubuntu 下的一些软件地址/下载包。</li>
+<li>对生活的搜索进行了增强，可以同时搜索多个网站，以及不同类型，方面平时资料的收集，搜索框带有即输即提示功能。</li>
+<li>有舒心的是 404：为大家的工作带来美味，欢迎试吃！</li>
+<li>录制了图片/短视频，帮助你更加快速地了解 GitNavi！</li>
+<li>还有移动 Web 端，只希望能随时随刻帮到你。</li>
+<li><p>更多细节欢迎到 GitNavi.com 亲自体验下，有专门的！</p>
+</li>
+<li><p><img src="http://img.youmeek.com/2017/gitnavi-front-2.jpg" alt="封面图"></p>
+</li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-front-3.jpg" alt="封面图"></li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-front-4.jpg" alt="封面图"></li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-front-5.jpg" alt="封面图"></li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-front-6.jpg" alt="封面图"></li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-wap-1.jpg" alt="封面图"></li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-wap-2.jpg" alt="封面图"></li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-admin-1.jpg" alt="封面图"></li>
+</ul>
+<h2 id="感谢为程序员服务的网站"><a href="#感谢为程序员服务的网站" class="headerlink" title="感谢为程序员服务的网站"></a>感谢为程序员服务的网站</h2><ul>
+<li>一些好的资料可以让我们省去很多时间，不能总是依靠 Google 撞大运。生活不能总靠运气。</li>
+<li>感谢这两年<a href="https://toutiao.io/" target="_blank" rel="external">开发者头条</a>、<a href="https://juejin.im/welcome" target="_blank" rel="external">掘金</a>这类程序员好基友的崛起，希望他们能做得越来越好，也希望有更多优秀的文章帮助大家。</li>
+</ul>
+<h2 id="希望能侧面帮助你身体健康"><a href="#希望能侧面帮助你身体健康" class="headerlink" title="希望能侧面帮助你身体健康"></a>希望能侧面帮助你身体健康</h2><ul>
+<li>最后，推荐两个商品，为了你身体健康。（是有感而发，绝对没有收广告费，不然我立地 Go Die）<ul>
+<li><a href="https://search.jd.com/Search?keyword=%E9%A3%9E%E5%88%A9%E6%B5%A6%E7%94%B5%E5%8A%A8%E7%89%99%E5%88%B7&amp;enc=utf-8&amp;wq=%E9%A3%9E%E5%88%A9%E6%B5%A6%E7%94%B5%E5%8A%A8%E7%89%99%E5%88%B7&amp;pvid=a7e8858b1faf4c0e8dd47a54ef85a669" target="_blank" rel="external">飞利浦电动牙刷（性价比高型号：HX67XX 系列）</a></li>
+<li><a href="https://s.taobao.com/search?q=%E5%8D%81%E5%85%AB%E7%BA%B8%E6%8A%98%E5%8F%A0%E5%87%B3&amp;imgfile=&amp;commend=all&amp;ssid=s5-e&amp;search_type=item&amp;sourceId=tb.index&amp;spm=a21bo.50862.201856-taobao-item.1&amp;ie=utf8&amp;initiative_id=tbindexz_20170329" target="_blank" rel="external">十八纸折叠凳（最好的官网旗舰店买，其他店铺我不了解情况）</a></li>
+</ul>
+</li>
+<li><ol>
+<li>最近牙齿痛，以前一天刷两次牙还不够，现在增加到了三次。电动牙刷我觉得是必备品，因为对于有智齿的人，最里面的牙齿手动刷是很难刷干净的。还有，最好是每一年一次洁牙，牙结石是无法避免的，还是得靠那些医院的工具。正规三甲医院或是口腔专科的医院一般普通是在 300 左右，洗完有的上特殊药物的会高到 500 左右，但是都是合理的价格范围内。越是长大越是懂得牙齿的重要性。</li>
+</ol>
+</li>
+<li><ol>
+<li>今年换了一下新东家，做地铁要接近一个小时，一线城市的高峰期基本你很难有座位了，而我不想浪费时间在路上无所事事，所以我又找了这个：十八纸折叠凳。拿在手里像一本书不大不小，可以找个空地坐下来看手机或是 kindle 也行。</li>
+</ol>
+</li>
+<li>希望今年的 CR-V、CX-5 能靠谱点，如果可以就入手一辆。买不起房就不买了，小孩子我自己教还不行嘛。</li>
+</ul>
+<ul>
+<li><img src="http://img.youmeek.com/2017/gitnavi-philips.jpg" alt="封面图"></li>
+<li><img src="http://img.youmeek.com/2017/gitnavi-shibazhi.jpg" alt="封面图"></li>
+</ul>]]></content>
+    
+    <summary type="html">
+    
+      只希望除了发达地区的人在用，还能给那些学习资源缺少的地方带来帮助。
+    
+    </summary>
+    
+      <category term="GitNavi" scheme="http://code.youmeek.com/categories/GitNavi/"/>
+    
+    
+      <category term="GitNavi" scheme="http://code.youmeek.com/tags/GitNavi/"/>
+    
+  </entry>
   
   <entry>
     <title>IntelliJ IDEA 插件开发详细视频教程</title>
@@ -873,9 +942,9 @@
     
       <category term="Mac" scheme="http://code.youmeek.com/tags/Mac/"/>
     
-      <category term="Homebrew" scheme="http://code.youmeek.com/tags/Homebrew/"/>
-    
       <category term="终端" scheme="http://code.youmeek.com/tags/%E7%BB%88%E7%AB%AF/"/>
+    
+      <category term="Homebrew" scheme="http://code.youmeek.com/tags/Homebrew/"/>
     
   </entry>
   
@@ -884,7 +953,7 @@
     <link href="http://code.youmeek.com/2016/11/24/2016/11/Mac-software/"/>
     <id>http://code.youmeek.com/2016/11/24/2016/11/Mac-software/</id>
     <published>2016-11-24T14:56:53.000Z</published>
-    <updated>2016-11-27T10:30:34.623Z</updated>
+    <updated>2017-03-29T09:38:58.336Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <ul>
@@ -1594,7 +1663,7 @@
     <link href="http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/"/>
     <id>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</id>
     <published>2016-09-11T14:14:50.000Z</published>
-    <updated>2016-12-24T04:19:16.653Z</updated>
+    <updated>2017-03-29T08:51:50.461Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p><img src="http://img.youmeek.com/2016/Chrome.jpg" alt="Firefox"></p>
@@ -1612,6 +1681,7 @@
 <li><strong>Ghostery</strong>：<a href="https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij" target="_blank" rel="external">https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij</a></li>
 <li><strong>为什么你们就是不能加个空格呢</strong>：<a href="https://chrome.google.com/webstore/detail/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%80%91%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E5%80%8B%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd" target="_blank" rel="external">https://chrome.google.com/webstore/detail/%E7%82%BA%E4%BB%80%E9%BA%BC%E4%BD%A0%E5%80%91%E5%B0%B1%E6%98%AF%E4%B8%8D%E8%83%BD%E5%8A%A0%E5%80%8B%E7%A9%BA%E6%A0%BC%E5%91%A2%EF%BC%9F/paphcfdffjnbcgkokihcdjliihicmbpd</a></li>
 <li><strong>SimpleUndoClose</strong>：<a href="https://chrome.google.com/webstore/detail/simpleundoclose/emhohdghchmjepmigjojkehidlielknj" target="_blank" rel="external">https://chrome.google.com/webstore/detail/simpleundoclose/emhohdghchmjepmigjojkehidlielknj</a></li>
+<li><strong>diigo</strong>：<a href="https://chrome.google.com/webstore/detail/diigo-web-collector-captu/pnhplgjpclknigjpccbcnmicgcieojbh" target="_blank" rel="external">https://chrome.google.com/webstore/detail/diigo-web-collector-captu/pnhplgjpclknigjpccbcnmicgcieojbh</a></li>
 <li><strong>Context</strong>：<a href="https://chrome.google.com/webstore/detail/context/aalnjolghjkkogicompabhhbbkljnlka" target="_blank" rel="external">https://chrome.google.com/webstore/detail/context/aalnjolghjkkogicompabhhbbkljnlka</a></li>
 <li><strong>OneTab</strong>：<a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall" target="_blank" rel="external">https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall</a></li>
 <li><strong>Linkclump</strong>：<a href="https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj" target="_blank" rel="external">https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj</a></li>
@@ -1627,6 +1697,7 @@
 <li><strong>二维码生成器</strong>：<a href="https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/ajaomcmkalmeeahjfdklkcjbljhbokjl" target="_blank" rel="external">https://chrome.google.com/webstore/detail/%E4%BA%8C%E7%BB%B4%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/ajaomcmkalmeeahjfdklkcjbljhbokjl</a></li>
 <li><strong>阅读模式</strong>：<a href="https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl" target="_blank" rel="external">https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl</a></li>
 <li><strong>惠惠购物助手</strong>：<a href="https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb" target="_blank" rel="external">https://chrome.google.com/webstore/detail/%E6%83%A0%E6%83%A0%E8%B4%AD%E7%89%A9%E5%8A%A9%E6%89%8B/ohjkicjidmohhfcjjlahfppkdblibkkb</a></li>
+<li><strong>划词翻译</strong>：<a href="https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad" target="_blank" rel="external">https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad</a></li>
 <li><strong>Enable Copy</strong>：<a href="https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio" target="_blank" rel="external">https://chrome.google.com/webstore/detail/enable-copy/lmnganadkecefnhncokdlaohlkneihio</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/%E8%B4%AD%E7%89%A9%E5%85%9A%E5%85%A8%E7%BD%91%E8%87%AA%E5%8A%A8%E6%AF%94%E4%BB%B7%E5%B7%A5%E5%85%B7%EF%BC%9A%E6%B7%98%E5%AE%9D%E4%BA%AC%E4%B8%9C%E7%BE%8E%E4%BA%9A%E6%97%A5%E4%BA%9A%E6%AF%94%E4%BB%B7%E3%80%8118/jgphnjokjhjlcnnajmfjlacjnjkhleah" target="_blank" rel="external">购物党全网自动比价工具</a></li>
 </ul>
@@ -1636,6 +1707,7 @@
 <li><strong>JSONView</strong>：<a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc</a></li>
 <li><strong>Octotree</strong>：<a href="https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc</a></li>
 <li><strong>Postman</strong>：<a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop" target="_blank" rel="external">https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop</a></li>
+<li><strong>EditThisCookie</strong>：<a href="https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?utm_source=chrome-ntp-icon" target="_blank" rel="external">https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?utm_source=chrome-ntp-icon</a></li>
 </ul>
 </li>
 </ul>]]></content>
@@ -2558,9 +2630,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
     
   </entry>
   
@@ -2569,7 +2641,7 @@
     <link href="http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/"/>
     <id>http://code.youmeek.com/2016/03/19/2016/03/Firefox-Extensions-Themes/</id>
     <published>2016-03-19T00:53:51.000Z</published>
-    <updated>2016-12-30T12:07:25.609Z</updated>
+    <updated>2017-03-29T08:50:18.041Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p><img src="http://img.youmeek.com/2016/Firefox.jpg" alt="Firefox"></p>
@@ -2589,6 +2661,7 @@
 <li><strong>Add Bookmark Here ²</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/add-bookmark-here-2</a></li>
 <li><strong>Google search link fix</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/google-search-link-fix/</a></li>
 <li><strong>QrCodeR</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/qrcoder/?src=search" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/qrcoder/?src=search</a></li>
+<li><strong>Wired-Marker</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/wired-marker/?src=search" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/wired-marker/?src=search</a></li>
 <li><strong>FoxyProxy Standard</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/</a></li>
 <li><strong>FindBar Tweak</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/findbar-tweak</a></li>
 <li><strong>Tab Mix Plus</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/tab-mix-plus</a></li>
@@ -2620,6 +2693,9 @@
 <li><strong>FireQuery</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/firequery/?src=api" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/firequery/?src=api</a></li>
 <li><strong>RESTer</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/rester/?src=search" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/rester/?src=search</a></li>
 <li><strong>Copy Urls Expert</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/copy-urls-expert/?src=api" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/copy-urls-expert/?src=api</a></li>
+<li><strong>User-Agent Switcher</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/user-agent-switcher-firefox" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/user-agent-switcher-firefox</a></li>
+<li><strong>Cookies Manager+</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/cookies-manager-plus/?src=search" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/cookies-manager-plus/?src=search</a></li>
+<li><strong>HttpRequester</strong>：<a href="https://addons.mozilla.org/zh-CN/firefox/addon/httprequester" target="_blank" rel="external">https://addons.mozilla.org/zh-CN/firefox/addon/httprequester</a></li>
 </ul>
 <h3 id="关闭扩展签名校验"><a href="#关闭扩展签名校验" class="headerlink" title="关闭扩展签名校验"></a>关闭扩展签名校验</h3><ul>
 <li>在地址栏输入：<code>about:config</code>，找到：<code>xpinstall.signatures.required</code>，然后设置为 false</li>
@@ -2654,12 +2730,18 @@
     <link href="http://code.youmeek.com/2016/03/15/2016/03/Java-Style/"/>
     <id>http://code.youmeek.com/2016/03/15/2016/03/Java-Style/</id>
     <published>2016-03-15T13:09:27.000Z</published>
-    <updated>2016-03-24T12:46:21.932Z</updated>
+    <updated>2017-01-15T10:02:59.572Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p><img src="http://img.youmeek.com/2016/java-style.jpg" alt="IntelliJ IDEA"></p>
 <h2 id="本文初衷"><a href="#本文初衷" class="headerlink" title="本文初衷"></a>本文初衷</h2><ul>
 <li>以本篇为引，获取到有识之士的一些意见或是看法，促进成长！</li>
+</ul>
+<h2 id="重要说明"><a href="#重要说明" class="headerlink" title="重要说明"></a>重要说明</h2><ul>
+<li>2017-01：阿里公开了他们自己的规范，写得还是很合理的，也很清晰，重点推荐。<ul>
+<li>在 Google 里面搜索：<code>阿里巴巴 JAVA 开发手册</code></li>
+</ul>
+</li>
 </ul>
 <h2 id="命名、规范"><a href="#命名、规范" class="headerlink" title="命名、规范"></a>命名、规范</h2><h3 id="Java-相关命名、规范"><a href="#Java-相关命名、规范" class="headerlink" title="Java 相关命名、规范"></a>Java 相关命名、规范</h3><ul>
 <li>命名：<ul>
@@ -2891,9 +2973,9 @@
       <category term="Java" scheme="http://code.youmeek.com/categories/IntelliJ-IDEA/Java/"/>
     
     
-      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
-    
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
+    
+      <category term="IntelliJ IDEA" scheme="http://code.youmeek.com/tags/IntelliJ-IDEA/"/>
     
   </entry>
   
@@ -3244,211 +3326,6 @@
       <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
       <category term="CI" scheme="http://code.youmeek.com/tags/CI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的学习、归纳方法（以学习 Maven 为例）</title>
-    <link href="http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/"/>
-    <id>http://code.youmeek.com/2016/03/07/2016/02/My-Learning-Way/</id>
-    <published>2016-03-07T12:50:25.000Z</published>
-    <updated>2016-04-30T01:04:44.943Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<h2 id="本文-Markdown-源文件地址"><a href="#本文-Markdown-源文件地址" class="headerlink" title="本文 Markdown 源文件地址"></a>本文 Markdown 源文件地址</h2><ul>
-<li>转载请注明出处：<a href="https://github.com/judasn/hexo-blog/blob/master/2016/02/My-Learning-Way.md" target="_blank" rel="external">https://github.com/judasn/hexo-blog/blob/master/2016/02/My-Learning-Way.md</a></li>
-<li>欢迎在我的基础上进行个性化定制！</li>
-</ul>
-<h2 id="本文初衷"><a href="#本文初衷" class="headerlink" title="本文初衷"></a>本文初衷</h2><ul>
-<li>把自己模板化</li>
-<li>以此篇为引，与同行沟通心得，所以在此严重要求如果你有对应的心得还请能回复下，真心感谢!（鞠躬）</li>
-</ul>
-<h2 id="当我们要学习新技术-东西"><a href="#当我们要学习新技术-东西" class="headerlink" title="当我们要学习新技术/东西"></a>当我们要学习新技术/东西</h2><ul>
-<li><img src="http://img.youmeek.com/2016/My-Learning-Way.jpg" alt="学习思路"></li>
-<li>上图来源：<a href="https://codingstyle.cn/topics/3" target="_blank" rel="external">https://codingstyle.cn/topics/3</a></li>
-<li>在过去未被自己流程化的情况下，自己学习新的东西的时候一直是处理迷迷糊糊的状态，直到我看到这张思维导图，我瞬间就理清自己平时在学习东西时候那混乱的思维了。</li>
-<li>可能平时我们也是这样做的，可是我们从来没有认真思考过或是整理过这样的思绪。也许你认为这样不重要，但是对我而言，有记录的东西，代表可以被流程化，这可以帮助特定情况下的我。</li>
-<li>下面跟着这张思维导图，我们一起来整理 Maven 的材料。</li>
-</ul>
-<h3 id="它是什么"><a href="#它是什么" class="headerlink" title="它是什么"></a>它是什么</h3><ul>
-<li>术语定义<ul>
-<li>Maven 官网定义：<a href="http://maven.apache.org/" target="_blank" rel="external">http://maven.apache.org/</a></li>
-<li>百度百科定义：<a href="http://baike.baidu.com/view/336103.htm" target="_blank" rel="external">http://baike.baidu.com/view/336103.htm</a></li>
-<li>维基百科定义：<a href="https://zh.wikipedia.org/wiki/Apache_Maven" target="_blank" rel="external">https://zh.wikipedia.org/wiki/Apache_Maven</a><ul>
-<li>在 Wiki 上还需要注意如下，这些有助于你站在更加宏观的角度看待它，但是可能需要积累：<ul>
-<li><code>参见</code></li>
-<li><code>补充阅读</code></li>
-<li><code>参考资料</code></li>
-<li><code>外部链接</code></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>它的历史<ul>
-<li>Google 搜索：<code>Maven History</code></li>
-<li>Google 搜索：<code>Maven 区别</code>、<code>Maven difference</code></li>
-<li>Google 搜索：<code>Maven 使用场景</code></li>
-<li>Google 搜索：<code>What is Maven</code></li>
-<li>Google 搜索：<code>To use or not to use Maven</code></li>
-<li>Google 搜索：<code>Maven use case</code><ul>
-<li>在 Google 搜索结果页最下面，看它提示的搜索关键字内容，看是否有版本上的区别。</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>同类常见技术（按技术出现时间正序）<ul>
-<li><code>Ant</code></li>
-<li><code>Gradle</code></li>
-</ul>
-</li>
-<li>同类技术比较：<ul>
-<li>Google 搜索：<code>Ant Maven Gradle</code></li>
-<li>比如文章：<a href="http://blog.csdn.net/napolunyishi/article/details/39345995" target="_blank" rel="external">http://blog.csdn.net/napolunyishi/article/details/39345995</a></li>
-</ul>
-</li>
-<li>学习前提/依赖<ul>
-<li>要有 Java 基础相关</li>
-</ul>
-</li>
-</ul>
-<h3 id="为什么会出现"><a href="#为什么会出现" class="headerlink" title="为什么会出现"></a>为什么会出现</h3><ul>
-<li>Google 搜索：<ul>
-<li>关键字：<code>为什么用 maven</code></li>
-<li>关键字：<code>why use maven</code></li>
-<li>关键字：<code>What does Maven do</code></li>
-<li>关键字：<code>Why do we need Maven</code></li>
-<li>关键字：<code>Why should we use Maven</code></li>
-</ul>
-</li>
-</ul>
-<h3 id="哪些人不喜欢它"><a href="#哪些人不喜欢它" class="headerlink" title="哪些人不喜欢它"></a>哪些人不喜欢它</h3><ul>
-<li>Google 搜索：<ul>
-<li>关键字：<code>不用 maven</code></li>
-<li>关键字：<code>Why I Don&#39;t Use Maven</code></li>
-</ul>
-</li>
-</ul>
-<h3 id="为什么学习它"><a href="#为什么学习它" class="headerlink" title="为什么学习它"></a>为什么学习它</h3><ul>
-<li>老师让学的？</li>
-<li>解决工作问题？</li>
-<li>提高效率？</li>
-<li>知识储备？</li>
-<li>灵机一动？</li>
-</ul>
-<h3 id="我要怎么做（按优先级从高到低排序）"><a href="#我要怎么做（按优先级从高到低排序）" class="headerlink" title="我要怎么做（按优先级从高到低排序）"></a>我要怎么做（按优先级从高到低排序）</h3><ul>
-<li>看教程<ul>
-<li>官网快速入门文档<ul>
-<li>在官网中查看带有下面几个关键字的链接：<ul>
-<li><code>Getting Started</code></li>
-<li><code>Quick Start</code></li>
-<li><code>Getting Started Guides</code></li>
-<li><code>usage page</code></li>
-<li><code>Tutorials</code></li>
-<li><code>Guides</code></li>
-<li><code>Development Guides</code></li>
-<li><code>Documentation</code></li>
-<li><code>Docs</code></li>
-<li><code>Screencasts</code></li>
-<li><code>best practices</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>在极客学院搜索对应的教学视频（我是年 VIP）</li>
-<li>Google 搜索：<code>Maven 视频 教程 百度云网盘</code>    </li>
-<li>Google 搜索：<code>Maven 视频 教程</code></li>
-<li>微博-搜索相关内容：<a href="http://weibo.com" target="_blank" rel="external">http://weibo.com</a></li>
-<li>公众号-搜索相关内容：<a href="http://weixin.sogou.com/" target="_blank" rel="external">http://weixin.sogou.com/</a></li>
-<li>京东-图书：<a href="http://book.jd.com/" target="_blank" rel="external">http://book.jd.com/</a></li>
-<li>YouTube-搜索相关内容：<a href="http://youtube.com/" target="_blank" rel="external">http://youtube.com/</a></li>
-</ul>
-</li>
-<li>自己写 Demo</li>
-<li>参考别人 Demo<ul>
-<li>Gtihub 搜索 Demo：<a href="https://github.com/search/advanced" target="_blank" rel="external">https://github.com/search/advanced</a></li>
-<li>Git@OSC 搜索 Demo：<a href="http://git.oschina.net/" target="_blank" rel="external">http://git.oschina.net/</a></li>
-</ul>
-</li>
-<li>项目场景模拟、提高</li>
-<li>遇到问题<ul>
-<li>找官网 FAQ：<a href="https://maven.apache.org/general.html" target="_blank" rel="external">https://maven.apache.org/general.html</a></li>
-<li>QQ 群组讨论</li>
-<li>Google 搜索下面关键字方法：<ul>
-<li><code>Maven site:stackoverflow.com</code></li>
-<li><code>Maven site:quora.com</code></li>
-<li><code>Maven site:xitu.io</code></li>
-<li><code>Maven site:toutiao.io</code></li>
-<li><code>Maven site:segmentfault.com</code></li>
-<li><code>Maven site:jianshu.com</code></li>
-<li><code>Maven site:zhihu.com</code></li>
-<li><code>Maven site:blog.csdn.net</code></li>
-<li><code>Maven site:cnblogs.com</code></li>
-<li><code>Maven site:blog.51cto.com</code></li>
-<li><code>Maven site:oschina.net</code></li>
-<li><code>Maven site:iteye.com</code></li>
-<li><code>Maven site:importnew.com</code></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="归纳整理并分享"><a href="#归纳整理并分享" class="headerlink" title="归纳整理并分享"></a>归纳整理并分享</h3><ul>
-<li>整理<ul>
-<li>为知笔记里面内容</li>
-<li>浏览器书签</li>
-<li>简书中收藏：<a href="http://www.jianshu.com/bookmarks" target="_blank" rel="external">http://www.jianshu.com/bookmarks</a></li>
-<li>简书中喜欢：<a href="http://www.jianshu.com/favourites" target="_blank" rel="external">http://www.jianshu.com/favourites</a></li>
-<li>开发者头条中收藏：<a href="http://toutiao.io/favorites" target="_blank" rel="external">http://toutiao.io/favorites</a></li>
-<li>微博中收藏：<a href="http://weibo.com/fav" target="_blank" rel="external">http://weibo.com/fav</a></li>
-<li>RSS 订阅：<a href="http://www.inoreader.com/" target="_blank" rel="external">http://www.inoreader.com/</a><ul>
-<li>无法订阅的博客使用 Feed43 生成 RSS：<a href="http://feed43.com/" target="_blank" rel="external">http://feed43.com/</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>分享<ul>
-<li>写博客</li>
-<li>分享到开发者头条</li>
-<li>分享到简书</li>
-<li>分享到微信公众号</li>
-<li>系统整理 Demo 在 Github 上</li>
-</ul>
-</li>
-</ul>
-<h2 id="过程细节"><a href="#过程细节" class="headerlink" title="过程细节"></a>过程细节</h2><ul>
-<li>Google 搜索必备：<ul>
-<li><code>Maven site:www.youmeek.com</code>，表示搜索结果局限于在：www.youmeek.com 这个站点</li>
-<li><code>Maven link:www.youmeek.com</code>，返回所有链接到 www.youmeek.com 的网页</li>
-<li><code>related:www.qq.com</code>，查找类似 www.youmeek.com 的网站</li>
-<li><code>cache:www.youmeek.com</code>，查找 www.youmeek.com 的历史快照</li>
-</ul>
-</li>
-</ul>
-<h2 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h2><ul>
-<li>我猜测你可能需要 VPN 或是 Shadowsocks</li>
-</ul>
-<h2 id="感谢他们的建议"><a href="#感谢他们的建议" class="headerlink" title="感谢他们的建议"></a>感谢他们的建议</h2><ul>
-<li><a href="http://www.jianshu.com/users/3ed6914f14af" target="_blank" rel="external">牛背上的侯爷</a></li>
-</ul>]]></content>
-    
-    <summary type="html">
-    
-      以我的个人角度来看待学习这件长久的事，希望对你有帮助，也希望你能提一下你的意见
-    
-    </summary>
-    
-      <category term="学习方法" scheme="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-    
-      <category term="Java" scheme="http://code.youmeek.com/categories/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/Java/"/>
-    
-    
-      <category term="学习方法" scheme="http://code.youmeek.com/tags/%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-    
-      <category term="Maven" scheme="http://code.youmeek.com/tags/Maven/"/>
-    
-      <category term="Java" scheme="http://code.youmeek.com/tags/Java/"/>
     
   </entry>
   
