@@ -4,8 +4,54 @@
 
     
   <url>
+    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
+    <lastmod>2017-04-24T14:18:01.893Z</lastmod>
+    <data>
+        <display>
+        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
+        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
+        
+        <tag>开发工具</tag>
+         
+        <tag>VPS</tag>
+         
+        <tag>Shadowsocks</tag>
+         
+        <tag>Vultr</tag>
+         
+         
+           
+             
+              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
+    <lastmod>2017-04-24T14:04:12.610Z</lastmod>
+    <data>
+        <display>
+        <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
+        <pubTime>2016-09-11T14:14:50.000Z</pubTime>
+        
+        <tag>Chrome</tag>
+         
+         
+           
+             
+              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://code.youmeek.com/2017/03/29/2017/03/GitNavi-Everything/</loc>
-    <lastmod>2017-03-29T11:10:00.862Z</lastmod>
+    <lastmod>2017-03-29T11:10:00.858Z</lastmod>
     <data>
         <display>
         <title>GitNavi - 程序员优先的网址导航（可注册）</title>
@@ -37,26 +83,6 @@
            
              
               <breadCrumb title="Mac" url="http://code.youmeek.com/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://code.youmeek.com/2016/09/11/2016/09/Chrome-Extensions/</loc>
-    <lastmod>2017-03-29T08:51:50.461Z</lastmod>
-    <data>
-        <display>
-        <title>我的 Chrome 扩展 和 主题（不间断更新）</title>
-        <pubTime>2016-09-11T14:14:50.000Z</pubTime>
-        
-        <tag>Chrome</tag>
-         
-         
-           
-             
-              <breadCrumb title="软件" url="http://code.youmeek.com/categories/%E8%BD%AF%E4%BB%B6/"/>
           
         </display>
     </data>
@@ -164,32 +190,6 @@
 
     
   <url>
-    <loc>http://code.youmeek.com/2016/08/19/2016/08/VPS/</loc>
-    <lastmod>2016-12-24T05:25:48.568Z</lastmod>
-    <data>
-        <display>
-        <title>VPS + Shadowsocks 可以是什么，做什么，如果使用（详细图文）</title>
-        <pubTime>2016-08-19T12:10:16.000Z</pubTime>
-        
-        <tag>开发工具</tag>
-         
-        <tag>VPS</tag>
-         
-        <tag>Shadowsocks</tag>
-         
-        <tag>Vultr</tag>
-         
-         
-           
-             
-              <breadCrumb title="开发工具" url="http://code.youmeek.com/categories/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://code.youmeek.com/2016/02/28/2016/02/Hexo/</loc>
     <lastmod>2016-12-24T04:06:50.672Z</lastmod>
     <data>
@@ -197,9 +197,9 @@
         <title>使用 Github 空间搭建 Hexo 技术博客--安装篇（基于 IntelliJ IDEA）</title>
         <pubTime>2016-02-28T09:58:27.000Z</pubTime>
         
-        <tag>Hexo</tag>
-         
         <tag>IntelliJ IDEA</tag>
+         
+        <tag>Hexo</tag>
          
         <tag>Git</tag>
          
@@ -405,11 +405,11 @@
         <title>我的学习、归纳方法（以学习 Maven 为例）</title>
         <pubTime>2016-03-07T12:50:25.000Z</pubTime>
         
-        <tag>学习方法</tag>
+        <tag>Java</tag>
          
         <tag>Maven</tag>
          
-        <tag>Java</tag>
+        <tag>学习方法</tag>
          
          
            
@@ -432,11 +432,11 @@
         <title>持续集成：TeamCity 的安装和使用</title>
         <pubTime>2016-03-23T12:48:31.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
          
         <tag>TeamCity</tag>
+         
+        <tag>Maven</tag>
          
         <tag>持续集成</tag>
          
@@ -461,9 +461,9 @@
         <title>Maven 的 单模块 / 多模块 之 Spring MVC + Spring + Mybatis 项目讲解（基于 IntelliJ IDEA）</title>
         <pubTime>2016-03-22T13:58:08.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            
@@ -486,9 +486,9 @@
         <title>为什么不尝试下 IntelliJ IDEA？我想劝说你</title>
         <pubTime>2016-03-11T12:23:56.000Z</pubTime>
         
-        <tag>IntelliJ IDEA</tag>
-         
         <tag>Java</tag>
+         
+        <tag>IntelliJ IDEA</tag>
          
          
            
@@ -511,9 +511,9 @@
         <title>构建工具-Maven-相关知识-整理专题</title>
         <pubTime>2016-03-09T11:56:08.000Z</pubTime>
         
-        <tag>Maven</tag>
-         
         <tag>Java</tag>
+         
+        <tag>Maven</tag>
          
         <tag>CI</tag>
          
